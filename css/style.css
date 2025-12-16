@@ -1,0 +1,1025 @@
+/* 基础样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #4A90D9;
+    --primary-dark: #357ABD;
+    --secondary-color: #67C23A;
+    --bg-color: #F5F7FA;
+    --card-bg: #FFFFFF;
+    --text-primary: #303133;
+    --text-secondary: #606266;
+    --text-muted: #909399;
+    --border-color: #DCDFE6;
+    --shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    --radius: 8px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 头部样式 */
+.header {
+    text-align: center;
+    padding: 30px 20px;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+    color: white;
+    border-radius: var(--radius);
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+/* 主题导航 */
+.topics-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+}
+
+.topic-btn {
+    padding: 8px 16px;
+    border: 1px solid var(--border-color);
+    background: var(--card-bg);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    transition: all 0.3s ease;
+}
+
+.topic-btn:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.topic-btn.active {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+/* 当前主题标题 */
+.current-topic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+}
+
+.current-topic h2 {
+    font-size: 1.2rem;
+    color: var(--text-primary);
+}
+
+.topic-progress {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+/* 句子列表 */
+.sentences-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* 句子卡片 */
+.sentence-card {
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.sentence-card:hover {
+    transform: translateY(-2px);
+}
+
+.sentence-header {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.sentence-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-right: 15px;
+}
+
+.sentence-english {
+    flex: 1;
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    cursor: pointer;
+}
+
+.sentence-english .word {
+    display: inline;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-radius: 3px;
+    padding: 0 2px;
+}
+
+.sentence-english .word:hover {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.play-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.play-btn:hover {
+    background: #5daf34;
+    transform: scale(1.1);
+}
+
+.play-btn.playing {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+.sentence-body {
+    padding: 20px;
+}
+
+.sentence-chinese {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 3px solid var(--primary-color);
+}
+
+/* 语法笔记 */
+.grammar-section {
+    background: #f0f7ff;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.grammar-title {
+    display: flex;
+    align-items: center;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.grammar-title svg {
+    margin-right: 8px;
+}
+
+.grammar-title .toggle-icon {
+    margin-left: auto;
+    transition: transform 0.3s ease;
+}
+
+.grammar-title.expanded .toggle-icon {
+    transform: rotate(180deg);
+}
+
+.grammar-notes {
+    display: none;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+.grammar-notes.show {
+    display: block;
+}
+
+.grammar-notes p {
+    margin-bottom: 8px;
+}
+
+/* 词汇区域 */
+.words-section {
+    margin-top: 15px;
+}
+
+.words-header {
+    display: flex;
+    align-items: center;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.words-header svg {
+    margin-right: 8px;
+    color: var(--secondary-color);
+}
+
+/* 词汇网格布局 */
+.words-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
+}
+
+/* 词汇卡片 */
+.word-card {
+    background: #f8fffe;
+    border: 1px solid #e0f2f1;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.word-card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+}
+
+.word-card.highlight {
+    background: #c8e6c9;
+}
+
+.core-word-card {
+    background: #f1f8e9;
+    border-color: #c5e1a5;
+}
+
+.topic-word-card {
+    background: #fff8e1;
+    border-color: #ffe082;
+}
+
+.word-card-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+
+.word-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2e7d32;
+}
+
+.topic-word-card .word-name {
+    color: #e65100;
+}
+
+.word-phonetic {
+    font-size: 0.85rem;
+    color: #81c784;
+}
+
+.topic-word-card .word-phonetic {
+    color: #ffb74d;
+}
+
+.word-play-btn {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background: #66bb6a;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.topic-word-card .word-play-btn {
+    background: #ffa726;
+}
+
+.word-play-btn:hover {
+    transform: scale(1.1);
+}
+
+.word-play-btn.playing {
+    animation: pulse 0.5s ease;
+}
+
+.word-definition {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+/* 词汇扩展信息 */
+.word-extra {
+    border-top: 1px dashed #ddd;
+    padding-top: 8px;
+    margin-top: 8px;
+}
+
+.word-info-item {
+    display: flex;
+    margin-bottom: 6px;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.word-info-item:last-child {
+    margin-bottom: 0;
+}
+
+.info-label {
+    flex-shrink: 0;
+    display: inline-block;
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.info-content {
+    color: var(--text-secondary);
+}
+
+/* 搭配 */
+.word-info-item.collocations .info-label {
+    background: #e3f2fd;
+    color: #1565c0;
+}
+
+/* 记忆 */
+.word-info-item.memory .info-label {
+    background: #fff3e0;
+    color: #e65100;
+}
+
+/* 用法 */
+.word-info-item.usage .info-label {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+/* 辨析 */
+.word-info-item.comparison .info-label {
+    background: #fce4ec;
+    color: #c2185b;
+}
+
+/* 主题词汇 */
+.topic-words-section {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px dashed var(--border-color);
+}
+
+/* 单词弹窗 */
+.word-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+.word-modal.show {
+    display: flex;
+}
+
+.word-modal-content {
+    background: white;
+    border-radius: var(--radius);
+    padding: 30px;
+    max-width: 500px;
+    width: 90%;
+    max-height: 85vh;
+    overflow-y: auto;
+    position: relative;
+    animation: modalIn 0.3s ease;
+}
+
+@keyframes modalIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: color 0.2s;
+}
+
+.close-btn:hover {
+    color: var(--text-primary);
+}
+
+.word-detail {
+    text-align: center;
+}
+
+.word-text {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.word-phonetic {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    margin-bottom: 15px;
+}
+
+.word-definition {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.play-word-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.play-word-btn:hover {
+    background: var(--primary-dark);
+    transform: scale(1.05);
+}
+
+/* 单词扩展信息 */
+.word-extra-info {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.modal-section {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+}
+
+.modal-section-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.section-icon {
+    font-size: 1rem;
+}
+
+.modal-section-content {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.modal-section-content p {
+    margin: 0 0 6px 0;
+}
+
+.modal-section-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* 搭配样式 */
+#modalCollocations .modal-section {
+    background: #e3f2fd;
+}
+
+#modalCollocations .modal-section-title {
+    color: #1565c0;
+}
+
+/* 记忆方法样式 */
+#modalMemory .modal-section {
+    background: #fff8e1;
+}
+
+#modalMemory .modal-section-title {
+    color: #f57c00;
+}
+
+/* 用法样式 */
+#modalUsage .modal-section {
+    background: #e8f5e9;
+}
+
+#modalUsage .modal-section-title {
+    color: #2e7d32;
+}
+
+/* 辨析样式 */
+#modalComparison .modal-section {
+    background: #fce4ec;
+}
+
+#modalComparison .modal-section-title {
+    color: #c2185b;
+}
+
+/* 底部 */
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin-top: 30px;
+}
+
+/* ==================== 移动端完美适配 ==================== */
+
+/* 平板适配 (768px - 1024px) */
+@media (max-width: 1024px) {
+    .words-grid {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+}
+
+/* 手机适配 (max-width: 768px) */
+@media (max-width: 768px) {
+    .app-container {
+        padding: 8px;
+    }
+
+    .header {
+        padding: 20px 15px;
+        border-radius: 0;
+        margin: -8px -8px 12px -8px;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+
+    .subtitle {
+        font-size: 0.85rem;
+    }
+
+    /* 主题导航 - 横向滚动 */
+    .topics-nav {
+        padding: 10px;
+        gap: 8px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        margin: 0 -8px 12px -8px;
+        border-radius: 0;
+    }
+
+    .topics-nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .topic-btn {
+        padding: 10px 16px;
+        font-size: 0.85rem;
+        flex-shrink: 0;
+        min-height: 44px; /* iOS推荐触摸区域 */
+    }
+
+    /* 当前主题 */
+    .current-topic {
+        flex-direction: column;
+        gap: 6px;
+        text-align: center;
+        padding: 12px 15px;
+        margin-bottom: 12px;
+    }
+
+    .current-topic h2 {
+        font-size: 1.1rem;
+    }
+
+    /* 句子列表 */
+    .sentences-list {
+        gap: 12px;
+    }
+
+    /* 句子卡片 */
+    .sentence-card {
+        border-radius: 10px;
+    }
+
+    .sentence-card:hover {
+        transform: none; /* 移动端禁用hover效果 */
+    }
+
+    .sentence-header {
+        padding: 12px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .sentence-number {
+        width: 32px;
+        height: 32px;
+        font-size: 0.85rem;
+        margin-right: 10px;
+        flex-shrink: 0;
+    }
+
+    .sentence-english {
+        font-size: 0.95rem;
+        flex: 1 1 calc(100% - 100px);
+        order: 1;
+        line-height: 1.6;
+    }
+
+    .sentence-english .word {
+        padding: 2px 4px;
+        margin: 1px 0;
+    }
+
+    /* 单词点击高亮效果 */
+    .sentence-english .word:active,
+    .sentence-english .word.tapped {
+        background-color: #c8e6c9;
+        color: #2e7d32;
+    }
+
+    .play-btn {
+        width: 44px;
+        height: 44px;
+        flex-shrink: 0;
+    }
+
+    .sentence-body {
+        padding: 12px;
+    }
+
+    .sentence-chinese {
+        font-size: 0.9rem;
+        margin-bottom: 12px;
+        padding-left: 8px;
+    }
+
+    /* 语法笔记 */
+    .grammar-section {
+        padding: 12px;
+        margin-bottom: 12px;
+    }
+
+    .grammar-title {
+        font-size: 0.9rem;
+    }
+
+    .grammar-notes {
+        font-size: 0.85rem;
+    }
+
+    /* 词汇区域 */
+    .words-section {
+        margin-top: 12px;
+    }
+
+    .words-header {
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+    }
+
+    /* 词汇网格 - 单列布局 */
+    .words-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    /* 词汇卡片 */
+    .word-card {
+        padding: 12px;
+        border-radius: 10px;
+    }
+
+    .word-card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    .word-card:active {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .word-card-header {
+        gap: 6px;
+        margin-bottom: 8px;
+    }
+
+    .word-name {
+        font-size: 1.05rem;
+    }
+
+    .word-phonetic {
+        font-size: 0.8rem;
+    }
+
+    .word-play-btn {
+        width: 36px;
+        height: 36px;
+        min-width: 36px;
+    }
+
+    .word-play-btn svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .word-definition {
+        font-size: 0.88rem;
+        line-height: 1.5;
+    }
+
+    /* 词汇扩展信息 */
+    .word-extra {
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+
+    .word-info-item {
+        font-size: 0.82rem;
+        margin-bottom: 8px;
+        flex-wrap: wrap;
+    }
+
+    .info-label {
+        font-size: 0.7rem;
+        padding: 2px 6px;
+        margin-right: 6px;
+        margin-bottom: 4px;
+    }
+
+    .info-content {
+        flex: 1 1 100%;
+        margin-top: 2px;
+    }
+
+    /* 主题词汇分隔 */
+    .topic-words-section {
+        margin-top: 12px;
+        padding-top: 12px;
+    }
+
+    /* 底部 */
+    .footer {
+        padding: 15px;
+        font-size: 0.8rem;
+        margin-top: 20px;
+    }
+}
+
+/* 小屏手机适配 (max-width: 375px) */
+@media (max-width: 375px) {
+    .app-container {
+        padding: 6px;
+    }
+
+    .header {
+        padding: 15px 12px;
+        margin: -6px -6px 10px -6px;
+    }
+
+    .logo {
+        font-size: 1.1rem;
+    }
+
+    .topics-nav {
+        padding: 8px;
+        margin: 0 -6px 10px -6px;
+    }
+
+    .topic-btn {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+
+    .sentence-header {
+        padding: 10px;
+    }
+
+    .sentence-number {
+        width: 28px;
+        height: 28px;
+        font-size: 0.8rem;
+    }
+
+    .sentence-english {
+        font-size: 0.9rem;
+    }
+
+    .play-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sentence-body {
+        padding: 10px;
+    }
+
+    .word-name {
+        font-size: 1rem;
+    }
+
+    .word-definition {
+        font-size: 0.85rem;
+    }
+}
+
+/* 触摸设备优化 */
+@media (hover: none) and (pointer: coarse) {
+    /* 禁用所有hover效果 */
+    .sentence-card:hover,
+    .word-card:hover,
+    .topic-btn:hover,
+    .play-btn:hover,
+    .word-play-btn:hover {
+        transform: none;
+    }
+
+    /* 增加触摸反馈 */
+    .topic-btn:active {
+        transform: scale(0.95);
+        opacity: 0.8;
+    }
+
+    .play-btn:active,
+    .word-play-btn:active {
+        transform: scale(0.9);
+    }
+
+    .word-card:active {
+        transform: scale(0.98);
+    }
+
+    /* 句子中的单词 - 单击即可发音 */
+    .sentence-english .word {
+        -webkit-tap-highlight-color: transparent;
+        user-select: none;
+    }
+}
+
+/* iOS安全区域适配 */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+    .footer {
+        padding-bottom: calc(15px + env(safe-area-inset-bottom));
+    }
+}
+
+/* 横屏优化 */
+@media (max-height: 500px) and (orientation: landscape) {
+    .header {
+        padding: 10px 15px;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .subtitle {
+        display: none;
+    }
+
+    .topics-nav {
+        padding: 8px;
+    }
+
+    .topic-btn {
+        padding: 6px 12px;
+        min-height: 36px;
+    }
+}
+
+/* 加载动画 */
+.loading {
+    text-align: center;
+    padding: 40px;
+    color: var(--text-muted);
+}
+
+.loading::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--primary-color);
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* 空状态 */
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-muted);
+}
+
+.empty-state svg {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+.empty-state p {
+    font-size: 1.1rem;
+}

@@ -1,0 +1,13785 @@
+const DATA = 
+{
+  "topics": [
+    {
+      "id": 1,
+      "name": "健康的生活方式",
+      "sentence_ids": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "name": "日常行为及习惯",
+      "sentence_ids": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": 3,
+      "name": "体育运动",
+      "sentence_ids": [
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": 4,
+      "name": "学校学习",
+      "sentence_ids": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "id": 5,
+      "name": "兴趣爱好",
+      "sentence_ids": [
+        32,
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "id": 6,
+      "name": "娱乐活动",
+      "sentence_ids": [
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "id": 7,
+      "name": "情绪与情感",
+      "sentence_ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "id": 8,
+      "name": "家人和朋友",
+      "sentence_ids": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "id": 9,
+      "name": "人物描写",
+      "sentence_ids": [
+        54,
+        55,
+        56,
+        57
+      ]
+    },
+    {
+      "id": 10,
+      "name": "购物与服装",
+      "sentence_ids": [
+        58,
+        59,
+        60,
+        61
+      ]
+    },
+    {
+      "id": 11,
+      "name": "假期和旅行",
+      "sentence_ids": [
+        62,
+        63,
+        64,
+        65
+      ]
+    },
+    {
+      "id": 12,
+      "name": "交通秩序",
+      "sentence_ids": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
+      ]
+    },
+    {
+      "id": 13,
+      "name": "城市和位置",
+      "sentence_ids": [
+        74,
+        75,
+        76,
+        77
+      ]
+    },
+    {
+      "id": 14,
+      "name": "健康与疾病",
+      "sentence_ids": [
+        78,
+        79
+      ]
+    },
+    {
+      "id": 15,
+      "name": "天气和季节",
+      "sentence_ids": [
+        80,
+        81,
+        82,
+        83
+      ]
+    },
+    {
+      "id": 16,
+      "name": "动植物",
+      "sentence_ids": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ]
+    },
+    {
+      "id": 17,
+      "name": "自然与环境",
+      "sentence_ids": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97
+      ]
+    },
+    {
+      "id": 18,
+      "name": "科学技术与宇宙探索",
+      "sentence_ids": [
+        98,
+        99,
+        100
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": 1,
+      "english": "It's time for us to have lunch.",
+      "chinese": "我们该吃午饭了。",
+      "grammar_title": "固定句型",
+      "grammar_notes": [
+        "1. It's time (for sb.) to do sth.为固定句型，表示“该是（某人）做某事的时间了”。",
+        "2. have lunch意为“吃午饭”，have意为“吃；喝”。"
+      ],
+      "core_words": [
+        {
+          "word": "time",
+          "phonetic": "taɪm",
+          "definition": "名 时间；一段时间；时期；时代；次；回",
+          "collocations": [
+            "next time下一次 at the same time 同时 all the time一直 aheadof time提前"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "for",
+          "phonetic": "fɔː(r)",
+          "definition": "介 对；给；为；（表示一段时间）达",
+          "collocations": [
+            "for a minute一会儿"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "to",
+          "phonetic": "tuː",
+          "definition": "介 （距整点）差…；向，朝，到，往；（表示时间或范围）到…",
+          "collocations": [
+            "from ... to ... 从…到… next to紧邻…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "have",
+          "phonetic": "hæv",
+          "definition": "动 有；吃；喝；进行",
+          "collocations": [
+            "have a look看一看 have a good time玩得愉快"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "lunch",
+          "phonetic": "lʌntʃ",
+          "definition": "名 午餐，午饭",
+          "collocations": [
+            "have lunch吃午饭"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "breakfast",
+          "phonetic": "ˈbrekfəst",
+          "definition": "名 早餐，早饭",
+          "collocations": [
+            "have breakfast吃早饭"
+          ],
+          "memory": "合成词：break（休息）+fast（快速地）→经过一晚休息之后，孩子们快速吃完早餐→早餐",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "supper",
+          "phonetic": "ˈsʌpə(r)",
+          "definition": "名 晚餐，晚饭",
+          "collocations": [
+            "have supper吃晚饭"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "meal",
+          "phonetic": "miːl",
+          "definition": "名 餐；饭",
+          "collocations": [
+            "cook a meal做饭 between meals两餐之间"
+          ],
+          "memory": "联想：一日三meal（餐），无meat（肉）不欢",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sandwich",
+          "phonetic": "ˈsænwɪtʃ; ˈsænwɪdʒ",
+          "definition": "名 三明治",
+          "collocations": [
+            "a cheese sandwich奶酪三明治"
+          ],
+          "memory": "发音：“三明治”",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "salad",
+          "phonetic": "ˈsæləd",
+          "definition": "名 沙拉",
+          "collocations": [
+            "a slice of apple pie一块苹果派"
+          ],
+          "memory": "联想：lie（躺着）吃pie（派），弄脏tie（领带）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pizza",
+          "phonetic": "ˈpiːtsə",
+          "definition": "名 比萨饼",
+          "collocations": [],
+          "memory": "发音：“比萨”",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "noodle",
+          "phonetic": "ˈnuːdl",
+          "definition": "名 面条",
+          "collocations": [
+            "egg noodles鸡蛋面"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pie",
+          "phonetic": "paɪ",
+          "definition": "名 馅饼；派",
+          "collocations": [
+            "a slice of apple pie一块苹果派"
+          ],
+          "memory": "联想：lie（躺着）吃pie（派），弄脏tie（领带）",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "english": "She had an egg, a piece of bread and some milk for breakfast.",
+      "chinese": "她早餐吃了一个鸡蛋、一片面包，还喝了一些牛奶。",
+      "grammar_title": "一般过去时 | 名词",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般过去时。表示过去发生的动作，要用一般过去时。had是have（吃；喝）的过去式。",
+        "2. egg是可数名词，表示“一个鸡蛋”用an egg；bread和milk是不可数名词，不可数名词没有单复数的区分，但是可以借助量词来表示它们的数量，如a piece of（一块）、two pieces of（两块）。",
+        "3. some用于肯定句中，后面接可数名词复数或不可数名词。"
+      ],
+      "core_words": [
+        {
+          "word": "she",
+          "phonetic": "ʃiː",
+          "definition": "代 她",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "a/an",
+          "phonetic": "ə",
+          "definition": "/[æn] 冠 一（个）",
+          "collocations": [
+            "a lot of许多… a little一点儿"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": "a/an是不定冠词，a用在以辅音音素开头的名词前面，如a pen；an用在以元音音素开头的名词前面，如an apple。"
+        },
+        {
+          "word": "egg",
+          "phonetic": "eɡ",
+          "definition": "名 蛋；鸡蛋",
+          "collocations": [
+            "a boiled egg水煮蛋 fried eggs煎蛋 egg whites蛋白"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "piece",
+          "phonetic": "piːs",
+          "definition": "名 段；片；块",
+          "collocations": [
+            "a piece of一块…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "of",
+          "phonetic": "əv;ɒv",
+          "definition": "介 属于…的；由…组成",
+          "collocations": [
+            "of course当然 a friend of mine我的一个朋友"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "some",
+          "phonetic": "sʌm",
+          "definition": "限定词 一些；不少的 代 一些；若干 副 大约",
+          "collocations": [
+            "some time一段时间"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "milk",
+          "phonetic": "mɪlk",
+          "definition": "名 奶",
+          "collocations": [
+            "a bottle of milk一瓶奶"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "drink",
+          "phonetic": "drɪŋk",
+          "definition": "动 喝 名 饮料",
+          "collocations": [],
+          "memory": "音律：这是ink（墨水），不能drink（喝）",
+          "usage": "过去式：drank",
+          "comparison": ""
+        },
+        {
+          "word": "juice",
+          "phonetic": "dʒuːs",
+          "definition": "名 果汁",
+          "collocations": [
+            "fresh orange juice鲜榨橙汁"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tea",
+          "phonetic": "tiː",
+          "definition": "名 茶；茶叶",
+          "collocations": [
+            "lemon tea柠檬茶 a cup of tea一杯茶"
+          ],
+          "memory": "音律：来看sea（海），喝杯tea（茶）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "food",
+          "phonetic": "fuːd",
+          "definition": "名 食品；食物",
+          "collocations": [
+            "junk food垃圾食品 frozen food冷冻食品"
+          ],
+          "memory": "音律：这种food（食物），看起来good（好的），吃起来像wood（木头）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "snack",
+          "phonetic": "snæk",
+          "definition": "名 小吃；快餐",
+          "collocations": [
+            "snack bar小吃店；快餐店"
+          ],
+          "memory": "联想：一条snake（蛇）偷溜到一家snack（小吃）店里",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cake",
+          "phonetic": "keɪk",
+          "definition": "名 蛋糕",
+          "collocations": [
+            "a chocolate cake巧克力蛋糕 a piece of cake一块蛋糕",
+            "a candy store糖果店 a box of candy一盒糖果"
+          ],
+          "memory": "",
+          "usage": "candy既可以作可数名词，又可以作不可数名词。如果强调不同种类的糖果，用复数，形式为：candies。",
+          "comparison": ""
+        },
+        {
+          "word": "ice cream",
+          "phonetic": "ˈaɪs kriːm; ˌaɪs ˈkriːm",
+          "definition": "名 冰激凌",
+          "collocations": [],
+          "memory": "合成词：ice（冰）+cream（奶油）→冰激凌",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "candy",
+          "phonetic": "ˈkændi",
+          "definition": "名 糖果",
+          "collocations": [
+            "a candy store糖果店 a box of candy一盒糖果"
+          ],
+          "memory": "",
+          "usage": "candy既可以作可数名词，又可以作不可数名词。如果强调不同",
+          "comparison": ""
+        },
+        {
+          "word": "and",
+          "phonetic": "ænd",
+          "definition": "连 和",
+          "collocations": [
+            "a knife and fork一副刀叉"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bread",
+          "phonetic": "bred",
+          "definition": "名 面包",
+          "collocations": [
+            "a piece of bread一片面包"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "english": "Which fruit do you like, apples or oranges?",
+      "chinese": "你喜欢哪种水果，苹果还是橘子？",
+      "grammar_title": "选择疑问句",
+      "grammar_notes": [
+        "1. 这句话是选择疑问句，提供两种情况供对方选择回答，句子用or连接。",
+        "2. 选择疑问句的结构是：“一般疑问句/特殊疑问句，选项A + or + 选项B？”",
+        "3. 选择疑问句的回答不用Yes或No，要根据实际情况直接回答。 “Which fruit do you like, apples or oranges?”的回答， 可以是：I like apples. 我喜欢苹果。 也可以是：I like oranges. 我喜欢橘子。"
+      ],
+      "core_words": [
+        {
+          "word": "which",
+          "phonetic": "wɪtʃ",
+          "definition": "限定词 / 代 哪一个；哪一些",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "mango",
+          "phonetic": "ˈmæŋɡəʊ",
+          "definition": "名 芒果",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "lemon",
+          "phonetic": "ˈlemən",
+          "definition": "名 柠檬",
+          "collocations": [
+            "a slice of lemon一片柠檬"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cherry",
+          "phonetic": "ˈtʃeri",
+          "definition": "名 樱桃",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "watermelon",
+          "phonetic": "ˈwɔːtəmelən",
+          "definition": "名 西瓜",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "strawberry",
+          "phonetic": "ˈstrɔːbəri",
+          "definition": "名 草莓",
+          "collocations": [
+            "a strawberry shake一杯草莓奶昔"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "banana",
+          "phonetic": "bəˈnɑːnə",
+          "definition": "名 香蕉",
+          "collocations": [],
+          "memory": "联想：爸爸（拼音：ba）拿（拼音：na）了一个香蕉后又拿了（拼音：na）一个",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fresh",
+          "phonetic": "freʃ",
+          "definition": "形 新鲜的",
+          "collocations": [
+            "fresh bread刚出炉的面包 fresh flowers鲜花"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "grape",
+          "phonetic": "ɡreɪp",
+          "definition": "名 葡萄",
+          "collocations": [
+            "grape juice葡萄汁"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "you",
+          "phonetic": "juː",
+          "definition": "代 你；您；你们",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fruit",
+          "phonetic": "fruːt",
+          "definition": "名 水果",
+          "collocations": [
+            "fruit juice 果汁"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pear",
+          "phonetic": "peə(r)",
+          "definition": "名 梨",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "peach",
+          "phonetic": "piːtʃ",
+          "definition": "名 桃",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "apple",
+          "phonetic": "ˈæpl",
+          "definition": "名 苹果",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "english": "The fish soup tasted so good that the guests asked for more.",
+      "chinese": "这道鱼汤味道很好，客人们要求再来一点。",
+      "grammar_title": "so ... that ...结构 | 系动词",
+      "grammar_notes": [
+        "1. so ... that ...意为“如此…以至于…”，so后面接形容词或副词。good为形容词，意为“好的”。that引导结果状语从句。",
+        "2. taste作系动词时，意为“尝起来”。系动词不能单独作谓语，必须和名词、形容词等一起使用。",
+        "3. ask for more意为“要更多”。"
+      ],
+      "core_words": [
+        {
+          "word": "fish",
+          "phonetic": "fɪʃ",
+          "definition": "名 鱼；鱼肉 动 钓鱼",
+          "collocations": [
+            "go fishing去钓鱼 fish and chips炸鱼薯条 fresh fish鲜鱼"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "soup",
+          "phonetic": "suːp",
+          "definition": "名 汤",
+          "collocations": [
+            "a bowl of soup一碗汤 chicken soup鸡汤"
+          ],
+          "memory": "联想：soup（汤）放久了会变sour（酸的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "taste",
+          "phonetic": "teɪst",
+          "definition": "动 吃；喝；品尝；有…的味道 名 味道；品尝",
+          "collocations": [
+            "a sweet taste甜味"
+          ],
+          "memory": "",
+          "usage": "过去式：tasted 现在分词：tasting",
+          "comparison": ""
+        },
+        {
+          "word": "so",
+          "phonetic": "səʊ",
+          "definition": "副 如此；很 连 因此；所以",
+          "collocations": [
+            "so ... that ... 如此…以至于…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "good",
+          "phonetic": "ɡʊd",
+          "definition": "形 好的；有说服力的",
+          "collocations": [
+            "a good idea一个好主意 a good book一本好书"
+          ],
+          "memory": "",
+          "usage": "比较级：better 最高级：best",
+          "comparison": ""
+        },
+        {
+          "word": "the",
+          "phonetic": "ðə",
+          "definition": "冠 这；那",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "guest",
+          "phonetic": "ɡest",
+          "definition": "名 嘉宾；客人",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "ask",
+          "phonetic": "ɑːsk",
+          "definition": "动 问；要求",
+          "collocations": [
+            "ask the way问路 ask ... for help向…请求帮助 ask a question问一个问题 ask for 请求，要求"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "more",
+          "phonetic": "mɔː(r)",
+          "definition": "限定词 更多的 代 更多 副 更；更加",
+          "collocations": [
+            "more and more越来越多 more bread更多的面包"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "restaurant",
+          "phonetic": "ˈrestrɒnt",
+          "definition": "名 饭店，餐馆",
+          "collocations": [
+            "a Chinese restaurant一家中餐馆"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "waiter",
+          "phonetic": "ˈweɪtə(r)",
+          "definition": "名 服务员",
+          "collocations": [],
+          "memory": "联想：wait（等待）+er（表示人）→站在一边等你点菜的人→服务员",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "menu",
+          "phonetic": "ˈmenjuː",
+          "definition": "名 菜单",
+          "collocations": [
+            "ask for the menu要菜单 look at the menu看菜单"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sound",
+          "phonetic": "saʊnd",
+          "definition": "动 听起来；发出声音 名 声音",
+          "collocations": [
+            "sound good听起来很棒"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "smell",
+          "phonetic": "smel",
+          "definition": "动 有（或发出）…气味；闻起来；闻；闻到 名 气味",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：smelt",
+          "comparison": ""
+        },
+        {
+          "word": "look",
+          "phonetic": "lʊk",
+          "definition": "动 看；瞧；看上去；寻找 名 看",
+          "collocations": [
+            "look after照顾 look around向四周看 look for寻找"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "feel",
+          "phonetic": "fiːl",
+          "definition": "动 感觉；使人觉得；摸上去…；触摸",
+          "collocations": [
+            "feel like感觉就像；想要"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "touch",
+          "phonetic": "tʌtʃ",
+          "definition": "动 / 名 触摸；接触",
+          "collocations": [
+            "keep in touch保持联系"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "english": "She usually gets up at half past seven in the morning.",
+      "chinese": "她通常早上七点半起床。",
+      "grammar_title": "一般现在时 | 频率副词 | 时刻表达法",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般现在时。当表示经常性或习惯性的动作时，要用一般现在时。句子的主语是She，是第三人称单数，所以谓语动词要用gets。",
+        "2. usually（通常）是表示频率的副词。",
+        "3. half past seven意为“七点半”。表示“几点半”可以表达为：“half +past + 钟点数”或者“钟点数+ thirty”，如“六点半”可以表述为“halfpast six”或“six thirty”。"
+      ],
+      "core_words": [
+        {
+          "word": "usually",
+          "phonetic": "ˈjuːʒuəli",
+          "definition": "副 通常地；经常地",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "get",
+          "phonetic": "ɡet",
+          "definition": "动 获得；收到；变得；到达",
+          "collocations": [
+            "get on上（车、船等）get off下（车、船等）get up起床 get to到达…"
+          ],
+          "memory": "",
+          "usage": "过去式：got 现在分词：getting",
+          "comparison": ""
+        },
+        {
+          "word": "up",
+          "phonetic": "ʌp",
+          "definition": "副 向上地；在上面 介 向上",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "at",
+          "phonetic": "æt",
+          "definition": "介 在（某地）；在（某时刻）；在（某岁）；在…旁边",
+          "collocations": [
+            "at weekends在周末 at work在工作"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "half",
+          "phonetic": "hɑːf",
+          "definition": "名 半；一半 限定词 / 代 半",
+          "collocations": [
+            "half an hour ago半小时前 half past ... …点半"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "past",
+          "phonetic": "pɑːst",
+          "definition": "形 过去的 副 经过；过去 介 超过；晚于",
+          "collocations": [
+            "half past seven七点半"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "morning",
+          "phonetic": "ˈmɔːnɪŋ",
+          "definition": "名 早晨，上午",
+          "collocations": [],
+          "memory": "联想：在tower（塔）里shower（淋浴），手中拿着towel",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "comb",
+          "phonetic": "kəʊm",
+          "definition": "名 梳子 动 梳，梳理",
+          "collocations": [
+            "comb hair梳头发"
+          ],
+          "memory": "联想：来（come），我给你梳（comb）头发",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "shower",
+          "phonetic": "ˈʃaʊə(r)",
+          "definition": "名 / 动 淋浴",
+          "collocations": [
+            "take a shower洗淋浴"
+          ],
+          "memory": "联想：在tower（塔）里shower（淋浴），手中拿着towel",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "brush",
+          "phonetic": "brʌʃ",
+          "definition": "动 刷 名 刷子",
+          "collocations": [
+            "brush one's teeth刷牙"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bath",
+          "phonetic": "bɑːθ",
+          "definition": "名 洗澡；浴盆",
+          "collocations": [
+            "take/have a bath洗澡"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "english": "My grandpa used to have a walk in the garden after supper.",
+      "chinese": "我爷爷过去常常在晚饭后在花园里散步。",
+      "grammar_title": "一般过去时 | 介词",
+      "grammar_notes": [
+        "1. used to意为“过去常常；曾经”，用于过去持续或经常发生的事。",
+        "2. have a walk意为“散步”。",
+        "3. in the garden意为“在花园里”，in是常用的方位介词，表示“在…里面”。",
+        "4. after supper意为“在晚饭后”，after是常用的时间介词，表示“在…之后”。"
+      ],
+      "core_words": [
+        {
+          "word": "my",
+          "phonetic": "maɪ",
+          "definition": "限定词 我的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "grandpa",
+          "phonetic": "ˈɡrænpɑː",
+          "definition": "名 （外）祖父；爷爷；姥爷；外公",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "walk",
+          "phonetic": "wɔːk",
+          "definition": "动 / 名 散步；步行",
+          "collocations": [
+            "walk away一走了之 take a walk散步"
+          ],
+          "memory": "音律：一边walk（散步），一边talk（聊天）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "in",
+          "phonetic": "ɪn",
+          "definition": "介 进入；在（某月、某年等）；在…内；在…期间；穿着",
+          "collocations": [
+            "in a hurry匆忙 in a minute马上"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "garden",
+          "phonetic": "ˈɡɑːdn",
+          "definition": "名 花园",
+          "collocations": [
+            "in the garden在花园里 a rose garden玫瑰园"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "after",
+          "phonetic": "ˈɑːftə(r)",
+          "definition": "介 / 连 在…之后",
+          "collocations": [
+            "after class下课后 after school放学后 after lunch午饭后"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "grandfather",
+          "phonetic": "ˈɡrænfɑːðə(r)",
+          "definition": "名 （外）祖父；爷爷；姥爷；外公",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "grandmother",
+          "phonetic": "ˈɡrænmʌðə(r)",
+          "definition": "名 （外）祖母；奶奶；姥姥；外婆",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "grandma",
+          "phonetic": "ˈɡrænmɑː",
+          "definition": "名 （外）祖母；奶奶；姥姥；外婆",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "grandpa",
+          "phonetic": "ˈɡrænpɑː",
+          "definition": "名 （外）祖父；爷爷；姥爷；外公",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "before",
+          "phonetic": "bɪˈfɔː(r)",
+          "definition": "介 / 连 在…之前 副 以前",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "since",
+          "phonetic": "sɪns",
+          "definition": "介 自…以来 连 自…以来；因为，既然",
+          "collocations": [],
+          "memory": "分音节：sin-ce",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "early",
+          "phonetic": "ˈɜːli",
+          "definition": "形 早期的；提早的 副 在早期；提早",
+          "collocations": [],
+          "memory": "",
+          "usage": "比较级：earlier 最高级：earliest",
+          "comparison": ""
+        },
+        {
+          "word": "ever",
+          "phonetic": "ˈevə(r)",
+          "definition": "副 从来；曾经",
+          "collocations": [
+            "hardly ever几乎不"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "till",
+          "phonetic": "tɪl",
+          "definition": "介 / 连 直到…为止",
+          "collocations": [],
+          "memory": "联想：跟still（仍然）一起记",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "until",
+          "phonetic": "ənˈtɪl",
+          "definition": "连 / 介 直到…时；直到…为止",
+          "collocations": [
+            "not ... until ...直到…才…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "last",
+          "phonetic": "lɑːst",
+          "definition": "动 持续 限定词 最近的，上一个的；最后的；仅余的",
+          "collocations": [
+            "last night昨晚 last year去年 last summer去年夏天"
+          ],
+          "memory": "音律：时间不能last（持续），都会成为past（过去）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "now",
+          "phonetic": "naʊ",
+          "definition": "副 现在；此刻",
+          "collocations": [
+            "from now on从现在开始 right now现在；马上"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "future",
+          "phonetic": "ˈfjuːtʃə(r)",
+          "definition": "名 将来，未来 形 未来的",
+          "collocations": [
+            "in the future将来"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "english": "At weekends, some people like to stay at home, but others like togo for a walk or have a picnic.",
+      "chinese": "在周末，一些人喜欢待在家里，然而另一些人喜欢去散步或野餐。",
+      "grammar_title": "连词 | 代词",
+      "grammar_notes": [
+        "1. 这个句子是由连词but连接的并列句，but意为“然而，但是”，表示转折。or也是连词，意为“或者”，用以引出另一种可能性。",
+        "2. at weekends意为“在周末”。",
+        "3. others = other people，意为“其他人”，代词，表示泛指。",
+        "4. go for a walk意为“去散步”；have a picnic意为“去野餐”。"
+      ],
+      "core_words": [
+        {
+          "word": "weekend",
+          "phonetic": "ˌwiːkˈend",
+          "definition": "名 周末",
+          "collocations": [
+            "on the weekend在周末"
+          ],
+          "memory": "合成词：week（星期）+end（结尾）→一周的末尾→周末",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "people",
+          "phonetic": "ˈpiːpl",
+          "definition": "名 人；人们；人民",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "like",
+          "phonetic": "laɪk",
+          "definition": "介 如；像 动 喜爱；喜欢",
+          "collocations": [
+            "look like看起来像…"
+          ],
+          "memory": "音律：Mike（迈克）like（喜欢）bike（自行车）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "stay",
+          "phonetic": "steɪ",
+          "definition": "动 停留；保持；暂住",
+          "collocations": [
+            "stay at home待在家里 stay in bed待在床上"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "home",
+          "phonetic": "həʊm",
+          "definition": "名 家；家乡 副 在家",
+          "collocations": [
+            "go home回家 at home在家"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "but",
+          "phonetic": "bʌt",
+          "definition": "连 然而，但是",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "other",
+          "phonetic": "ˈʌðə(r)",
+          "definition": "代 其他；另一个 形 其他的",
+          "collocations": [
+            "each other互相，彼此"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "go",
+          "phonetic": "ɡəʊ",
+          "definition": "动 去；走",
+          "collocations": [
+            "go cycling 去骑自行车 go away离开"
+          ],
+          "memory": "",
+          "usage": "第三人称单数：goes 过去式：went",
+          "comparison": ""
+        },
+        {
+          "word": "or",
+          "phonetic": "ɔː(r)",
+          "definition": "连 或者；还是；否则",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "picnic",
+          "phonetic": "ˈpɪknɪk",
+          "definition": "名 野餐",
+          "collocations": [
+            "go for a picnic去野餐"
+          ],
+          "memory": "分音节：pic-nic",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "tonight",
+          "phonetic": "təˈnaɪt",
+          "definition": "名 今晚 副 在今晚",
+          "collocations": [],
+          "memory": "合成词：to（到）+night（晚上）→到晚上→今晚",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "today",
+          "phonetic": "təˈdeɪ",
+          "definition": "名 今天 副 在今天；当今",
+          "collocations": [],
+          "memory": "分音节：to-day",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tomorrow",
+          "phonetic": "təˈmɒrəʊ",
+          "definition": "名 明天 副 在明天",
+          "collocations": [
+            "tomorrow morning 明天早上 the day after tomorrow 后天"
+          ],
+          "memory": "分音节：to-mo-rrow",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "english": "I called you yesterday evening, but there was no answer.",
+      "chinese": "昨晚我给你打电话了，但没人接。",
+      "grammar_title": "一般过去时 | there be结构",
+      "grammar_notes": [
+        "1. 这是由but连接的并列句。",
+        "2. 第一个分句有明确的时间标志词yesterday evening（昨晚），表示过去的时间。当表示过去发生的动作时，要用一般过去时，called是call（打电话）的过去式。",
+        "3. there was no answer是there be结构。there be的意思是“有”，表示“某地有某物”，强调某个地方有什么东西。注意，谓语动词be要与主语的数保持一致。",
+        "4. no作限定词时，后接名词，既可以接可数名词单数，也可以接可数名词复数。如：No student is allowed to leave the room. 学生一律不许离开这个房间。No students came to school late today. 今天没有学生上学迟到。",
+        "5. answer作名词，意为“答复，回答”。"
+      ],
+      "core_words": [
+        {
+          "word": "I",
+          "phonetic": "aɪ",
+          "definition": "代 我",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "call",
+          "phonetic": "kɔːl",
+          "definition": "动 打电话；称呼 名 打电话",
+          "collocations": [
+            "make a call打电话"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "yesterday",
+          "phonetic": "ˈjestədeɪ; ˈjestədi",
+          "definition": "名 昨天 副 在昨天",
+          "collocations": [],
+          "memory": "分音节：yes-ter-day",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "evening",
+          "phonetic": "ˈiːvnɪŋ",
+          "definition": "名 晚上；傍晚",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "there",
+          "phonetic": "ðeə(r)",
+          "definition": "副 在那里；（和be连用，表示存在）",
+          "collocations": [
+            "over there在那边，在那儿 there be有…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "no",
+          "phonetic": "nəʊ",
+          "definition": "叹 不；不是 限定词 没有；禁止 副 不",
+          "collocations": [
+            "no smoking请勿吸烟 no problem没问题"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "answer",
+          "phonetic": "ˈɑːnsə(r)",
+          "definition": "名 回答；答案 动 回答",
+          "collocations": [
+            "answer the phone接电话"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "mobile",
+          "phonetic": "ˈməʊbaɪl",
+          "definition": "名 手机 形 可移动的",
+          "collocations": [
+            "mobile phone手机"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "telephone",
+          "phonetic": "ˈtelɪfəʊn",
+          "definition": "名 电话；电话机 动 打电话给…",
+          "collocations": [
+            "get a telephone call接电话"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "message",
+          "phonetic": "ˈmesɪdʒ",
+          "definition": "名 信息",
+          "collocations": [
+            "take a message捎口信"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "send",
+          "phonetic": "send",
+          "definition": "动 发送；邮寄；传达",
+          "collocations": [
+            "send a message发信息 send an email发送电子邮件"
+          ],
+          "memory": "联想：跟spend（花费）一起记",
+          "usage": "过去式：sent",
+          "comparison": ""
+        },
+        {
+          "word": "hang",
+          "phonetic": "hæŋ",
+          "definition": "动 悬挂",
+          "collocations": [
+            "hang up挂断电话"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "english": "On Saturday, I will help my mom with the housework.",
+      "chinese": "周六，我要帮妈妈做家务。",
+      "grammar_title": "一般将来时 | 介词",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般将来时，表示现在还没有发生、将要发生的事情或动作。",
+        "2. 介词on意为“在（某一天）”，表示具体的某一天，常与表示星期、节日的词连用，如on Monday（在周一）。",
+        "3. help sb. with sth.表示“帮助某人做某事”。"
+      ],
+      "core_words": [
+        {
+          "word": "on",
+          "phonetic": "ɒn",
+          "definition": "介 在…上；在（某位置）；在（某一天）",
+          "collocations": [
+            "on foot步行 on holiday在度假"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "Saturday",
+          "phonetic": "ˈsætədeɪ; ˈsætədi",
+          "definition": "名 星期六",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "will",
+          "phonetic": "wɪl",
+          "definition": "情态 将，会，要 名 意志；意愿",
+          "collocations": [],
+          "memory": "",
+          "usage": "否定缩略式：won't",
+          "comparison": ""
+        },
+        {
+          "word": "help",
+          "phonetic": "help",
+          "definition": "名 帮助 动 帮助；为（自己/某人）取用（或吃喝）",
+          "collocations": [
+            "help yourself 请自便"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "housework",
+          "phonetic": "ˈhaʊswɜːk",
+          "definition": "名 家务劳动",
+          "collocations": [
+            "do the housework做家务"
+          ],
+          "memory": "合成词：house（家）+work（工作）→在家的工作→家务劳动",
+          "usage": "",
+          "comparison": "housework指“家务劳动”；homework指“家庭作业”。"
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "family",
+          "phonetic": "ˈfæməli",
+          "definition": "名 家庭；家人",
+          "collocations": [
+            "family name姓氏"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "parent",
+          "phonetic": "ˈpeərənt",
+          "definition": "名 父亲；母亲",
+          "collocations": [
+            "Parents' Day 家长日"
+          ],
+          "memory": "",
+          "usage": "复数：parents父母",
+          "comparison": ""
+        },
+        {
+          "word": "father",
+          "phonetic": "ˈfɑːðə(r)",
+          "definition": "名 父亲，爸爸",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "dad",
+          "phonetic": "dæd",
+          "definition": "名 爸爸",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "mother",
+          "phonetic": "ˈmʌðə(r)",
+          "definition": "名 母亲，妈妈",
+          "collocations": [],
+          "memory": "音律：拿着broom（扫帚），打扫room（房间）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "move",
+          "phonetic": "muːv",
+          "definition": "动 / 名 搬家；移动",
+          "collocations": [
+            "move around the sun 绕着太阳转"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "heavy",
+          "phonetic": "ˈhevi",
+          "definition": "形 重的；大量的；猛烈的",
+          "collocations": [
+            "heavy rain大雨"
+          ],
+          "memory": "联想：大头儿子的head（头）又大又heavy（重的）",
+          "usage": "比较级：heavier 最高级：heaviest",
+          "comparison": ""
+        },
+        {
+          "word": "chore",
+          "phonetic": "tʃɔː(r)",
+          "definition": "名 杂活，琐事",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sister",
+          "phonetic": "ˈsɪstə(r)",
+          "definition": "名 姐；妹",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "mom",
+          "phonetic": "mɒm",
+          "definition": "名 妈妈",
+          "collocations": [],
+          "memory": "",
+          "usage": "美式写法：mum",
+          "comparison": ""
+        },
+        {
+          "word": "brother",
+          "phonetic": "ˈbrʌðə(r)",
+          "definition": "名 哥；弟",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "broom",
+          "phonetic": "bruːm",
+          "definition": "名 扫帚",
+          "collocations": [],
+          "memory": "音律：拿着broom（扫帚），打扫room（房间）",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "english": "The children are listening to the radio while they are cleaning thewindows.",
+      "chinese": "孩子们一边擦窗户一边听广播。",
+      "grammar_title": "时间状语从句 | 现在进行时",
+      "grammar_notes": [
+        "1. while引导时间状语从句，while意为“当…时”，强调主句和从句的动作同时发生，即listening to the radio和cleaning the windows同时发生。",
+        "2. are listening to和are cleaning是现在进行时结构，表示正在进行或发生的动作。",
+        "3. listen to意为“听；倾听”，如listen to the radio（听广播）、listento music（听音乐）。"
+      ],
+      "core_words": [
+        {
+          "word": "children",
+          "phonetic": "ˈtʃɪldrən",
+          "definition": "名 （child的复数）孩子们",
+          "collocations": [
+            "Children's Day 儿童节"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "be",
+          "phonetic": "biː",
+          "definition": "动 是；（和there连用，表示存在）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "radio",
+          "phonetic": "ˈreɪdiəʊ",
+          "definition": "名 无线电广播；收音机",
+          "collocations": [
+            "a car radio 汽车收音机"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "while",
+          "phonetic": "waɪl",
+          "definition": "连 当…时 名 一段时间",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "they",
+          "phonetic": "ðeɪ",
+          "definition": "代 他们；她们；它们",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "clean",
+          "phonetic": "kliːn",
+          "definition": "动 打扫；弄干净 形 干净的",
+          "collocations": [
+            "clean the room打扫房间 clean up收拾，打扫"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": "clean指“干净的”；tidy指“整齐的”。"
+        },
+        {
+          "word": "window",
+          "phonetic": "ˈwɪndəʊ",
+          "definition": "名 窗户",
+          "collocations": [
+            "open the window打开窗户"
+          ],
+          "memory": "分音节：win-dow",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "young",
+          "phonetic": "jʌŋ",
+          "definition": "形 年轻的；幼小的 名 年轻人；幼兽",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "man",
+          "phonetic": "mæn",
+          "definition": "名 男人；人类",
+          "collocations": [],
+          "memory": "",
+          "usage": "复数：men",
+          "comparison": ""
+        },
+        {
+          "word": "child",
+          "phonetic": "tʃaɪld",
+          "definition": "名 儿童，小孩",
+          "collocations": [],
+          "memory": "",
+          "usage": "复数：children",
+          "comparison": ""
+        },
+        {
+          "word": "girl",
+          "phonetic": "ɡɜːl",
+          "definition": "名 女孩",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "woman",
+          "phonetic": "ˈwʊmən",
+          "definition": "名 女人",
+          "collocations": [],
+          "memory": "",
+          "usage": "复数：women",
+          "comparison": ""
+        },
+        {
+          "word": "baby",
+          "phonetic": "ˈbeɪbi",
+          "definition": "名 婴儿；宝贝",
+          "collocations": [
+            "baby boy男婴 baby girl女婴"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "boy",
+          "phonetic": "bɔɪ",
+          "definition": "名 男孩",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "english": "She was making dinner when the phone rang.",
+      "chinese": "她正在做晚饭的时候，电话响了。",
+      "grammar_title": "时间状语从句 | 过去进行时",
+      "grammar_notes": [
+        "1. 这个句子包括when引导的时间状语从句，意为“当…时”。rang是ring（响铃）的过去式。",
+        "2. 这个句子的主句是过去进行时，表示在过去某时间内正在进行或发生的动作。was是is的过去式。",
+        "3. make dinner意为“做晚饭”。"
+      ],
+      "core_words": [
+        {
+          "word": "make",
+          "phonetic": "meɪk",
+          "definition": "动 使，让；做，制造；整理（床铺等）",
+          "collocations": [
+            "make the bed整理床铺 make a snowman堆雪人 make a cake做蛋糕"
+          ],
+          "memory": "",
+          "usage": "过去式：made",
+          "comparison": ""
+        },
+        {
+          "word": "dinner",
+          "phonetic": "ˈdɪnə(r)",
+          "definition": "名 正餐；主餐；晚餐",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "when",
+          "phonetic": "wen",
+          "definition": "连 当…时 副 （用于问句）什么时候；何时",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "phone",
+          "phonetic": "fəʊn",
+          "definition": "名 电话；电话机 动 打电话",
+          "collocations": [
+            "phone box电话亭 cell phone手机"
+          ],
+          "memory": "联想：p和h的联系全靠一部（one）电话",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "ring",
+          "phonetic": "rɪŋ",
+          "definition": "动 响铃 名 戒指；环形物",
+          "collocations": [],
+          "memory": "发音：电话铃声听起来很像ring, ring, ring→响铃",
+          "usage": "过去式：rang",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "housewife",
+          "phonetic": "ˈhaʊswaɪf",
+          "definition": "名 家庭主妇",
+          "collocations": [],
+          "memory": "合成词：house（家）+wife（妻子）→在家的妻子→家庭主妇",
+          "usage": "复数：housewives",
+          "comparison": ""
+        },
+        {
+          "word": "wife",
+          "phonetic": "waɪf",
+          "definition": "名 妻子",
+          "collocations": [],
+          "memory": "联想：wife（妻子）要记住家里的Wi-Fi（无线网络）密码",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "husband",
+          "phonetic": "ˈhʌzbənd",
+          "definition": "名 丈夫",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "flour",
+          "phonetic": "ˈflaʊə(r)",
+          "definition": "名 面粉",
+          "collocations": [],
+          "memory": "联想：floor（地板）上撒了flour（面粉）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "oil",
+          "phonetic": "ɔɪl",
+          "definition": "名 食用油；石油；燃油",
+          "collocations": [],
+          "memory": "音律：从soil（土壤）下发现oil（石油）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fridge",
+          "phonetic": "frɪdʒ",
+          "definition": "名 冰箱",
+          "collocations": [
+            "in the fridge在冰箱里"
+          ],
+          "memory": "",
+          "usage": "美式写法：refrigerator",
+          "comparison": ""
+        },
+        {
+          "word": "prepare",
+          "phonetic": "prɪˈpeə(r)",
+          "definition": "动 准备",
+          "collocations": [
+            "prepare for为…做准备"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "ready",
+          "phonetic": "ˈredi",
+          "definition": "形 准备好的；愿意的",
+          "collocations": [
+            "be ready to do sth. 愿意做某事；准备好做某事"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "english": "After lunch, Ann cleaned the table and washed dishes.",
+      "chinese": "午饭后，安清理了桌子，洗了碗。",
+      "grammar_title": "连词",
+      "grammar_notes": [
+        "1. and（和）是常用连词，表示并列，连接两个并列成分，在本句中连接两个谓语：cleaned和washed。cleaned是clean（打扫）的过去式，washed是wash（洗）的过去式。",
+        "2. clean the table意为“清理桌子”；wash dishes意为“洗碗”。"
+      ],
+      "core_words": [
+        {
+          "word": "table",
+          "phonetic": "ˈteɪbl",
+          "definition": "名 桌子",
+          "collocations": [
+            "clean the table清理桌子 set the table摆餐具"
+          ],
+          "memory": "分音节：ta-ble",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "wash",
+          "phonetic": "wɒʃ",
+          "definition": "动 洗",
+          "collocations": [
+            "wash the clothes洗衣服 wash the dishes洗碗"
+          ],
+          "memory": "音律：这些dish（盘子）需要wash（洗）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "dish",
+          "phonetic": "dɪʃ",
+          "definition": "名 菜肴；盘，碟；餐具",
+          "collocations": [],
+          "memory": "音律：一条fish（鱼），成为dish（菜肴），没有wish（希望）",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "bed",
+          "phonetic": "bed",
+          "definition": "名 床",
+          "collocations": [
+            "go to bed去睡觉"
+          ],
+          "memory": "联想：Ted（泰德）睡在red（红色的）bed（床）上",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sofa",
+          "phonetic": "ˈsəʊfə",
+          "definition": "名 沙发",
+          "collocations": [],
+          "memory": "分音节：so-fa",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "chair",
+          "phonetic": "tʃeə(r)",
+          "definition": "名 椅子",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "armchair",
+          "phonetic": "ˈɑːmtʃeə(r)",
+          "definition": "名 扶手椅",
+          "collocations": [],
+          "memory": "合成词：arm（胳膊）+chair（椅子）→可以搭胳膊的椅子→扶手椅",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bookshelf",
+          "phonetic": "ˈbʊkʃelf",
+          "definition": "名 书架",
+          "collocations": [],
+          "memory": "合成词：book（书）+shelf（架子）→书架",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "plate",
+          "phonetic": "pleɪt",
+          "definition": "名 盘子；一盘（的量）",
+          "collocations": [
+            "a plate of一盘…"
+          ],
+          "memory": "分音节：p-late",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bowl",
+          "phonetic": "bəʊl",
+          "definition": "名 碗；一碗（的量）",
+          "collocations": [
+            "a bowl of soup一碗汤"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "chopstick",
+          "phonetic": "ˈtʃɒpstɪk",
+          "definition": "名 筷子",
+          "collocations": [
+            "a pair of chopsticks一双筷子"
+          ],
+          "memory": "联想：chop（砍）+stick（棍）→砍下树木做成小棍，变成筷子→筷子",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cup",
+          "phonetic": "kʌp",
+          "definition": "名 杯子；一杯（的量）",
+          "collocations": [
+            "a cup of coffee一杯咖啡"
+          ],
+          "memory": "联想：卖掉cap（帽子），买了cup（杯子）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "glass",
+          "phonetic": "ɡlɑːs",
+          "definition": "名 玻璃；玻璃杯；一杯（的量）；眼镜",
+          "collocations": [
+            "a glass of water一杯水"
+          ],
+          "memory": "联想：glasses（眼镜）镜片一般是由glass（玻璃）制成的",
+          "usage": "复数：glasses表示“眼镜”",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "english": "I'll learn about cooking on the Internet.",
+      "chinese": "我要在网上学习烹饪。",
+      "grammar_title": "一般将来时 | 动词",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般将来时，I'll = I will。",
+        "2. learn about意为“了解；学习”；on the Internet意为“在网上”。"
+      ],
+      "core_words": [
+        {
+          "word": "learn",
+          "phonetic": "lɜːn",
+          "definition": "动 学；学习；学会",
+          "collocations": [
+            "learn English学英语 learn to walk学走路"
+          ],
+          "memory": "联想：用ear（耳朵）来hear（听），然后再learn（学习）",
+          "usage": "过去式：learned/learnt",
+          "comparison": ""
+        },
+        {
+          "word": "cook",
+          "phonetic": "kʊk",
+          "definition": "动 烹饪，做饭 名 厨师",
+          "collocations": [],
+          "memory": "联想：用cooker（炉具）cook（做饭）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "Internet",
+          "phonetic": "ˈɪntənet",
+          "definition": "名 互联网",
+          "collocations": [
+            "surf the Internet上网"
+          ],
+          "memory": "联想：Inter（因特）+net（网）→因特网（也就是互联网）→互联网",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "vegetable",
+          "phonetic": "ˈvedʒtəbl",
+          "definition": "名 蔬菜",
+          "collocations": [],
+          "memory": "分音节：vege-ta-ble",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tomato",
+          "phonetic": "təˈmɑːtəʊ",
+          "definition": "名 西红柿",
+          "collocations": [],
+          "memory": "分音节：to-ma-to",
+          "usage": "复数：tomatoes",
+          "comparison": ""
+        },
+        {
+          "word": "potato",
+          "phonetic": "pəˈteɪtəʊ",
+          "definition": "名 马铃薯；土豆",
+          "collocations": [
+            "potato chips薯片"
+          ],
+          "memory": "分音节：po-ta-to",
+          "usage": "复数：potatoes",
+          "comparison": ""
+        },
+        {
+          "word": "meat",
+          "phonetic": "miːt",
+          "definition": "名 肉",
+          "collocations": [],
+          "memory": "音律：坐在seat（座位），想吃meat（肉）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "stir",
+          "phonetic": "stɜː(r)",
+          "definition": "动 搅拌",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：stirred 现在分词：stirring",
+          "comparison": ""
+        },
+        {
+          "word": "mix",
+          "phonetic": "mɪks",
+          "definition": "动 混合；搅拌",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bake",
+          "phonetic": "beɪk",
+          "definition": "动 烘焙；烤",
+          "collocations": [],
+          "memory": "音律：来到lake（湖），开始bake（烤），爱上cake（蛋糕）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "surf",
+          "phonetic": "sɜːf",
+          "definition": "动 浏览，在网上冲浪；冲浪",
+          "collocations": [],
+          "memory": "合成词：web（网）+site（地点）→网站",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "website",
+          "phonetic": "ˈwebsaɪt",
+          "definition": "名 网站；网址",
+          "collocations": [],
+          "memory": "合成词：web（网）+site（地点）→网站",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "english": "Chinese people are very good at table tennis, and it's our favoritesport.",
+      "chinese": "中国人很擅长打乒乓球，这是我们最喜欢的运动。",
+      "grammar_title": "连词 | 形容词",
+      "grammar_notes": [
+        "1. 本句中连词and连接两个并列的句子，即Chinese people are verygood at table tennis和it's our favorite sport。",
+        "2. be good at表示“擅长”，其后可以跟名词，也可以跟v-ing形式，如：He is good at playing basketball. 他擅长打篮球。",
+        "3. it's our favorite ...意为“这是我们最喜欢的…”，其后直接跟名词。本句中的sport（运动）可以替换为food（食物）、colour（颜色）、season（季节）等。"
+      ],
+      "core_words": [
+        {
+          "word": "Chinese",
+          "phonetic": "ˌtʃaɪˈniːz",
+          "definition": "名 中国人；汉语 形 中国（人）的；中文的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "table tennis",
+          "phonetic": "ˈteɪbl tenɪs",
+          "definition": "名 乒乓球",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "it",
+          "phonetic": "ɪt",
+          "definition": "代 它（指物体、动物或上文已提及的其他事物）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "our",
+          "phonetic": "ˈaʊə(r)",
+          "definition": "限定词 我们的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "favorite",
+          "phonetic": "ˈfeɪvərɪt",
+          "definition": "形 最喜欢的",
+          "collocations": [],
+          "memory": "",
+          "usage": "英式写法：favourite",
+          "comparison": ""
+        },
+        {
+          "word": "sport",
+          "phonetic": "spɔːt",
+          "definition": "名 体育运动",
+          "collocations": [
+            "play sports参加体育运动 sports centre体育中心"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "ball",
+          "phonetic": "bɔːl",
+          "definition": "名 球",
+          "collocations": [
+            "ball game球类运动"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "ping-pong",
+          "phonetic": "ˈpɪŋ pɒŋ",
+          "definition": "名 乒乓球",
+          "collocations": [
+            "play ping-pong打乒乓球"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "badminton",
+          "phonetic": "ˈbædmɪntən",
+          "definition": "名 羽毛球运动",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tennis",
+          "phonetic": "ˈtenɪs",
+          "definition": "名 网球",
+          "collocations": [
+            "play tennis打网球"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "golf",
+          "phonetic": "ɡɒlf",
+          "definition": "名 高尔夫球",
+          "collocations": [],
+          "memory": "发音：“高尔夫”→高尔夫球",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "baseball",
+          "phonetic": "ˈbeɪsbɔːl",
+          "definition": "名 棒球",
+          "collocations": [
+            "play baseball打棒球"
+          ],
+          "memory": "合成词：base（垒）+ball（球）→涉及“一垒、二垒”的球类运动就是棒球→棒球",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bat",
+          "phonetic": "bæt",
+          "definition": "名 球拍；蝙蝠",
+          "collocations": [],
+          "memory": "音律：一只bat（蝙蝠），钻进bag（袋子），变得bad（坏的）",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "english": "He is one of the tallest basketball players in the world.",
+      "chinese": "他是世界上最高的篮球运动员之一。",
+      "grammar_title": "形容词最高级",
+      "grammar_notes": [
+        "1. one of the +形容词最高级+名词复数，表示“最…的…之一”。",
+        "2. 形容词tall（高的）的最高级是tallest。注意，在使用最高级时，形容词前面一定要加定冠词the。",
+        "3. 形容词的最高级用于三个或三个以上的人或事物的比较，结构为“the +形容词最高级+比较范围”，意为“…中最…的”，如the youngestof four sisters（四姐妹中最小的）。",
+        "4. basketball player意为“篮球运动员”；in the world意为“在世界上”。"
+      ],
+      "core_words": [
+        {
+          "word": "he",
+          "phonetic": "hiː",
+          "definition": "代 他",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tall",
+          "phonetic": "tɔːl",
+          "definition": "形 高的；高大的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "basketball",
+          "phonetic": "ˈbɑːskɪtbɔːl",
+          "definition": "名 篮球",
+          "collocations": [
+            "play basketball打篮球"
+          ],
+          "memory": "合成词：basket（篮子）+ball（球）→篮球",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "player",
+          "phonetic": "ˈpleɪə(r)",
+          "definition": "名 运动员；参赛选手；演奏者",
+          "collocations": [],
+          "memory": "词根：play（参加比赛）+er（表示人）→参加比赛的人→运动员",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "world",
+          "phonetic": "wɜːld",
+          "definition": "名 世界；地球",
+          "collocations": [
+            "all over the world全世界 a map of the world世界地图"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "team",
+          "phonetic": "tiːm",
+          "definition": "名 团队；组；（游戏或运动的）队",
+          "collocations": [],
+          "memory": "联想：采tea（茶）小team（组）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "group",
+          "phonetic": "ɡruːp",
+          "definition": "名 群；组",
+          "collocations": [
+            "a group of people一群人"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "break",
+          "phonetic": "breɪk",
+          "definition": "动 （使）破，裂；弄坏 名 短暂休息",
+          "collocations": [
+            "take a break休息一下"
+          ],
+          "memory": "",
+          "usage": "过去式：broke",
+          "comparison": ""
+        },
+        {
+          "word": "final",
+          "phonetic": "ˈfaɪnl",
+          "definition": "形 最后的；最终的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "point",
+          "phonetic": "pɔɪnt",
+          "definition": "动 指 名 得分",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": "point at指着，指向（离说话人较近的人或事物）；point to指向（离说话人较远的人或事物）。"
+        },
+        {
+          "word": "win",
+          "phonetic": "wɪn",
+          "definition": "动 获胜，赢",
+          "collocations": [
+            "win the game赢得比赛"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "prize",
+          "phonetic": "praɪz",
+          "definition": "名 奖；奖品",
+          "collocations": [
+            "Nobel Prize诺贝尔奖"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "english": "He's going to the nearby valley to take part in a mountain bike race.",
+      "chinese": "他要去附近的山谷参加一个山地自行车比赛。",
+      "grammar_title": "一般将来时 | 动词不定式",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般将来时，“be going to +动词原形”表示打算、计划和安排好了的事情，也可以表示将要发生的动作或情况。",
+        "2. 动词不定式to take part in ...作目的状语，表示“为了参加…”，其中take part in意为“参与，参加”，如take part in a discussion（参加讨论）。"
+      ],
+      "core_words": [
+        {
+          "word": "nearby",
+          "phonetic": "ˌnɪəˈbaɪ",
+          "definition": "副 在附近；不远 形 附近的",
+          "collocations": [],
+          "memory": "合成词：near（在…附近）+by（在…旁边）→在附近",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "race",
+          "phonetic": "reɪs",
+          "definition": "名 比赛；赛跑；竞赛",
+          "collocations": [
+            "have a race赛跑 dragon boat race赛龙舟"
+          ],
+          "memory": "音律：坦然face（面对），赢得race（比赛）",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "match",
+          "phonetic": "mætʃ",
+          "definition": "名 比赛；火柴",
+          "collocations": [],
+          "memory": "",
+          "usage": "复数：matches",
+          "comparison": ""
+        },
+        {
+          "word": "club",
+          "phonetic": "klʌb",
+          "definition": "名 俱乐部，社团",
+          "collocations": [
+            "a golf club高尔夫球俱乐部"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "practice",
+          "phonetic": "ˈpræktɪs",
+          "definition": "动 练习 名 练习；实践",
+          "collocations": [
+            "practice the piano练习弹钢琴"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fun",
+          "phonetic": "fʌn",
+          "definition": "形 有趣的 名 乐趣；快乐",
+          "collocations": [
+            "have fun玩得愉快"
+          ],
+          "memory": "音律：出来run（跑步），真是fun（快乐）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "popular",
+          "phonetic": "ˈpɒpjələ(r)",
+          "definition": "形 大众化的；通俗的；受欢迎的",
+          "collocations": [],
+          "memory": "分音节：po-pu-lar",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "different",
+          "phonetic": "ˈdɪfrənt",
+          "definition": "形 不同的",
+          "collocations": [
+            "be different from与…不同"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "same",
+          "phonetic": "seɪm",
+          "definition": "形 相同的；同样的",
+          "collocations": [
+            "at the same time同时"
+          ],
+          "memory": "联想：他们的name（名字）完全same（相同的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "part",
+          "phonetic": "pɑːt",
+          "definition": "名 角色；部分；参与",
+          "collocations": [
+            "take part in参加，参与"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "valley",
+          "phonetic": "ˈvæli",
+          "definition": "名 谷；山谷",
+          "collocations": [],
+          "memory": "分音节：val-ley",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bike",
+          "phonetic": "baɪk",
+          "definition": "名 自行车",
+          "collocations": [
+            "ride a bike骑自行车"
+          ],
+          "memory": "",
+          "usage": "正式写法：bicycle",
+          "comparison": ""
+        },
+        {
+          "word": "mountain",
+          "phonetic": "ˈmaʊntən",
+          "definition": "名 山",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "english": "My favourite subject is science because I can do experiments duringthe class.",
+      "chinese": "我最喜欢的科目是科学课，因为我可以在课堂上做实验。",
+      "grammar_title": "原因状语从句 | 情态动词",
+      "grammar_notes": [
+        "1. 本句包含一个because引导的原因状语从句。主句是My favouritesubject is science。",
+        "2. My favourite subject is ...意为“我最喜欢的科目是…”。subject（科目）可以替换为food（食物）、colour（颜色）、sport（运动）、season（季节）等。",
+        "3. can是情态动词，情态动词不能单独作谓语，需要与动词原形一起使用。",
+        "4. during意为“在…期间”，是介词，表示一段时间。",
+        "5. do experiments意为“做实验”。"
+      ],
+      "core_words": [
+        {
+          "word": "subject",
+          "phonetic": "ˈsʌbdʒɪkt; ˈsʌbdʒekt",
+          "definition": "名 学科；科目；主题；话题",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "science",
+          "phonetic": "ˈsaɪəns",
+          "definition": "名 科学",
+          "collocations": [
+            "science museum科学博物馆"
+          ],
+          "memory": "发音：“三而思”→科学讲求严谨，要三思而后行→科学",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "do",
+          "phonetic": "duː",
+          "definition": "动 做 助 [用于构成疑问句、动词的否定式等]",
+          "collocations": [
+            "do one's best尽力 do well in在…方面做得好"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "experiment",
+          "phonetic": "ɪkˈsperɪmənt",
+          "definition": "名 实验；试验",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "during",
+          "phonetic": "ˈdjʊərɪŋ",
+          "definition": "介 在…期间",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "class",
+          "phonetic": "klɑːs",
+          "definition": "名 课；班级",
+          "collocations": [
+            "have a class上课"
+          ],
+          "memory": "",
+          "usage": "复数：classes",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "Chinese",
+          "phonetic": "ˌtʃaɪˈniːz",
+          "definition": "名 语文",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "maths",
+          "phonetic": "mæθs",
+          "definition": "名 数学",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "English",
+          "phonetic": "ˈɪŋɡlɪʃ",
+          "definition": "名 英语",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "history",
+          "phonetic": "ˈhɪstri",
+          "definition": "名 历史",
+          "collocations": [
+            "history museum历史博物馆"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "PE/P.E.",
+          "phonetic": "ˌpiː ˈiː",
+          "definition": "名 体育（课）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "music",
+          "phonetic": "ˈmjuːzɪk",
+          "definition": "名 音乐",
+          "collocations": [
+            "music class音乐课"
+          ],
+          "memory": "分音节：mu-sic",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "english": "To make your dream come true, you should study hard.",
+      "chinese": "为了实现你的梦想，你应该努力学习。",
+      "grammar_title": "动词不定式 | 情态动词",
+      "grammar_notes": [
+        "1. To make your dream come true是动词不定式短语，表示目的。",
+        "2. come true意为“实现”，常以dream/wish作主语。come true的主语不能是人。",
+        "3. should是情态动词，意为“应该”。",
+        "4. study hard意为“努力学习”，“努力工作”即work hard。"
+      ],
+      "core_words": [
+        {
+          "word": "dream",
+          "phonetic": "driːm",
+          "definition": "名 梦；梦想 动 做梦，梦见；梦想",
+          "collocations": [
+            "have a good dream做个好梦"
+          ],
+          "memory": "",
+          "usage": "过去式：dreamed/dreamt",
+          "comparison": ""
+        },
+        {
+          "word": "should",
+          "phonetic": "ʃʊd",
+          "definition": "情态 应当，应该",
+          "collocations": [],
+          "memory": "",
+          "usage": "否定缩略式：shouldn't",
+          "comparison": ""
+        },
+        {
+          "word": "study",
+          "phonetic": "ˈstʌdi",
+          "definition": "动 学习；研究 名 学习；研究；书房",
+          "collocations": [],
+          "memory": "",
+          "usage": "名词复数：studies 第三人称单数：studies 过去式：studied",
+          "comparison": ""
+        },
+        {
+          "word": "hard",
+          "phonetic": "hɑːd",
+          "definition": "形 难的；硬的 副 猛烈地；努力地；费劲地",
+          "collocations": [
+            "work hard努力工作"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "number",
+          "phonetic": "ˈnʌmbə(r)",
+          "definition": "名 数；数字",
+          "collocations": [
+            "telephone number = phone number电话号码"
+          ],
+          "memory": "分音节：num-ber",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "count",
+          "phonetic": "kaʊnt",
+          "definition": "动 数数；计算",
+          "collocations": [
+            "count from 1 to 10从1数到10"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "add",
+          "phonetic": "æd",
+          "definition": "动 加；增加",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "twice",
+          "phonetic": "twaɪs",
+          "definition": "副 两次；两回",
+          "collocations": [
+            "twice a week一周两次"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "shape",
+          "phonetic": "ʃeɪp",
+          "definition": "名 形状",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "double",
+          "phonetic": "ˈdʌbl",
+          "definition": "形 双的；双倍的",
+          "collocations": [],
+          "memory": "分音节：dou-ble",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "circle",
+          "phonetic": "ˈsɜːkl",
+          "definition": "名 圆，圆圈 动 环绕",
+          "collocations": [
+            "draw a circle画个圆"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "minus",
+          "phonetic": "ˈmaɪnəs",
+          "definition": "介 减",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "english": "We learned from each other in and out of class.",
+      "chinese": "我们在课堂内外互相学习。",
+      "grammar_title": "一般过去时 | 动词 | 介词",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般过去时，learned是learn（学习）的过去式。",
+        "2. learn from意为“向…学习”。",
+        "3. each other意为“互相，彼此”，在句中常作宾语，多用于两个人或物之间。",
+        "4. in and out of class意为“在课堂内外”。"
+      ],
+      "core_words": [
+        {
+          "word": "from",
+          "phonetic": "frɒm",
+          "definition": "介 从；从…来；从…起，始于",
+          "collocations": [
+            "from now on从现在开始 from then on从那时起 from ... to ...从…到…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "each",
+          "phonetic": "iːtʃ",
+          "definition": "限定词 / 代 每；每个",
+          "collocations": [
+            "each other互相，彼此"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "by",
+          "phonetic": "baɪ",
+          "definition": "介 在…旁边；乘；骑；用，凭",
+          "collocations": [
+            "by the way顺便说一下 by car乘小汽车"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "against",
+          "phonetic": "əˈɡeɪnst",
+          "definition": "介 反对；和…竞争",
+          "collocations": [
+            "play against和…比赛"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "without",
+          "phonetic": "wɪˈðaʊt",
+          "definition": "介 没有；无",
+          "collocations": [],
+          "memory": "联想：with（和）+out（出）→没有人和他出去玩→没有",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "its",
+          "phonetic": "ɪts",
+          "definition": "限定词 它的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "their",
+          "phonetic": "ðeə(r)",
+          "definition": "限定词 他们的；她们的；它们的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "either",
+          "phonetic": "ˈaɪðə(r); ˈiːðə(r)",
+          "definition": "限定词 / 代 任一 副 （用于否定句）也",
+          "collocations": [
+            "either ... or ...要么…要么…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "any",
+          "phonetic": "ˈeni",
+          "definition": "限定词 任何的 代 任何一个",
+          "collocations": [
+            "any time任何时间"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "another",
+          "phonetic": "əˈnʌðə(r)",
+          "definition": "限定词 另一个的 代 另一个",
+          "collocations": [
+            "one another彼此，互相"
+          ],
+          "memory": "联想：an（一）+other（另外的）→另一个",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "both",
+          "phonetic": "bəʊθ",
+          "definition": "限定词 / 代 两个；两个都",
+          "collocations": [
+            "both ... and ... …和…都"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "neither",
+          "phonetic": "ˈnaɪðə(r); ˈniːðə(r)",
+          "definition": "限定词 / 代 两者都不 副 也不",
+          "collocations": [
+            "neither ... nor ... 既不…也不…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "english": "This dictionary was very cheap and it only cost me twelve dollars.",
+      "chinese": "这本字典很便宜，只花了我12美元。",
+      "grammar_title": "一般过去时 | 动词",
+      "grammar_notes": [
+        "1. and连接两个并列的句子。两个句子都是一般过去时，was是is的过去式，cost（需付费，价钱为）的过去式仍然是cost。",
+        "2. “sth. cost sb. +金钱”表示“某物花费某人多少钱”。主语是“物”，cost后面常接“人+金钱”作宾语，如：This skirt cost me 120 yuan. 这条裙子花了我120元。"
+      ],
+      "core_words": [
+        {
+          "word": "this",
+          "phonetic": "ðɪs",
+          "definition": "限定词 / 代 这，这个",
+          "collocations": [],
+          "memory": "",
+          "usage": "复数：these* 这些",
+          "comparison": ""
+        },
+        {
+          "word": "dictionary",
+          "phonetic": "ˈdɪkʃənri",
+          "definition": "名 词典；字典",
+          "collocations": [
+            "English-Chinese dictionary英汉字典"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cheap",
+          "phonetic": "tʃiːp",
+          "definition": "形 便宜的",
+          "collocations": [],
+          "memory": "联想：这艘ship（轮船）非常cheap（便宜的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cost",
+          "phonetic": "kɒst",
+          "definition": "动 需付费；价钱为 名 费用",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "me",
+          "phonetic": "miː",
+          "definition": "代 （I的宾格）我",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "twelve",
+          "phonetic": "twelv",
+          "definition": "数 十二",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "dollar",
+          "phonetic": "ˈdɒlə(r)",
+          "definition": "名 美元",
+          "collocations": [],
+          "memory": "发音：“到了”→到了美国得用美元→美元",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "dear",
+          "phonetic": "dɪə(r)",
+          "definition": "形 贵的；亲爱的 名 亲爱的人",
+          "collocations": [
+            "Dear +名字（用于信函），表示“亲爱的某人”"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "rich",
+          "phonetic": "rɪtʃ",
+          "definition": "形 富的；有钱的",
+          "collocations": [
+            "the rich有钱人"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "one",
+          "phonetic": "wʌn",
+          "definition": "数 一",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "two",
+          "phonetic": "tuː",
+          "definition": "数 二",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "three",
+          "phonetic": "θriː",
+          "definition": "数 三",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "four",
+          "phonetic": "fɔː(r)",
+          "definition": "数 四",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "five",
+          "phonetic": "faɪv",
+          "definition": "数 五",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "six",
+          "phonetic": "sɪks",
+          "definition": "数 六",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "eight",
+          "phonetic": "eɪt",
+          "definition": "数 八",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "ten",
+          "phonetic": "ten",
+          "definition": "数 十",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "seventeen",
+          "phonetic": "ˌsevnˈtiːn",
+          "definition": "数 十七",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "forty",
+          "phonetic": "ˈfɔːti",
+          "definition": "数 四十",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fifty",
+          "phonetic": "ˈfɪfti",
+          "definition": "数 五十",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sixteen",
+          "phonetic": "ˌsɪksˈtiːn",
+          "definition": "数 十六",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "eleven",
+          "phonetic": "ɪˈlevn",
+          "definition": "数 十一",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "nine",
+          "phonetic": "naɪn",
+          "definition": "数 九",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "nineteen",
+          "phonetic": "ˌnaɪnˈtiːn",
+          "definition": "数 十九",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "thirteen",
+          "phonetic": "ˌθɜːˈtiːn",
+          "definition": "数 十三",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fourteen",
+          "phonetic": "ˌfɔːˈtiːn",
+          "definition": "数 十四",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fifteen",
+          "phonetic": "ˌfɪfˈtiːn",
+          "definition": "数 十五",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "eighteen",
+          "phonetic": "ˌeɪˈtiːn",
+          "definition": "数 十八",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "twenty",
+          "phonetic": "ˈtwenti",
+          "definition": "数 二十",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "seven",
+          "phonetic": "ˈsevn",
+          "definition": "数 七",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "thirty",
+          "phonetic": "ˈθɜːti",
+          "definition": "数 三十",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "english": "There are some books, a pen and a pencil on the desk.",
+      "chinese": "桌子上有一些书、一支钢笔和一支铅笔。",
+      "grammar_title": "there be结构 | 介词",
+      "grammar_notes": [
+        "1. 在there be结构中，当主语是两个或两个以上的名词时，be动词的数与最靠近它的主语保持一致。该句中，最靠近be动词的主语是somebooks，因此be动词用are。如果最靠近be动词的主语是a pen，则用is，即：There is a pen, some books and a pencil on the desk.",
+        "2. on the desk意为“在桌子上”。on意为“在…上”，表示两个物体的表面相互接触。"
+      ],
+      "core_words": [
+        {
+          "word": "book",
+          "phonetic": "bʊk",
+          "definition": "名 书",
+          "collocations": [
+            "Chinese book语文书 English book英语书"
+          ],
+          "memory": "音律：手拿book（书），一边look（看），一边cook（做饭）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pen",
+          "phonetic": "pen",
+          "definition": "名 钢笔",
+          "collocations": [
+            "pen friend笔友"
+          ],
+          "memory": "联想：跟pencil（铅笔）一起",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pencil",
+          "phonetic": "ˈpensl",
+          "definition": "名 铅笔",
+          "collocations": [
+            "pencil box/case文具盒"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "desk",
+          "phonetic": "desk",
+          "definition": "名 书桌",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "schoolbag",
+          "phonetic": "ˈskuːlbæɡ",
+          "definition": "名 书包",
+          "collocations": [],
+          "memory": "合成词：school（学校）+bag（包）→去学校背的包→书包",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bag",
+          "phonetic": "bæɡ",
+          "definition": "名 袋子；一袋（的量）",
+          "collocations": [
+            "a bag of chips一袋薯条"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "ruler",
+          "phonetic": "ˈruːlə(r)",
+          "definition": "名 尺子；直尺",
+          "collocations": [],
+          "memory": "联想：数学考试的rule（规定）中没有说不可以带ruler（尺子）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "eraser",
+          "phonetic": "ɪˈreɪzə(r)",
+          "definition": "名 橡皮",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "crayon",
+          "phonetic": "ˈkreɪən",
+          "definition": "名 蜡笔",
+          "collocations": [
+            "a box of crayons一盒蜡笔"
+          ],
+          "memory": "分音节：cray-on",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "glue",
+          "phonetic": "ɡluː",
+          "definition": "名 胶；胶水",
+          "collocations": [
+            "glue stick胶棒"
+          ],
+          "memory": "音律：It's blue（蓝色的），原来是glue（胶水），上面还有clue（线索）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "scissors",
+          "phonetic": "ˈsɪzəz",
+          "definition": "名 剪刀",
+          "collocations": [
+            "a pair of scissors一把剪刀"
+          ],
+          "memory": "分音节：scis-sors",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "notebook",
+          "phonetic": "ˈnəʊtbʊk",
+          "definition": "名 笔记本",
+          "collocations": [
+            "notebook computer笔记本电脑"
+          ],
+          "memory": "合成词：note（笔记）+book（本子）→记笔记用的本→笔记本",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "paper",
+          "phonetic": "ˈpeɪpə(r)",
+          "definition": "名 纸；报纸",
+          "collocations": [
+            "a piece of paper一张纸"
+          ],
+          "memory": "分音节：pa-per",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "english": "They have four lessons in the morning and two in the afternoon.",
+      "chinese": "他们上午上四节课，下午上两节课。",
+      "grammar_title": "省略 | 介词",
+      "grammar_notes": [
+        "1. two = two lessons，为使句子简洁，省略了two后面的lessons。",
+        "2. in表示一段时间，常与表示某年、某月、某个季节的词连用，也可以用于表示泛指的上午、下午、晚上，如in the morning（在上午）、in the afternoon（在下午）、in spring（在春天）。"
+      ],
+      "core_words": [
+        {
+          "word": "lesson",
+          "phonetic": "ˈlesn",
+          "definition": "名 课；功课；教训",
+          "collocations": [
+            "piano lessons钢琴课"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "blackboard",
+          "phonetic": "ˈblækbɔːd",
+          "definition": "名 黑板",
+          "collocations": [],
+          "memory": "合成词：black（黑色）+board（板）→黑板",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fan",
+          "phonetic": "fæn",
+          "definition": "名 风扇，扇子；…迷，狂热者",
+          "collocations": [
+            "movie fans影迷"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sit",
+          "phonetic": "sɪt",
+          "definition": "动 坐",
+          "collocations": [
+            "sit down坐下"
+          ],
+          "memory": "",
+          "usage": "过去式：sat 现在分词：sitting",
+          "comparison": ""
+        },
+        {
+          "word": "seat",
+          "phonetic": "siːt",
+          "definition": "名 座位",
+          "collocations": [
+            "take a seat请坐 seat belt安全带"
+          ],
+          "memory": "联想：不要sit（坐），这是老奶奶的seat（座位）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "stand",
+          "phonetic": "stænd",
+          "definition": "动 站立，立",
+          "collocations": [
+            "stand up起立 stand in line排队"
+          ],
+          "memory": "音律：我们stand（站着），hand in hand（手拉手）",
+          "usage": "过去式：stood",
+          "comparison": ""
+        },
+        {
+          "word": "correct",
+          "phonetic": "kəˈrekt",
+          "definition": "形 正确的；无误的 动 改正",
+          "collocations": [],
+          "memory": "联想：collect（收集）中间的ll弯下腰，就变成correct（正确的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "mistake",
+          "phonetic": "mɪˈsteɪk",
+          "definition": "名 错误",
+          "collocations": [
+            "make mistakes犯错误"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "problem",
+          "phonetic": "ˈprɒbləm",
+          "definition": "名 问题；难题",
+          "collocations": [
+            "no problem没问题"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "question",
+          "phonetic": "ˈkwestʃən",
+          "definition": "名 问题",
+          "collocations": [
+            "ask a question问问题"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "english": "Our class teacher asked the monitor why Bill didn't come to school.",
+      "chinese": "我们的班主任问班长为什么比尔没有来上学。",
+      "grammar_title": "宾语从句 | 动词",
+      "grammar_notes": [
+        "1. 这句话包含一个why引导的宾语从句，作动词asked的直接宾语，从句用陈述语序，即“疑问词+主语+谓语动词+其他”。此外，从句的时态与主句时态要保持一致。didn't = did not，did是do的过去式，asked是ask（问）的过去式。",
+        "2. ask sb. sth.表示“询问某人某事”，其中sth.是直接宾语，sb.是间接宾语。",
+        "3. come to school意为“来上学”。"
+      ],
+      "core_words": [
+        {
+          "word": "monitor",
+          "phonetic": "ˈmɒnɪtə(r)",
+          "definition": "名 班长",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "why",
+          "phonetic": "waɪ",
+          "definition": "副 为什么",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "school",
+          "phonetic": "skuːl",
+          "definition": "名 （中、小）学校；上学；上课（或上学）时间 go toschool去上学 at school在学校",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "primary",
+          "phonetic": "ˈpraɪməri",
+          "definition": "形 小学教育的",
+          "collocations": [
+            "primary school小学"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pupil",
+          "phonetic": "ˈpjuːpl",
+          "definition": "名 小学生",
+          "collocations": [],
+          "memory": "音律：一个pupil（小学生），买只turtle（乌龟），颜色purple（紫色的）",
+          "usage": "",
+          "comparison": "pupil多指小学生，student泛指学生。"
+        },
+        {
+          "word": "grade",
+          "phonetic": "ɡreɪd",
+          "definition": "名 年级；成绩，分数",
+          "collocations": [
+            "be in the first grade上一年级"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "classmate",
+          "phonetic": "ˈklɑːsmeɪt",
+          "definition": "名 同班同学",
+          "collocations": [],
+          "memory": "合成词：class（班级）+mate（伙伴）→一个班级的伙伴→同班同学",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "schoolmate",
+          "phonetic": "ˈskuːlmeɪt",
+          "definition": "名 同学；校友",
+          "collocations": [],
+          "memory": "合成词：school（学校）+mate（伙伴）→学校里的伙伴→同学；校友",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "name",
+          "phonetic": "neɪm",
+          "definition": "名 名字",
+          "collocations": [
+            "family name姓"
+          ],
+          "memory": "联想：name（名字）里有个me（我）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "born",
+          "phonetic": "bɔːn",
+          "definition": "形 天生的 动 出生",
+          "collocations": [
+            "be born to注定要…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "term",
+          "phonetic": "tɜːm",
+          "definition": "名 学期",
+          "collocations": [],
+          "memory": "联想：这个term（学期）我跟你一个team（队）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "attend",
+          "phonetic": "əˈtend",
+          "definition": "动 参加，出席",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "late",
+          "phonetic": "leɪt",
+          "definition": "形 迟到的；晚的；近深夜的；时间不早的",
+          "collocations": [
+            "be late for school上学迟到"
+          ],
+          "memory": "音律：hate（讨厌）late（迟到）",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "english": "Miss Green taught us English four years ago.",
+      "chinese": "格林小姐四年前教我们英语。",
+      "grammar_title": "一般过去时 | 副词",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般过去时。four years ago（四年前）表示过去的时间。当表示过去发生的动作时，要用一般过去时，taught是teach（教）的过去式。",
+        "2. teach sb. sth.表示“教某人某事”。",
+        "3. ago为副词，意为“以前”，相关的表达有two weeks ago（两周前）、two months ago（两月前）、two years ago（两年前）、longtime ago（很久以前）。"
+      ],
+      "core_words": [
+        {
+          "word": "Miss",
+          "phonetic": "mɪs",
+          "definition": "名 （用于未婚女子姓氏或姓名前，以示礼貌）小姐，女士",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "teach",
+          "phonetic": "tiːtʃ",
+          "definition": "动 教；讲授；教导",
+          "collocations": [],
+          "memory": "",
+          "usage": "第三人称单数：teaches 过去式：taught",
+          "comparison": ""
+        },
+        {
+          "word": "us",
+          "phonetic": "ʌs",
+          "definition": "代 我们",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "year",
+          "phonetic": "jɪə(r); jɜː(r)",
+          "definition": "名 年",
+          "collocations": [
+            "this year今年 last year去年"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "ago",
+          "phonetic": "əˈɡəʊ",
+          "definition": "副 以前",
+          "collocations": [
+            "an hour ago一小时前 a week ago一周前"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "Mr",
+          "phonetic": "ˈmɪstə(r)",
+          "definition": "缩略词 （用于男子的姓氏或姓名前）先生",
+          "collocations": [],
+          "memory": "",
+          "usage": "美式写法：Mr.",
+          "comparison": ""
+        },
+        {
+          "word": "Mrs",
+          "phonetic": "ˈmɪsɪz",
+          "definition": "缩略词 （用于女子的姓氏或姓名前）太太，夫人",
+          "collocations": [],
+          "memory": "",
+          "usage": "美式写法：Mrs.",
+          "comparison": ""
+        },
+        {
+          "word": "Ms",
+          "phonetic": "mɪz",
+          "definition": "缩略词 （用于女子的姓氏或姓名前，不指明婚否）女士",
+          "collocations": [],
+          "memory": "",
+          "usage": "美式写法：Ms.",
+          "comparison": ""
+        },
+        {
+          "word": "spell",
+          "phonetic": "spel",
+          "definition": "动 拼写，拼读",
+          "collocations": [
+            "spell a word拼单词"
+          ],
+          "memory": "音律：用鼻子smell（闻），用心spell（拼写）",
+          "usage": "过去式：spelled/spelt",
+          "comparison": ""
+        },
+        {
+          "word": "read",
+          "phonetic": "riːd",
+          "definition": "动 读；阅读",
+          "collocations": [
+            "read a book看书 read a magazine阅读杂志"
+          ],
+          "memory": "联想：word（话语）连接world（世界）",
+          "usage": "过去式：read [red]",
+          "comparison": ""
+        },
+        {
+          "word": "know",
+          "phonetic": "nəʊ",
+          "definition": "动 知道；了解",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：knew",
+          "comparison": ""
+        },
+        {
+          "word": "word",
+          "phonetic": "wɜːd",
+          "definition": "名 单词；字；话语",
+          "collocations": [],
+          "memory": "联想：word（话语）连接world（世界）",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "english": "Tom never forgets to turn off the lights when he leaves the\nclassroom.\n汤姆离开教室时从不忘记关灯。",
+      "chinese": "",
+      "grammar_title": "频率副词 | 动词",
+      "grammar_notes": [
+        "1. 本句包含一个when引导的时间状语从句，主句是Tom never\nforgets to turn off the lights。",
+        "2. never意为“从不”，为频率副词。频率副词位于实义动词之前，情态动词、be动词和助动词之后，如：He has never been abroad. 他从未出过国。",
+        "3. forget to do sth.表示“忘记做某事”。",
+        "4. turn off意为“关掉”；“关灯”可以表述为turn off the light，也可以表述为turn the light off。turn on意为“打开”。"
+      ],
+      "core_words": [
+        {
+          "word": "forget",
+          "phonetic": "fəˈɡet",
+          "definition": "动 忘记",
+          "collocations": [
+            "forget to do sth. 忘记去做某事"
+          ],
+          "memory": "",
+          "usage": "过去式：forgot",
+          "comparison": ""
+        },
+        {
+          "word": "off",
+          "phonetic": "ɒf",
+          "definition": "副 切断；停止 介 从（某处）落下；离开",
+          "collocations": [
+            "take off起飞；脱下… get off从…下来"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "light",
+          "phonetic": "laɪt",
+          "definition": "名 灯；光线 形 轻的；浅色的 动 点燃",
+          "collocations": [
+            "light candles点蜡烛"
+          ],
+          "memory": "联想：light（灯）很bright（明亮的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "leave",
+          "phonetic": "liːv",
+          "definition": "动 离开；留下；忘了带，丢下",
+          "collocations": [
+            "leave for出发前往…，离开去… leave ... behind忘了带…，丢下…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "classroom",
+          "phonetic": "ˈklɑːsruːm",
+          "definition": "名 教室",
+          "collocations": [],
+          "memory": "合成词：class（课）+room（房间）→上课的房间→教室",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "lock",
+          "phonetic": "lɒk",
+          "definition": "动 锁上 名 锁",
+          "collocations": [
+            "lock out把…锁在门外"
+          ],
+          "memory": "音律：大门lock（锁上），不要knock（敲）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "key",
+          "phonetic": "kiː",
+          "definition": "名 钥匙",
+          "collocations": [
+            "key ring 钥匙圈/环"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "shut",
+          "phonetic": "ʃʌt",
+          "definition": "形 关着的 动 关门",
+          "collocations": [],
+          "memory": "联想：大门shut（关着的），需要shout（呼喊）",
+          "usage": "过去式：shut 现在分词：shutting",
+          "comparison": ""
+        },
+        {
+          "word": "broken",
+          "phonetic": "ˈbrəʊkən",
+          "definition": "形 破损的",
+          "collocations": [],
+          "memory": "音律：six（六）和fix（修理），容易被mix（混合）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fix",
+          "phonetic": "fɪks",
+          "definition": "动 修理；使固定；安装",
+          "collocations": [],
+          "memory": "音律：six（六）和fix（修理），容易被mix（混合）",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "english": "I finished doing my homework and then I had a rest.",
+      "chinese": "我做完家庭作业，然后休息了一下。",
+      "grammar_title": "一般过去时 | 动词 | 连词",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般过去时，finished是finish（完成）的过去式，had是have（有）的过去式。",
+        "2. and then（然后）主要用于叙述连续的动作。表示一件事发生之后，有另一件事发生，两件事之间在时间上是先后关系。常用于故事叙述等场景。如：John went to the store and then he bought somecandies. 约翰去了商店，然后买了一些糖果。",
+        "3. finish doing sth.表示“完成某事”；do one's homework表示“做家庭作业”；have a rest意为“休息一下”。"
+      ],
+      "core_words": [
+        {
+          "word": "finish",
+          "phonetic": "ˈfɪnɪʃ",
+          "definition": "动 结束；完成",
+          "collocations": [
+            "finish school完成学业"
+          ],
+          "memory": "联想：可以看成fish中加了一个in",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "then",
+          "phonetic": "ðen",
+          "definition": "副 接下来，然后；那时",
+          "collocations": [
+            "from then on从那时起"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "rest",
+          "phonetic": "rest",
+          "definition": "动 / 名 休息",
+          "collocations": [
+            "have a rest休息一下"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "homework",
+          "phonetic": "ˈhəʊmwɜːk",
+          "definition": "名 家庭作业",
+          "collocations": [],
+          "memory": "合成词：home（家）+work（工作）→在家做的工作→家庭作业",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "project",
+          "phonetic": "ˈprɒdʒekt",
+          "definition": "名 （学校的）课题；项目",
+          "collocations": [
+            "science project科研项目"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "report",
+          "phonetic": "rɪˈpɔːt",
+          "definition": "动 / 名 报告",
+          "collocations": [
+            "write a report写报告"
+          ],
+          "memory": "分音节：re-port",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "research",
+          "phonetic": "rɪˈsɜːtʃ",
+          "definition": "动 调查；研究 [rɪˈsɜːtʃ; ˈriːsɜːtʃ] 名 调查；研究",
+          "collocations": [],
+          "memory": "词根：re（再次，重新）+search（搜索）→再搜索→调查",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "search",
+          "phonetic": "sɜːtʃ",
+          "definition": "动 / 名 查找；寻找；搜索",
+          "collocations": [
+            "search for查找…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "seek",
+          "phonetic": "siːk",
+          "definition": "动 寻找",
+          "collocations": [],
+          "memory": "分音节：see-k",
+          "usage": "过去式：sought",
+          "comparison": ""
+        },
+        {
+          "word": "example",
+          "phonetic": "ɪɡˈzɑːmpl",
+          "definition": "名 例子；榜样",
+          "collocations": [
+            "for example例如"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "check",
+          "phonetic": "tʃek",
+          "definition": "动 / 名 检查，核查",
+          "collocations": [
+            "check out检查…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "english": "Wish you every success in your exams.",
+      "chinese": "祝你考试成功。",
+      "grammar_title": "祈使句 | 限定词",
+      "grammar_notes": [
+        "1. 这句话是祈使句，表示祝愿。wish sb. sth.表示“祝愿某人某事”，如：Wish me luck. 祝我好运。",
+        "2. every通常意为“每个”，此处意为“所有可能的，完全可能的”，如：She had every reason to be angry. 她完全有理由感到愤怒。"
+      ],
+      "core_words": [
+        {
+          "word": "wish",
+          "phonetic": "wɪʃ",
+          "definition": "名 愿望；祝福；祝愿 动 希望；祝愿",
+          "collocations": [
+            "best wishes最好的祝愿"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "every",
+          "phonetic": "ˈevri",
+          "definition": "限定词 所有可能的，完全可能的；每个",
+          "collocations": [
+            "take a test参加测试"
+          ],
+          "memory": "音律：没有test（测试），真是best（最好的），可以rest（休息）",
+          "usage": "",
+          "comparison": "test“测验，测试，考查”指对学生所学知识的测验，是对正规考试的补充；exam“考试”指学校的笔试、口试或操作考试，尤指为取得学历必须参加的重要考试；quiz“小测验”指非正规的小测验，也指问答竞赛。"
+        },
+        {
+          "word": "mark",
+          "phonetic": "mɑːk",
+          "definition": "名 分数；标记 动 做标记",
+          "collocations": [],
+          "memory": "联想：禁止在park（公园）里面做mark（标记）",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "pass",
+          "phonetic": "pɑːs",
+          "definition": "动 传递；经过；通过",
+          "collocations": [
+            "pass by经过"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tick",
+          "phonetic": "tɪk",
+          "definition": "动 打对勾；发出嘀答声",
+          "collocations": [
+            "tick the pictures勾选图片"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "test",
+          "phonetic": "test",
+          "definition": "名 测验，测试，考查",
+          "collocations": [
+            "take a test参加测试"
+          ],
+          "memory": "音律：没有test（测试），真是best（最好的），可以rest",
+          "usage": "",
+          "comparison": "test“测验，测试，考查”指对学生所学知识的测验，是对正规考"
+        },
+        {
+          "word": "exam",
+          "phonetic": "ɪɡˈzæm",
+          "definition": "名 考试",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fail",
+          "phonetic": "feɪl",
+          "definition": "动 不及格；失败",
+          "collocations": [
+            "fail the exam考试不及格"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "success",
+          "phonetic": "səkˈses",
+          "definition": "名 成功；胜利",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "english": "Jane was sure that she had left her wallet in the classroom.",
+      "chinese": "简很确信自己把钱包落在教室里了。",
+      "grammar_title": "宾语从句 | 过去完成时",
+      "grammar_notes": [
+        "1. 这个句子包含一个that引导的宾语从句，作形容词sure的宾语，从句用陈述语序。",
+        "2. “落钱包”这个动作发生在过去的动作“确信”之前，即“过去的过去”，所以要用过去完成时had left。",
+        "3. 过去完成时的构成：had +动词过去分词。left是leave（忘了带，丢下）的过去分词。",
+        "4. be sure表示“确信的”，后面可以接从句，也可以接to do不定式，如：She's sure to win. 她肯定会赢。"
+      ],
+      "core_words": [
+        {
+          "word": "sure",
+          "phonetic": "ʃʊə(r); ʃɔː(r)",
+          "definition": "形 确信的，一定的，有把握的 副 确信；当然",
+          "collocations": [
+            "make sure确保"
+          ],
+          "memory": "",
+          "usage": "比较级：surer 最高级：surest",
+          "comparison": ""
+        },
+        {
+          "word": "her",
+          "phonetic": "hɜː(r)",
+          "definition": "代 她",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "wallet",
+          "phonetic": "ˈwɒlɪt",
+          "definition": "名 钱包，皮夹子",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "whose",
+          "phonetic": "huːz",
+          "definition": "限定词 / 代 （用于问句）谁的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "watch",
+          "phonetic": "wɒtʃ",
+          "definition": "名 手表 动 看；留意",
+          "collocations": [
+            "watch out小心 watch a film看电影 watch TV看电视"
+          ],
+          "memory": "联想：没有match（比赛）可watch（看）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "drop",
+          "phonetic": "drɒp",
+          "definition": "动 落下，掉下；使落下，使掉下；丢弃 名 滴",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "steal",
+          "phonetic": "stiːl",
+          "definition": "动 偷",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：stole",
+          "comparison": ""
+        },
+        {
+          "word": "robber",
+          "phonetic": "ˈrɒbə(r)",
+          "definition": "名 强盗",
+          "collocations": [],
+          "memory": "联想：一个robber（强盗），专抢rubber（橡胶）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "find",
+          "phonetic": "faɪnd",
+          "definition": "动 发现；找到",
+          "collocations": [
+            "find out发现"
+          ],
+          "memory": "音律：同学kind（好心的），帮忙find（找到）",
+          "usage": "过去式：found",
+          "comparison": ""
+        },
+        {
+          "word": "thief",
+          "phonetic": "θiːf",
+          "definition": "名 贼，小偷",
+          "collocations": [],
+          "memory": "",
+          "usage": "复数：thieves",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "english": "It's said that our school's paper comes out once a week.",
+      "chinese": "据说我们的校报每周出版一次。",
+      "grammar_title": "主语从句 | 频率副词",
+      "grammar_notes": [
+        "1. It's said that ...表示“据说…”，it作形式主语，真正的主语是that引导的主语从句。",
+        "2. once a week意为“每周一次”。类似的表达还有twice a month（每月两次）、there times a year（一年三次）。once意为“一次”，twice意为“两次”，three times意为“三次”。",
+        "3. paper意为“报纸”，相当于newspaper；come out意为“出版，发行”。"
+      ],
+      "core_words": [
+        {
+          "word": "once",
+          "phonetic": "wʌns",
+          "definition": "副 一次",
+          "collocations": [
+            "once a week每周一次 at once立刻"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "week",
+          "phonetic": "wiːk",
+          "definition": "名 周，星期；一周时间",
+          "collocations": [
+            "three times a week一周三次 twice a week一周两次"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "newspaper",
+          "phonetic": "ˈnjuːzpeɪpə(r)",
+          "definition": "名 报纸",
+          "collocations": [],
+          "memory": "合成词：news（新闻）+paper（纸）→报纸",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "news",
+          "phonetic": "njuːz",
+          "definition": "名 消息；新闻",
+          "collocations": [
+            "news show新闻节目"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "reporter",
+          "phonetic": "rɪˈpɔːtə(r)",
+          "definition": "名 记者",
+          "collocations": [
+            "TV reporter电视台记者"
+          ],
+          "memory": "词根：report（报道）+er（表示人）→进行报道的人→记者",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "magazine",
+          "phonetic": "ˌmæɡəˈziːn",
+          "definition": "名 杂志",
+          "collocations": [
+            "read a magazine阅读杂志"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "storybook",
+          "phonetic": "ˈstɔːribʊk",
+          "definition": "名 故事书",
+          "collocations": [],
+          "memory": "合成词：story（故事）+book（书）→故事书",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cover",
+          "phonetic": "ˈkʌvə(r)",
+          "definition": "动 覆盖 名 封面",
+          "collocations": [
+            "be covered with被…覆盖"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "english": "I think our school life is full of laughing.",
+      "chinese": "我认为我们的校园生活充满了欢声笑语。",
+      "grammar_title": "宾语从句 | 形容词",
+      "grammar_notes": [
+        "1. 这句话包含一个省略了that的宾语从句，作动词think的宾语。主句时态是一般现在时，从句也用一般现在时。",
+        "2. be full of表示“充满…（的）”，后面接名词或动名词，如：Theshelves were full of books. 书架上摆满了书。"
+      ],
+      "core_words": [
+        {
+          "word": "think",
+          "phonetic": "θɪŋk",
+          "definition": "动 想；思考；认为；以为",
+          "collocations": [
+            "think about考虑"
+          ],
+          "memory": "",
+          "usage": "过去式：thought",
+          "comparison": ""
+        },
+        {
+          "word": "full",
+          "phonetic": "fʊl",
+          "definition": "形 满的；饱的",
+          "collocations": [
+            "be full of充满…"
+          ],
+          "memory": "音律：一头bull（公牛），吃太full（饱的）",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "library",
+          "phonetic": "ˈlaɪbrəri",
+          "definition": "名 图书馆；图书室",
+          "collocations": [
+            "a public library公共图书馆"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "borrow",
+          "phonetic": "ˈbɒrəʊ",
+          "definition": "动 借",
+          "collocations": [
+            "borrow ... from向人借…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": "borrow指从别人那里借入东西，lend指从说话人那里借出。"
+        },
+        {
+          "word": "playground",
+          "phonetic": "ˈpleɪɡraʊnd",
+          "definition": "名 操场；游乐场",
+          "collocations": [],
+          "memory": "合成词：play（玩耍）+ground（地面）→可供玩耍的地面→操场",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "flag",
+          "phonetic": "flæɡ",
+          "definition": "名 旗；旗帜",
+          "collocations": [
+            "national flag国旗"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "playtime",
+          "phonetic": "ˈpleɪtaɪm",
+          "definition": "名 游戏时间，课间休息时间",
+          "collocations": [],
+          "memory": "合成词：play（游戏）+time（时间）→游戏时间",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "duty",
+          "phonetic": "ˈdjuːti",
+          "definition": "名 值日；责任",
+          "collocations": [
+            "on duty值班；值日"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "english": "We're going to leave our primary school soon and start middle\nschool this September.\n我们很快就要离开我们的小学，在今年九月开始上中学。",
+      "chinese": "",
+      "grammar_title": "一般将来时",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般将来时，“be going to +动词原形”表示“计划、打算做…”，soon（很快）和本句中的this September（今年九月）是表示将来的时间词。表示将来发生的动作时要用一般将来时。",
+        "2. primary school意为“小学”；middle school意为“中学”。",
+        "3. this的常用意思是“这个”，可和现在有关的一段时间连用，意为“今，本，这个，现在”，如this week（本周）、this month（本月）、this year（今年）。"
+      ],
+      "core_words": [
+        {
+          "word": "soon",
+          "phonetic": "suːn",
+          "definition": "副 不久；很快",
+          "collocations": [
+            "as soon as ... 一…就…"
+          ],
+          "memory": "联想：moon（月亮）soon（很快）就消失了",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "start",
+          "phonetic": "stɑːt",
+          "definition": "动 开始；发生；出发；发动 名 开始",
+          "collocations": [
+            "start with以…开始"
+          ],
+          "memory": "联想：有时候，一个良好的start（开始）是门art（艺术）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "middle",
+          "phonetic": "ˈmɪdl",
+          "definition": "形 中间的 名 中间",
+          "collocations": [
+            "middle school中学"
+          ],
+          "memory": "词根：mid（中间）+dle→中间的",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "September",
+          "phonetic": "sepˈtembə(r)",
+          "definition": "名 九月",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "month",
+          "phonetic": "mʌnθ",
+          "definition": "名 月",
+          "collocations": [
+            "lunar month阴历月份"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "January",
+          "phonetic": "ˈdʒænjuəri",
+          "definition": "名 一月",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "November",
+          "phonetic": "nəʊˈvembə(r)",
+          "definition": "名 十一月",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "August",
+          "phonetic": "ˈɔːɡəst",
+          "definition": "名 八月",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "March",
+          "phonetic": "mɑːtʃ",
+          "definition": "名 三月",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "July",
+          "phonetic": "dʒuˈlaɪ",
+          "definition": "名 七月",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "June",
+          "phonetic": "dʒuːn",
+          "definition": "名 六月",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "October",
+          "phonetic": "ɒkˈtəʊbə(r)",
+          "definition": "名 十月",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "December",
+          "phonetic": "dɪˈsembə(r)",
+          "definition": "名 十二月",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "April",
+          "phonetic": "ˈeɪprəl",
+          "definition": "名 四月",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "February",
+          "phonetic": "ˈfebruəri",
+          "definition": "名 二月",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "english": "I like football, reading, swimming and singing songs.",
+      "chinese": "我喜欢踢足球、看书、游泳和唱歌。",
+      "grammar_title": "一般现在时 | 名词",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般现在时，一般现在时表示经常性或习惯性的动作。",
+        "2. “我喜欢…”可以表达为“I like + n./ v-ing”，如：I like music. 我喜欢音乐。I like jogging. 我喜欢慢跑。",
+        "3. sing songs意为“唱歌”，songs是song（歌，歌曲）的复数形式，song是可数名词，在表达一首以上的歌曲时用复数形式。"
+      ],
+      "core_words": [
+        {
+          "word": "football",
+          "phonetic": "ˈfʊtbɔːl",
+          "definition": "名 足球",
+          "collocations": [
+            "football player足球运动员"
+          ],
+          "memory": "合成词：foot（脚）+ball（球）→用脚踢的球→足球",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "swim",
+          "phonetic": "swɪm",
+          "definition": "名 / 动 游泳",
+          "collocations": [],
+          "memory": "音律：经常swim（游泳），才能slim（苗条的）",
+          "usage": "过去式：swam 现在分词：swimming",
+          "comparison": ""
+        },
+        {
+          "word": "sing",
+          "phonetic": "sɪŋ",
+          "definition": "动 唱，演唱",
+          "collocations": [
+            "sing along跟着唱"
+          ],
+          "memory": "",
+          "usage": "过去式：sang",
+          "comparison": ""
+        },
+        {
+          "word": "song",
+          "phonetic": "sɒŋ",
+          "definition": "名 歌，歌曲",
+          "collocations": [
+            "sing songs唱歌"
+          ],
+          "memory": "发音：和sing（唱）一起记，sing是动词，song是名词",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "kick",
+          "phonetic": "kɪk",
+          "definition": "动 / 名 踢",
+          "collocations": [],
+          "memory": "音律：踢足球时，不要pick（捡），要kick（踢）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "goal",
+          "phonetic": "ɡəʊl",
+          "definition": "名 球门；得分；目标",
+          "collocations": [
+            "make a goal投中得分"
+          ],
+          "memory": "联想：一只goat（山羊）将进球作为它的goal（目标）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hobby",
+          "phonetic": "ˈhɒbi",
+          "definition": "名 业余爱好",
+          "collocations": [],
+          "memory": "联想：我的hobby（业余爱好）是照顾baby（婴儿）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "card",
+          "phonetic": "kɑːd",
+          "definition": "名 卡片；扑克牌",
+          "collocations": [
+            "ID card身份证"
+          ],
+          "memory": "联想：一张card（卡片）上画着一辆car（汽车）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "kung fu",
+          "phonetic": "ˌkʌŋ ˈfuː",
+          "definition": "名 功夫",
+          "collocations": [
+            "do kung fu练功夫"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "chess",
+          "phonetic": "tʃes",
+          "definition": "名 国际象棋",
+          "collocations": [
+            "play chess下国际象棋"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "collect",
+          "phonetic": "kəˈlekt",
+          "definition": "动 收集",
+          "collocations": [
+            "collect stamps集邮"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cartoon",
+          "phonetic": "kɑːˈtuːn",
+          "definition": "名 漫画；卡通片",
+          "collocations": [
+            "draw cartoons画漫画"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "english": "It's very hot in summer, so I like to go swimming.",
+      "chinese": "夏天很热，所以我喜欢去游泳。",
+      "grammar_title": "并列句 | 代词 | 动词",
+      "grammar_notes": [
+        "1. 本句是so连接的并列句，so引出的句子表示结果或影响。",
+        "2. 当谈论天气、时间、日期、距离等时，常用it作主语，如：It'squite warm at the moment. 现在天气相当暖和。It's ten past twelve.现在是十二点十分。",
+        "3. “我喜欢做某事”可以表达为“I like to do sth.”或“I like doing sth.”。",
+        "4. go swimming意为“去游泳”，类似的表达还有go fishing（去钓鱼）、go skiing（去滑雪）、go skating（去滑冰）、go climbing（去爬山）、go hiking（去远足）、go shopping（去购物）等。"
+      ],
+      "core_words": [
+        {
+          "word": "hot",
+          "phonetic": "hɒt",
+          "definition": "形 热的；辣的",
+          "collocations": [
+            "hot dog热狗"
+          ],
+          "memory": "",
+          "usage": "比较级：hotter 最高级：hottest",
+          "comparison": ""
+        },
+        {
+          "word": "summer",
+          "phonetic": "ˈsʌmə(r)",
+          "definition": "名 夏天",
+          "collocations": [
+            "summer holiday暑假"
+          ],
+          "memory": "",
+          "usage": "过去式：slipped 现在分词：slipping",
+          "comparison": ""
+        },
+        {
+          "word": "skate",
+          "phonetic": "skeɪt",
+          "definition": "动 溜冰，滑冰 名 冰鞋",
+          "collocations": [
+            "go skating去滑冰 a pair of skates 一双冰鞋"
+          ],
+          "memory": "",
+          "usage": "过去式：skated 现在分词：skating",
+          "comparison": ""
+        },
+        {
+          "word": "ice-skate",
+          "phonetic": "ˈaɪs skeɪt",
+          "definition": "动 滑冰",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "ski",
+          "phonetic": "skiː",
+          "definition": "动 滑雪 名 滑雪板",
+          "collocations": [],
+          "memory": "联想：跟sky（天空）一起",
+          "usage": "现在分词：skiing",
+          "comparison": ""
+        },
+        {
+          "word": "slide",
+          "phonetic": "slaɪd",
+          "definition": "名 滑梯 动 滑动",
+          "collocations": [],
+          "memory": "音律：学会slide（滑动），感到pride（骄傲）",
+          "usage": "过去式：slid 现在分词：sliding",
+          "comparison": ""
+        },
+        {
+          "word": "snowman",
+          "phonetic": "ˈsnəʊmæn",
+          "definition": "名 雪人",
+          "collocations": [],
+          "memory": "合成词：snow（雪）+man（人）→雪人",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "skateboarding",
+          "phonetic": "ˈskeɪtbɔːdɪŋ",
+          "definition": "名 滑板运动",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "pool",
+          "phonetic": "puːl",
+          "definition": "名 游泳池；池塘，水塘",
+          "collocations": [
+            "swimming pool游泳池"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "swimming",
+          "phonetic": "ˈswɪmɪŋ",
+          "definition": "名 游泳",
+          "collocations": [
+            "go swimming去游泳"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "row",
+          "phonetic": "rəʊ",
+          "definition": "动 划（船）",
+          "collocations": [
+            "row a boat划船"
+          ],
+          "memory": "",
+          "usage": "过去式：slipped 现在分词：slipping",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "english": "Listen! The girls are singing in the music room.",
+      "chinese": "听！女孩们正在音乐教室唱歌。",
+      "grammar_title": "现在进行时 | 动词",
+      "grammar_notes": [
+        "1. 这个句子的时态是现在进行时。以listen（听）、look（看）开头的句子，提示动作正在进行，要用现在进行时。如：Look! The bus iscoming. 看！公共汽车来了。",
+        "2. 现在进行时的构成是：“be + v-ing”。singing是sing（唱）的-ing形式。",
+        "3. music room意为“音乐教室”。"
+      ],
+      "core_words": [
+        {
+          "word": "listen",
+          "phonetic": "ˈlɪsn",
+          "definition": "动 听；注意听",
+          "collocations": [
+            "listen to music听音乐"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "dance",
+          "phonetic": "dɑːns",
+          "definition": "动 跳舞 名 舞蹈",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：danced 现在分词：dancing",
+          "comparison": ""
+        },
+        {
+          "word": "draw",
+          "phonetic": "drɔː",
+          "definition": "动 画；绘画",
+          "collocations": [
+            "draw pictures画画"
+          ],
+          "memory": "",
+          "usage": "过去式：drew",
+          "comparison": ""
+        },
+        {
+          "word": "paint",
+          "phonetic": "peɪnt",
+          "definition": "动 画，绘；在…上刷油漆 名 颜料；油漆",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "art",
+          "phonetic": "ɑːt",
+          "definition": "名 艺术，美术",
+          "collocations": [
+            "art museum美术馆 art room美术教室"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "artist",
+          "phonetic": "ˈɑːtɪst",
+          "definition": "名 艺术家",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "show",
+          "phonetic": "ʃəʊ",
+          "definition": "动 表明；展示；带，领；给…看 名 展览；演出；节目",
+          "collocations": [
+            "show ... around带领…参观"
+          ],
+          "memory": "发音：“手”→手伸出来给大家看看→展示",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "run",
+          "phonetic": "rʌn",
+          "definition": "动 / 名 跑；奔跑",
+          "collocations": [
+            "run a race赛跑 run away逃跑"
+          ],
+          "memory": "",
+          "usage": "过去式：ran 现在分词：running",
+          "comparison": ""
+        },
+        {
+          "word": "jump",
+          "phonetic": "dʒʌmp",
+          "definition": "动 / 名 跳；跳跃",
+          "collocations": [
+            "jump rope跳绳 the high jump跳高 the long jump跳远"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "throw",
+          "phonetic": "θrəʊ",
+          "definition": "动 投；扔；抛",
+          "collocations": [
+            "throw away扔掉… throw the beanbag扔沙包"
+          ],
+          "memory": "音律：这球throw（扔）得有点low（低）",
+          "usage": "过去式：threw",
+          "comparison": ""
+        },
+        {
+          "word": "knock",
+          "phonetic": "nɒk",
+          "definition": "动 / 名 敲；击；打",
+          "collocations": [
+            "knock at/on敲（门、窗等）"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "english": "She began to learn the piano at the age of five.",
+      "chinese": "她五岁开始学钢琴。",
+      "grammar_title": "一般过去时 | 基数词",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般过去时。at the age of five（五岁）是表示过去的时间词。当表示过去发生的动作时，要用一般过去时。began是begin（开始）的过去式。",
+        "2. begin to do sth.表示“开始做某事”；at the age of表示“…岁”。",
+        "3. 有关“年龄”的表达： ①用“at the age of +基数词”表示，如：I'm at the age of ten. 我10岁了。 ②直接用基数词表示，如：I'm ten. 我10岁了。 ③用“基数词+ years old”表示，如：I'm ten years old. 我10岁了。"
+      ],
+      "core_words": [
+        {
+          "word": "begin",
+          "phonetic": "bɪˈɡɪn",
+          "definition": "动 开始",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：began 现在分词：beginning",
+          "comparison": ""
+        },
+        {
+          "word": "piano",
+          "phonetic": "piˈænəʊ",
+          "definition": "名 钢琴",
+          "collocations": [
+            "have piano lessons上钢琴课 play the piano弹钢琴"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "age",
+          "phonetic": "eɪdʒ",
+          "definition": "名 年龄",
+          "collocations": [
+            "at the age of …岁"
+          ],
+          "memory": "联想：跟ago（以前）一起记",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "play",
+          "phonetic": "pleɪ",
+          "definition": "动 玩耍；参加（比赛或运动）；演奏，弹奏",
+          "collocations": [
+            "play a game玩游戏 play badminton打羽毛球 play hide-and-seek玩捉迷藏 play the guitar弹吉他"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "violin",
+          "phonetic": "ˌvaɪəˈlɪn",
+          "definition": "名 小提琴",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "drum",
+          "phonetic": "drʌm",
+          "definition": "名 鼓",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "guitar",
+          "phonetic": "ɡɪˈtɑː(r)",
+          "definition": "名 吉他",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "beat",
+          "phonetic": "biːt",
+          "definition": "动 打，击，敲 名 节奏；拍子",
+          "collocations": [
+            "beat the drum敲鼓"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "english": "Here is a story about air and water.",
+      "chinese": "这是一个关于空气和水的故事。",
+      "grammar_title": "倒装句",
+      "grammar_notes": [
+        "1. 这个句子是倒装句。here/there等副词位于句首时，句子要使用倒装语序，结构为“Here/There +谓语动词+主语”，如：There goes thebell. 铃响了。注意，主语是代词时，句子不用倒装，如：Here it is.在这里。",
+        "2. “一个关于…的故事”可以表达为“a story about ...”。air and water可以替换为其他名词，如a story about four little rabbits（关于4只小兔子的故事）。"
+      ],
+      "core_words": [
+        {
+          "word": "here",
+          "phonetic": "hɪə(r)",
+          "definition": "副 在这里",
+          "collocations": [
+            "here and there到处"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "story",
+          "phonetic": "ˈstɔːri",
+          "definition": "名 故事；小说",
+          "collocations": [
+            "tell a story讲故事 story book故事书"
+          ],
+          "memory": "",
+          "usage": "复数：stories",
+          "comparison": ""
+        },
+        {
+          "word": "about",
+          "phonetic": "əˈbaʊt",
+          "definition": "介 关于 副 大约",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": "about表示“关于”时，所指内容较为普通，用于随便谈论某事；on表示“关于”时，所指内容较为严肃，多用于系统论述或专题讲演、论著等。"
+        },
+        {
+          "word": "air",
+          "phonetic": "eə(r)",
+          "definition": "名 天空；空气；（飞行的）空中，天空",
+          "collocations": [
+            "by air乘飞机"
+          ],
+          "memory": "联想：hair（头发）在air（空）中飘扬",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "water",
+          "phonetic": "ˈwɔːtə(r)",
+          "definition": "名 水 动 给…浇水",
+          "collocations": [
+            "water the flowers浇花"
+          ],
+          "memory": "分音节：wa-ter",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "hero",
+          "phonetic": "ˈhɪərəʊ",
+          "definition": "名 英雄",
+          "collocations": [],
+          "memory": "联想：hero（英雄）就在here（这里）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "king",
+          "phonetic": "kɪŋ",
+          "definition": "名 国王",
+          "collocations": [],
+          "memory": "音律：一个king（国王），戴着ring（戒指）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "queen",
+          "phonetic": "kwiːn",
+          "definition": "名 女王",
+          "collocations": [],
+          "memory": "联想：即使是queen（女王）也要queue（排队）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "prince",
+          "phonetic": "prɪns",
+          "definition": "名 王子",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "role",
+          "phonetic": "rəʊl",
+          "definition": "名 角色",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hunt",
+          "phonetic": "hʌnt",
+          "definition": "动 / 名 打猎；搜寻；猎取",
+          "collocations": [],
+          "memory": "音律：跟着aunt（姑姑），出去hunt（打猎）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hit",
+          "phonetic": "hɪt",
+          "definition": "动 / 名 打；击",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：hit",
+          "comparison": ""
+        },
+        {
+          "word": "marry",
+          "phonetic": "ˈmæri",
+          "definition": "动 娶；嫁；结婚",
+          "collocations": [
+            "get married结婚"
+          ],
+          "memory": "",
+          "usage": "过去式：married",
+          "comparison": ""
+        },
+        {
+          "word": "hate",
+          "phonetic": "heɪt",
+          "definition": "动 / 名 讨厌；厌恶",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "love",
+          "phonetic": "lʌv",
+          "definition": "名 爱 动 热爱；喜欢",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "english": "We will have an English party next Sunday.",
+      "chinese": "下周日，我们将举办英语派对。",
+      "grammar_title": "一般将来时",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般将来时。next Sunday（下周日）是表示将来的时间词。当表示将要发生的动作时，要用一般将来时。",
+        "2. next意为“紧随其后的；下一个的”，常与表示时间（星期、季节、年份等）的词连用，如next Monday（下周一）、next week（下周）、next summer（明年夏天）、next year（明年）。",
+        "3. have a party意为“举办派对”。"
+      ],
+      "core_words": [
+        {
+          "word": "party",
+          "phonetic": "ˈpɑːti",
+          "definition": "名 晚会，聚会，派对",
+          "collocations": [
+            "birthday party生日聚会"
+          ],
+          "memory": "联想：party（聚会）是我们生活的part（一部分）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "Sunday",
+          "phonetic": "ˈsʌndeɪ; ˈsʌndi",
+          "definition": "名 星期日，星期天",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "celebrate",
+          "phonetic": "ˈselɪbreɪt",
+          "definition": "动 庆祝",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cheer",
+          "phonetic": "tʃɪə(r)",
+          "definition": "动 欢呼；振奋 名 欢呼，喝彩",
+          "collocations": [
+            "cheer for为…欢呼，为…鼓劲加油"
+          ],
+          "memory": "联想：喝着beer（啤酒），为中国cheer（欢呼）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "enjoy",
+          "phonetic": "ɪnˈdʒɔɪ",
+          "definition": "动 享受；喜爱",
+          "collocations": [
+            "enjoy the holiday欢度假期 enjoy yourself玩得痛快"
+          ],
+          "memory": "联想：en（音似：in，在…之中）+joy（快乐）→在快乐之中→享受",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "joy",
+          "phonetic": "dʒɔɪ",
+          "definition": "名 乐事；乐趣；喜悦",
+          "collocations": [],
+          "memory": "联想：enjoy（享受）人生中的joy（喜悦）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "excited",
+          "phonetic": "ɪkˈsaɪtɪd",
+          "definition": "形 兴奋的；激动的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": "ed结尾的形容词多表示某人“感到…”，形容人；ing结尾的形容词多表示某事物“令人…”，形容事或物。excited形容人“兴奋的”，\nexciting形容事或物“令人兴奋的”。"
+        },
+        {
+          "word": "glad",
+          "phonetic": "ɡlæd",
+          "definition": "形 高兴的；乐意的",
+          "collocations": [
+            "be glad to do sth.高兴/乐意做某事"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "interesting",
+          "phonetic": "ˈɪntrəstɪŋ; ˈɪntrestɪŋ",
+          "definition": "形 令人感兴趣的；有趣的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": "interesting形容事或物是“令人感兴趣的”，interested形容人“对…感兴趣的”。"
+        },
+        {
+          "word": "merry",
+          "phonetic": "ˈmeri",
+          "definition": "形 愉快的，快乐的",
+          "collocations": [],
+          "memory": "联想：要marry（结婚）了，心情很merry（愉快的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pleased",
+          "phonetic": "pliːzd",
+          "definition": "形 高兴的；满足的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "wonderful",
+          "phonetic": "ˈwʌndəfl",
+          "definition": "形 精彩的；令人惊奇的",
+          "collocations": [],
+          "memory": "词根：wonder（惊奇）+ful（…的）→令人惊奇的",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "english": "We gave Mum a surprising party on her fortieth birthday.",
+      "chinese": "在妈妈四十岁生日那天，我们为她举办了一个惊喜的派对。",
+      "grammar_title": "一般过去时 | 动词 | 序数词",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般过去时。on her fortieth birthday（在她四十岁生日那天）是表示过去的时间词。当表示过去发生的动作时，要用一般过去时，gave是give（给）的过去式。",
+        "2. give sb. sth. / give sth. to sb. 表示“给某人某物”，如give yourmother the letter = give the letter to your mother（把信给你母亲）。",
+        "3. fortieth是forty（四十）的序数词，意为“第四十”。序数词是表示顺序的词。",
+        "4. 整十数的序数词是把整十数基数词的词尾“y”改写成“i”，然后加-eth，如twentieth（第二十）、ninetieth（第九十）。"
+      ],
+      "core_words": [
+        {
+          "word": "give",
+          "phonetic": "ɡɪv",
+          "definition": "动 给；给予；赠送",
+          "collocations": [
+            "give up放弃 give out分发…"
+          ],
+          "memory": "联想：give（给予）gift（礼物）",
+          "usage": "过去式：gave",
+          "comparison": ""
+        },
+        {
+          "word": "surprising",
+          "phonetic": "səˈpraɪzɪŋ",
+          "definition": "形 令人吃惊的，出人意料的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fortieth",
+          "phonetic": "ˈfɔːtiəθ",
+          "definition": "序数词 / 限定词 第四十（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "birthday",
+          "phonetic": "ˈbɜːθdeɪ",
+          "definition": "名 生日",
+          "collocations": [
+            "birthday cake生日蛋糕 birthday party生日聚会"
+          ],
+          "memory": "合成词：birth（出生）+day（天）→出生的那天→生日",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "candle",
+          "phonetic": "ˈkændl",
+          "definition": "名 蜡烛",
+          "collocations": [],
+          "memory": "联想：举着candle（蜡烛）找candy（糖果）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "gift",
+          "phonetic": "ɡɪft",
+          "definition": "名 礼物；天赋",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "first",
+          "phonetic": "fɜːst",
+          "definition": "序数词 / 限定词 第一（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "second",
+          "phonetic": "ˈsekənd",
+          "definition": "序数词 / 限定词 第二（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "third",
+          "phonetic": "θɜːd",
+          "definition": "序数词 / 限定词 第三（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fourth",
+          "phonetic": "fɔːθ",
+          "definition": "序数词 / 限定词 第四（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fifth",
+          "phonetic": "fɪfθ",
+          "definition": "序数词 / 限定词 第五（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tenth",
+          "phonetic": "tenθ",
+          "definition": "序数词 / 限定词 第十（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "twelfth",
+          "phonetic": "twelfθ",
+          "definition": "序数词 / 限定词 第十二（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "twentieth",
+          "phonetic": "ˈtwentiəθ",
+          "definition": "序数词 / 限定词 第二十（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "twenty-first",
+          "phonetic": "ˌtwenti ˈfɜːst",
+          "definition": "序数词 / 限定词 第二十一（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "twenty-third",
+          "phonetic": "ˌtwenti ˈθɜːd",
+          "definition": "序数词 / 限定词 第二十三（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "twenty-fifth",
+          "phonetic": "ˌtwenti ˈfɪfθ",
+          "definition": "序数词 / 限定词 第二十五（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "thirtieth",
+          "phonetic": "ˈθɜːtiəθ",
+          "definition": "序数词 / 限定词 第三十（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "english": "This morning, Tina and I flew my new kite in the park, but it wasn'twindy in the park.",
+      "chinese": "今天早上，我和蒂娜在公园里放了我的新风筝，但公园里没有风。",
+      "grammar_title": "一般过去时 | 动词短语 | 形容词",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般过去时。this morning（今天早上）表示已经发生的时间，用一般过去时。flew是fly（放）的过去式，wasn't =was not。",
+        "2. fly a kite意为“放风筝”；in the park意为“在公园”。",
+        "3. windy意为“多风的；风大的”，用于描述天气情况。"
+      ],
+      "core_words": [
+        {
+          "word": "fly",
+          "phonetic": "flaɪ",
+          "definition": "动 飞；放（风筝、飞机模型等）",
+          "collocations": [],
+          "memory": "",
+          "usage": "第三人称单数：flies 过去式：flew",
+          "comparison": ""
+        },
+        {
+          "word": "kite",
+          "phonetic": "kaɪt",
+          "definition": "名 风筝",
+          "collocations": [
+            "fly a kite放风筝"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "windy",
+          "phonetic": "ˈwɪndi",
+          "definition": "形 多风的；风大的",
+          "collocations": [
+            "a windy day刮风的天气"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "park",
+          "phonetic": "pɑːk",
+          "definition": "名 公园",
+          "collocations": [
+            "amusement park游乐园 theme park主题公园"
+          ],
+          "memory": "联想：一只小狗在park（公园）里bark（吠叫）",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "Disneyland",
+          "phonetic": "ˈdɪznilænd",
+          "definition": "名 迪士尼乐园",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "stadium",
+          "phonetic": "ˈsteɪdiəm",
+          "definition": "名 体育场",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "zoo",
+          "phonetic": "zuː",
+          "definition": "名 动物园",
+          "collocations": [
+            "go to the zoo去动物园"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "square",
+          "phonetic": "skweə(r)",
+          "definition": "名 广场；正方形；正方形物 形 正方形的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "palace",
+          "phonetic": "ˈpæləs",
+          "definition": "名 宫殿；王宫",
+          "collocations": [
+            "the Summer Palace颐和园 the Palace Museum故宫博物院"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "temple",
+          "phonetic": "ˈtempl",
+          "definition": "名 寺庙",
+          "collocations": [
+            "the Shaolin Temple少林寺"
+          ],
+          "memory": "分音节：tem-ple",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tower",
+          "phonetic": "ˈtaʊə(r)",
+          "definition": "名 塔；（电视或无线电信号的）发射塔",
+          "collocations": [
+            "Yueyang Tower 岳阳楼"
+          ],
+          "memory": "分音节：tow-er",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "english": "It's very kind of you to help me get the ticket for the concert.",
+      "chinese": "你帮我买到了这个音乐会的票真是太好了。",
+      "grammar_title": "固定句型 | 动词",
+      "grammar_notes": [
+        "1. “It is +形容词+ of sb. to do sth.”是固定句型，表示“某人做某事是…的”。该句型的形容词一般用来描述人的品德、特征。常用于这个句型的形容词有kind（友好的）、nice（好心的）等。",
+        "2. 这个句型中It是形式主语，后面的不定式to do sth.是真正的主语。",
+        "3. help后面可以跟带to或不带to的不定式，即help to do sth.或helpdo sth.，意为“有助于做某事”。",
+        "4. “the ticket for ...”表示“（电影/节目/比赛）的票”。"
+      ],
+      "core_words": [
+        {
+          "word": "ticket",
+          "phonetic": "ˈtɪkɪt",
+          "definition": "名 票；入场券",
+          "collocations": [
+            "movie theater电影院 see a movie看场电影"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "stage",
+          "phonetic": "steɪdʒ",
+          "definition": "名 舞台",
+          "collocations": [
+            "on stage在舞台上"
+          ],
+          "memory": "联想：站在stage（舞台）上就忘记了自己的age（年龄）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "together",
+          "phonetic": "təˈɡeðə(r)",
+          "definition": "副 一起；共同",
+          "collocations": [
+            "get together聚会"
+          ],
+          "memory": "分音节：to-ge-ther",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "video",
+          "phonetic": "ˈvɪdiəʊ",
+          "definition": "名 录像带；录像机；录像 动 录制",
+          "collocations": [
+            "home video 家庭录像"
+          ],
+          "memory": "联想：拿着DV拍video（录像）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tape",
+          "phonetic": "teɪp",
+          "definition": "名 胶带；磁带",
+          "collocations": [
+            "tape recorder录音机"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "television",
+          "phonetic": "ˈtelɪvɪʒn",
+          "definition": "名 电视；电视机",
+          "collocations": [
+            "watch television看电视"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "programme",
+          "phonetic": "ˈprəʊɡræm",
+          "definition": "名 （电视、广播）节目",
+          "collocations": [],
+          "memory": "",
+          "usage": "美式写法：program",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "concert",
+          "phonetic": "ˈkɒnsət",
+          "definition": "名 音乐会",
+          "collocations": [
+            "hold a concert举办音乐会"
+          ],
+          "memory": "分音节：con-cert",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "movie",
+          "phonetic": "ˈmuːvi",
+          "definition": "名 电影",
+          "collocations": [
+            "movie theater电影院 see a movie看场电影"
+          ],
+          "memory": "分音节：mo-vie",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "english": "The students couldn't help laughing when they heard the joke.",
+      "chinese": "听到这个笑话，学生们忍不住笑了起来。",
+      "grammar_title": "时间状语从句 | 动词过去式",
+      "grammar_notes": [
+        "1. 本句包含一个when引导的时间状语从句。主句是The studentscouldn't help laughing。",
+        "2. can't/couldn't help doing sth.表示“忍不住做某事”。其中，couldn't= could not，could是can（能，会）的过去式，laughing是laugh（笑）的动名词。heard是hear（听见；听到）的过去式。",
+        "3. joke意为“笑话；玩笑”，tell jokes意为“讲笑话”。"
+      ],
+      "core_words": [
+        {
+          "word": "student",
+          "phonetic": "ˈstjuːdnt",
+          "definition": "名 学生",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "joke",
+          "phonetic": "dʒəʊk",
+          "definition": "动 开玩笑 名 玩笑；笑话",
+          "collocations": [
+            "tell a joke讲笑话"
+          ],
+          "memory": "音律：喝着Coke（可乐），讲着joke（笑话）",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "smile",
+          "phonetic": "smaɪl",
+          "definition": "动 / 名 微笑",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：smiled",
+          "comparison": ""
+        },
+        {
+          "word": "trick",
+          "phonetic": "trɪk",
+          "definition": "名 窍门；诡计；恶作剧；骗局 动 欺骗",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "riddle",
+          "phonetic": "ˈrɪdl",
+          "definition": "名 谜语",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "easy",
+          "phonetic": "ˈiːzi",
+          "definition": "形 容易的",
+          "collocations": [],
+          "memory": "",
+          "usage": "比较级：easier 最高级：easiest",
+          "comparison": ""
+        },
+        {
+          "word": "difficult",
+          "phonetic": "ˈdɪfɪkəlt",
+          "definition": "形 困难的",
+          "collocations": [
+            "be difficult to do sth. 做某事很难"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "laugh",
+          "phonetic": "lɑːf",
+          "definition": "动 笑 名 笑声",
+          "collocations": [
+            "laugh at嘲笑…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": "laugh指大笑，smile指微笑。"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "english": "We were tired so we stayed at home.",
+      "chinese": "我们累了，所以我们待在家里。",
+      "grammar_title": "一般过去时 | 结果状语从句",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般过去时，were是are的过去式，stayed是stay（停留；待）的过去式。",
+        "2. so意为“因此，所以”，引导结果状语从句。",
+        "3. stay at home意为“待在家里”。"
+      ],
+      "core_words": [
+        {
+          "word": "tired",
+          "phonetic": "ˈtaɪəd",
+          "definition": "形 疲倦的，疲劳的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "hungry",
+          "phonetic": "ˈhʌŋɡri",
+          "definition": "形 饿的，饥饿的",
+          "collocations": [],
+          "memory": "音律：我一hungry（饿的），就容易angry（生气的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "thirsty",
+          "phonetic": "ˈθɜːsti",
+          "definition": "形 渴的，口渴的",
+          "collocations": [],
+          "memory": "分音节：thirs-ty",
+          "usage": "比较级：thirstier 最高级：thirstiest",
+          "comparison": ""
+        },
+        {
+          "word": "delicious",
+          "phonetic": "dɪˈlɪʃəs",
+          "definition": "形 美味的，可口的",
+          "collocations": [
+            "delicious food可口的食物"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tasty",
+          "phonetic": "ˈteɪsti",
+          "definition": "形 美味的，可口的，好吃的",
+          "collocations": [],
+          "memory": "",
+          "usage": "比较级：tastier 最高级：tastiest",
+          "comparison": ""
+        },
+        {
+          "word": "sour",
+          "phonetic": "ˈsaʊə(r)",
+          "definition": "形 酸的",
+          "collocations": [],
+          "memory": "联想：这份soup（汤）太sour（酸的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "spicy",
+          "phonetic": "ˈspaɪsi",
+          "definition": "形 辣的",
+          "collocations": [],
+          "memory": "",
+          "usage": "比较级：spicier 最高级：spiciest",
+          "comparison": ""
+        },
+        {
+          "word": "sweet",
+          "phonetic": "swiːt",
+          "definition": "形 甜的；令人愉悦的；惬意的；可爱的 名 糖果；亲爱的，宝贝儿",
+          "collocations": [
+            "sweet potato红薯"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "yummy",
+          "phonetic": "ˈjʌmi",
+          "definition": "形 美味的，可口的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sleepy",
+          "phonetic": "ˈsliːpi",
+          "definition": "形 困的，瞌睡的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fill",
+          "phonetic": "fɪl",
+          "definition": "动 填；填满",
+          "collocations": [
+            "fill out填写（表格等）"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "english": "I was very curious about how he spent his money.",
+      "chinese": "我很好奇他是如何花钱的。",
+      "grammar_title": "宾语从句 | 形容词",
+      "grammar_notes": [
+        "1. 这个句子包含一个how引导的宾语从句，作介词about的宾语，从句要用陈述语序。",
+        "2. be curious about意为“对…感到好奇”。"
+      ],
+      "core_words": [
+        {
+          "word": "very",
+          "phonetic": "ˈveri",
+          "definition": "副 很，非常",
+          "collocations": [
+            "very good很好 very much很，非常"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "curious",
+          "phonetic": "ˈkjʊəriəs",
+          "definition": "形 好奇的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "how",
+          "phonetic": "haʊ",
+          "definition": "副 怎样；如何",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "spend",
+          "phonetic": "spend",
+          "definition": "动 花（钱或时间等）；度过",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：spent",
+          "comparison": ""
+        },
+        {
+          "word": "his",
+          "phonetic": "hɪz",
+          "definition": "限定词 / 代 他的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sale",
+          "phonetic": "seɪl",
+          "definition": "名 销售；拍卖；特价销售；大减价",
+          "collocations": [
+            "on sale出售；减价出售"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "free",
+          "phonetic": "friː",
+          "definition": "形 自由的；免费的；空闲的 动 使解放；释放；使自由",
+          "collocations": [
+            "for free免费"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pay",
+          "phonetic": "peɪ",
+          "definition": "动 付款；交款；给予（注意） 名 工资",
+          "collocations": [
+            "pay attention to注意… pay the bill付账"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "list",
+          "phonetic": "lɪst",
+          "definition": "名 列表；清单",
+          "collocations": [
+            "on the list在名单上"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "basket",
+          "phonetic": "ˈbɑːskɪt",
+          "definition": "名 篮子；一篮（的量）",
+          "collocations": [
+            "a basket of一篮子…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "box",
+          "phonetic": "bɒks",
+          "definition": "名 盒子；箱子；一盒，一箱（东西）",
+          "collocations": [],
+          "memory": "音律：一只fox（狐狸），坐进box（盒子）",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "price",
+          "phonetic": "praɪs",
+          "definition": "名 价格",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "money",
+          "phonetic": "ˈmʌni",
+          "definition": "名 钱",
+          "collocations": [
+            "make money赚钱"
+          ],
+          "memory": "分音节：mo-ney",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "english": "Tom was in a blue mood, because he lost the race.",
+      "chinese": "汤姆情绪低落，因为他输了比赛。",
+      "grammar_title": "一般过去时 | 原因状语从句",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般过去时，was是is的过去式，lost是lose（失去）的过去式。",
+        "2. because意为“因为”，引导原因状语从句。",
+        "3. in a blue mood表示“情绪低落”。blue有“忧郁的；悲伤的”的意思，相当于sad，如：He has been feeling blue all week. 他这一周都很忧伤。"
+      ],
+      "core_words": [
+        {
+          "word": "mood",
+          "phonetic": "muːd",
+          "definition": "名 情绪，心情",
+          "collocations": [
+            "in a blue mood情绪低落"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "because",
+          "phonetic": "bɪˈkɒːz",
+          "definition": "连 因为",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "lose",
+          "phonetic": "luːz",
+          "definition": "动 失去；丢失；输掉",
+          "collocations": [
+            "lost and found失物招领处"
+          ],
+          "memory": "联想：钱包lose（丢失），买不起rose（玫瑰）",
+          "usage": "过去式：lost",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "worried",
+          "phonetic": "ˈwʌrid",
+          "definition": "形 担心的，担忧的",
+          "collocations": [
+            "be worried about担心…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "worry",
+          "phonetic": "ˈwʌri",
+          "definition": "动 / 名 担心；发愁",
+          "collocations": [
+            "worry about担心…"
+          ],
+          "memory": "音律：让你worry（担心），我很sorry（抱歉）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "upset",
+          "phonetic": "ˌʌpˈset",
+          "definition": "形 心烦意乱的",
+          "collocations": [],
+          "memory": "联想：up（在上面）+set（摆，放）→桌子上摆放的东西乱七八糟，让人心烦意乱→心烦意乱的",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "angry",
+          "phonetic": "ˈæŋɡri",
+          "definition": "形 发怒的；生气的",
+          "collocations": [
+            "be angry with sb. 生某人的气"
+          ],
+          "memory": "音律：有个Henry（亨利），一hungry（饿的）就会angry（生气的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bored",
+          "phonetic": "bɔːd",
+          "definition": "形 感到厌烦的，觉得无聊的",
+          "collocations": [
+            "be bored with对…感到厌烦"
+          ],
+          "memory": "联想：看久了red（红色）感到很bored（无聊的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "boring",
+          "phonetic": "ˈbɔːrɪŋ",
+          "definition": "形 无聊的；令人厌烦的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": "以-ing结尾的形容词多表示“令人…”；以-ed结尾的形容词多表示“感到…”。"
+        },
+        {
+          "word": "sad",
+          "phonetic": "sæd",
+          "definition": "形 伤心的；难过的",
+          "collocations": [],
+          "memory": "联想：听见bad（坏的）消息，我很sad（难过的）",
+          "usage": "比较级：sadder 最高级：saddest",
+          "comparison": ""
+        },
+        {
+          "word": "afraid",
+          "phonetic": "əˈfreɪd",
+          "definition": "形 害怕的",
+          "collocations": [
+            "be afraid of害怕… be afraid to do害怕做…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "scared",
+          "phonetic": "skeəd",
+          "definition": "形 害怕的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cry",
+          "phonetic": "kraɪ",
+          "definition": "动 / 名 哭；喊",
+          "collocations": [
+            "cry out大声喊叫"
+          ],
+          "memory": "",
+          "usage": "过去式：cried",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "english": "We are going to invite my uncle, aunt and cousins for dinner.",
+      "chinese": "我们将邀请我的叔叔、婶婶和堂兄弟共进晚餐。",
+      "grammar_title": "一般将来时 | 连词",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般将来时，其构成是：“be going to +动词原形”，表示计划、打算的事情。",
+        "2. invite sb. for sth.表示“为了某事邀请某人”。",
+        "3. and可以连接两个或多个单词/短语，当连接三个以上并列成分时，需要在最后一个单词/短语的前面加and，即：my uncle, aunt andcousins（我的叔叔、婶婶和堂兄弟）。"
+      ],
+      "core_words": [
+        {
+          "word": "we",
+          "phonetic": "wiː",
+          "definition": "代 我们",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "invite",
+          "phonetic": "ɪnˈvaɪt",
+          "definition": "动 邀请",
+          "collocations": [
+            "invite sb. to邀请某人…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "uncle",
+          "phonetic": "ˈʌŋkl",
+          "definition": "名 舅父；叔父；伯父；姑父；姨父",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "aunt",
+          "phonetic": "ɑːnt",
+          "definition": "名 舅母；伯母；婶；姑；姨",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cousin",
+          "phonetic": "ˈkʌzn",
+          "definition": "名 堂兄弟姐妹；表兄弟姐妹",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "relative",
+          "phonetic": "ˈrelətɪv",
+          "definition": "名 亲戚，亲属",
+          "collocations": [
+            "visit relatives探访亲戚"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "niece",
+          "phonetic": "niːs",
+          "definition": "名 侄女；外甥女",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "nephew",
+          "phonetic": "ˈnefjuː",
+          "definition": "名 侄子；外甥",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "seafood",
+          "phonetic": "ˈsiːfuːd",
+          "definition": "名 海鲜",
+          "collocations": [
+            "eat seafood吃海鲜"
+          ],
+          "memory": "合成词：sea（海）+food（食物）→大海提供的食物→海鲜",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "beef",
+          "phonetic": "biːf",
+          "definition": "名 牛肉",
+          "collocations": [
+            "beef steak牛排"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "chicken",
+          "phonetic": "ˈtʃɪkɪn",
+          "definition": "名 鸡肉",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": "英国用tin表示罐头，美国则用can表示。"
+        },
+        {
+          "word": "tin",
+          "phonetic": "tɪn",
+          "definition": "名 罐头",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": "英国用tin表示罐头，美国则用can表示。"
+        },
+        {
+          "word": "sausage",
+          "phonetic": "ˈsɒsɪdʒ",
+          "definition": "名 香肠",
+          "collocations": [],
+          "memory": "分音节：sau-sage",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "english": "Thanks for your invitation to have dinner, but I can't come.",
+      "chinese": "谢谢你邀请我共进晚餐，可是我来不了。",
+      "grammar_title": "固定句型 |名词",
+      "grammar_notes": [
+        "1. “Thanks for your invitation to ..., but ...”表示委婉地拒绝对方的邀请。",
+        "2. thanks for sth. / thanks for doing sth.表示“因某事而感谢某人”，如： Thanks for the information. 谢谢您提供的信息。 Thanks for lending me the money. 多谢您借钱给我。",
+        "3. invitation意为“邀请；请柬”，后面接to do sth.或to sth.，如aninvitation to the party（参加派对的请柬）。",
+        "4. 有关“委婉拒绝”的其他表达有：I'd love to, but ... 我很想去，但是…；I'm afraid not ... 我恐怕不能…；I'm sorry ... 我很抱歉…。"
+      ],
+      "core_words": [
+        {
+          "word": "thanks",
+          "phonetic": "θæŋks",
+          "definition": "叹 / 名 感谢，谢意",
+          "collocations": [
+            "thanks a lot非常感谢"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "your",
+          "phonetic": "jɔː(r)",
+          "definition": "限定词 你的；您的；你们的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "invitation",
+          "phonetic": "ˌɪnvɪˈteɪʃn",
+          "definition": "名 邀请；请柬",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "can",
+          "phonetic": "kæn",
+          "definition": "情态 能，会",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：could 否定缩略式：can't/couldn't",
+          "comparison": ""
+        },
+        {
+          "word": "come",
+          "phonetic": "kʌm",
+          "definition": "动 来；来到",
+          "collocations": [
+            "come from来自… come in进来 come on快点"
+          ],
+          "memory": "",
+          "usage": "过去式：came",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "thank",
+          "phonetic": "θæŋk",
+          "definition": "动 谢谢，感谢",
+          "collocations": [
+            "thank you谢谢你"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "please",
+          "phonetic": "pliːz",
+          "definition": "叹 （礼貌用语）请",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "mind",
+          "phonetic": "maɪnd",
+          "definition": "动 介意",
+          "collocations": [
+            "never mind没关系"
+          ],
+          "memory": "音律：她很kind（和蔼的），不会mind（介意）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "agree",
+          "phonetic": "əˈɡriː",
+          "definition": "动 同意，赞同",
+          "collocations": [
+            "agree with同意…的观点/意见"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "OK",
+          "phonetic": "əʊˈkeɪ",
+          "definition": "叹 行，好，可以",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "mean",
+          "phonetic": "miːn",
+          "definition": "动 意思是；打算",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：meant",
+          "comparison": ""
+        },
+        {
+          "word": "goodbye",
+          "phonetic": "ˌɡʊdˈbaɪ",
+          "definition": "叹 / 名 再见",
+          "collocations": [],
+          "memory": "",
+          "usage": "口语形式：bye",
+          "comparison": ""
+        },
+        {
+          "word": "yes",
+          "phonetic": "jes",
+          "definition": "叹 是；是的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "english": "I'm sorry to hear that.",
+      "chinese": "听到这件事我很难过。",
+      "grammar_title": "形容词 | 指示代词",
+      "grammar_notes": [
+        "1. sorry意为“抱歉的；难过的”，“I'm sorry to ...”用于表示道歉以及同情。其中，I'm = I am，hear意为“听见，听到”。",
+        "2. 指示代词that可以用来代替先前说过的话。如：That's exactlywhat I think. 我正是那么想的。"
+      ],
+      "core_words": [
+        {
+          "word": "sorry",
+          "phonetic": "ˈsɒri",
+          "definition": "叹 对不起，很抱歉 形 抱歉的；难过的",
+          "collocations": [
+            "be sorry for ... 对…感到抱歉"
+          ],
+          "memory": "联想：听完这个story（故事），感到很sorry（难过的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hear",
+          "phonetic": "hɪə(r)",
+          "definition": "动 听见，听到",
+          "collocations": [],
+          "memory": "音律：一只pear（梨），没有ear（耳朵），can't hear（听不到）",
+          "usage": "过去式：heard",
+          "comparison": ""
+        },
+        {
+          "word": "that",
+          "phonetic": "ðæt",
+          "definition": "限定词 / 代 那，那个",
+          "collocations": [],
+          "memory": "",
+          "usage": "复数：those* 那些",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "explain",
+          "phonetic": "ɪkˈspleɪn",
+          "definition": "动 解释；说明",
+          "collocations": [
+            "explain to向…解释"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "matter",
+          "phonetic": "ˈmætə(r)",
+          "definition": "名 事情；问题 动 要紧",
+          "collocations": [
+            "no matter没关系，不要紧"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "excuse",
+          "phonetic": "ɪkˈskjuːz",
+          "definition": "动 原谅 [ɪkˈskjuːs] 名 借口",
+          "collocations": [
+            "excuse me劳驾，对不起；打扰一下"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pity",
+          "phonetic": "ˈpɪti",
+          "definition": "名 遗憾",
+          "collocations": [],
+          "memory": "联想：离开一座city（城市），终生pity（遗憾）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pardon",
+          "phonetic": "ˈpɑːdn",
+          "definition": "名 / 动 原谅 叹 请再说一遍",
+          "collocations": [
+            "pardon me请原谅；请再说一遍"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "wonder",
+          "phonetic": "ˈwʌndə(r)",
+          "definition": "动 对…感到惊讶；想知道 名 惊奇；奇迹",
+          "collocations": [],
+          "memory": "音律：床上lie（躺），打着tie（领带），吃着pie（派）",
+          "usage": "过去式：lie意为“躺”时，过去式是lay；意为“说谎”时，过去式是lied。",
+          "comparison": ""
+        },
+        {
+          "word": "bet",
+          "phonetic": "bet",
+          "definition": "动 / 名 打赌",
+          "collocations": [
+            "bet on在…上下赌注"
+          ],
+          "memory": "联想：bet（打赌）输了就送pet（宠物）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "guess",
+          "phonetic": "ɡes",
+          "definition": "动 / 名 猜；猜测",
+          "collocations": [
+            "make a guess猜猜看"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "lie",
+          "phonetic": "laɪ",
+          "definition": "名 谎言 动 说谎；躺",
+          "collocations": [],
+          "memory": "音律：床上lie（躺），打着tie（领带），吃着pie（派）",
+          "usage": "过去式：lie意为“躺”时，过去式是lay；意为“说谎”时，过去式是",
+          "comparison": ""
+        },
+        {
+          "word": "believe",
+          "phonetic": "bɪˈliːv",
+          "definition": "动 相信",
+          "collocations": [
+            "believe it or not信不信由你"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "english": "On each shelf, the books are lined up in order from smallest tolargest.",
+      "chinese": "在每个书架上，按从小到大的顺序排列摆放图书。",
+      "grammar_title": "被动语态 | 形容词最高级",
+      "grammar_notes": [
+        "1. 这个句子是被动语态。被动语态强调主语是动作的承受者。被动语态的构成：“be +动词过去分词”，lined是line（沿…排列成行）的过去分词。",
+        "2. line up意为“使排列成一行”；in order表示“有序地；整齐地”；from... to ...表示“从…到…”。",
+        "3. smallest是形容词small（小的）的最高级，largest是形容词large（大的）的最高级。"
+      ],
+      "core_words": [
+        {
+          "word": "shelf",
+          "phonetic": "ʃelf",
+          "definition": "名 架子",
+          "collocations": [
+            "library shelves图书馆的书架 supermarket shelves超市的货架"
+          ],
+          "memory": "",
+          "usage": "复数：shelves",
+          "comparison": ""
+        },
+        {
+          "word": "line",
+          "phonetic": "laɪn",
+          "definition": "名 行；排；列 动 沿…排列成行",
+          "collocations": [
+            "line up排队；列队；使排列成一行"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "order",
+          "phonetic": "ˈɔːdə(r)",
+          "definition": "动 点菜；命令 名 顺序",
+          "collocations": [
+            "put ... in order把…整理得井井有条 in order to为了…"
+          ],
+          "memory": "联想：or+d+er→or的右边是d、er，顺序井井有条→顺序",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "small",
+          "phonetic": "smɔːl",
+          "definition": "形 小的；少的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "large",
+          "phonetic": "lɑːdʒ",
+          "definition": "形 大的；大量的；巨大的",
+          "collocations": [],
+          "memory": "发音：“垃圾”→好大的垃圾场→大的",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "floor",
+          "phonetic": "flɔː(r)",
+          "definition": "名 楼层；地板",
+          "collocations": [
+            "the first floor一楼（在美国the first floor与中国相同，指的是地面上第一层，在英国则指地面上第二层）"
+          ],
+          "memory": "联想：floor（楼层）上都有door（门）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "gate",
+          "phonetic": "ɡeɪt",
+          "definition": "名 大门；门口",
+          "collocations": [
+            "at the school gate在校门口"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": "door指室内门，gate指大门。"
+        },
+        {
+          "word": "door",
+          "phonetic": "dɔː(r)",
+          "definition": "名 门",
+          "collocations": [
+            "open the door开门 close the door关门"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "room",
+          "phonetic": "ruːm",
+          "definition": "名 房间",
+          "collocations": [
+            "dining room餐厅"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "wall",
+          "phonetic": "wɔːl",
+          "definition": "名 墙",
+          "collocations": [
+            "the Great Wall长城"
+          ],
+          "memory": "音律：一个ball（球），砸向wall（墙）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "kitchen",
+          "phonetic": "ˈkɪtʃɪn",
+          "definition": "名 厨房",
+          "collocations": [
+            "in the kitchen在厨房里"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "toilet",
+          "phonetic": "ˈtɔɪlət",
+          "definition": "名 厕所；洗手间；坐便器",
+          "collocations": [
+            "toilet paper卫生纸"
+          ],
+          "memory": "分音节：toi-let",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "english": "When we arrived at Ted's house, his dog Guinness welcomed us.",
+      "chinese": "当我们到达特德家时，他的狗吉尼斯来欢迎我们。",
+      "grammar_title": "一般过去时 | 名词所有格",
+      "grammar_notes": [
+        "1. 句首的When引导一个时间状语从句，作整个句子的时间状语。",
+        "2. 这个句子的时态是一般过去时。当表示过去发生的动作时，要用一般过去时，arrived是arrive（到达）的过去式，welcomed是welcome（欢迎）的过去式。",
+        "3. Ted's（特德的）为名词所有格。如果名词代表的事物是有生命的，那么它的所有格形式就是在这个名词后面加's。"
+      ],
+      "core_words": [
+        {
+          "word": "arrive",
+          "phonetic": "əˈraɪv",
+          "definition": "动 到达",
+          "collocations": [
+            "arrive at +小地方（如车站、商场等）arrive in +大地方（如城市、国家等）"
+          ],
+          "memory": "音律：加快drive（开车）才能及时arrive（到达）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "house",
+          "phonetic": "haʊs",
+          "definition": "名 房屋；房子；住宅",
+          "collocations": [],
+          "memory": "音律：一只mouse（老鼠），穿着blouse（女衬衫），走进house（房子）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "welcome",
+          "phonetic": "ˈwelkəm",
+          "definition": "动 / 名 欢迎",
+          "collocations": [],
+          "memory": "音律：三只bug（小虫），紧紧hug（拥抱）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "kiss",
+          "phonetic": "kɪs",
+          "definition": "名 / 动 吻",
+          "collocations": [],
+          "memory": "音律：如果miss（想念），来个kiss（吻）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "wave",
+          "phonetic": "weɪv",
+          "definition": "动 挥手；挥 名 波浪",
+          "collocations": [
+            "wave goodbye挥手道别"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "introduce",
+          "phonetic": "ˌɪntrəˈdjuːs",
+          "definition": "动 介绍；引见",
+          "collocations": [
+            "introduce ... to ... 向…介绍…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "who",
+          "phonetic": "huː",
+          "definition": "代 谁",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "best",
+          "phonetic": "best",
+          "definition": "形 最好的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "hello",
+          "phonetic": "həˈləʊ",
+          "definition": "叹 / 名 你好",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hug",
+          "phonetic": "hʌɡ",
+          "definition": "动 / 名 拥抱",
+          "collocations": [],
+          "memory": "音律：三只bug（小虫），紧紧hug（拥抱）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "greet",
+          "phonetic": "ɡriːt",
+          "definition": "动 问候；打招呼",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hey",
+          "phonetic": "heɪ",
+          "definition": "叹 嘿，喂",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hi",
+          "phonetic": "haɪ",
+          "definition": "叹 你好",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "english": "Jack, a close friend of mine, will come and join us in the game.",
+      "chinese": "杰克，我的一个好朋友，会来和我们一起玩游戏。",
+      "grammar_title": "同位语|名词所有格 | 代词",
+      "grammar_notes": [
+        "1. a close friend of mine为同位语，是对Jack的补充说明，表明杰克是“我的一个好朋友”。",
+        "2. a close friend of mine为名词的双重所有格。双重所有格形式为“of+名词's /名词性物主代词”，用来表示整体中的一个部分，如a bookof Tom's（汤姆的一本书）、a novel of his（他的一本小说）。",
+        "3. mine是名词性物主代词，意为“我的”，相当于“形容词性物主代词+名词”，在本句中，mine = my friends。",
+        "4. us意为“我们”，是人称代词的宾格形式。人称代词的宾格在句子中作宾语或表语，在本句中，us作动词join（加入）的宾语。"
+      ],
+      "core_words": [
+        {
+          "word": "close",
+          "phonetic": "kləʊz",
+          "definition": "动 关闭 [kləʊs] 形 近的；亲密的",
+          "collocations": [
+            "close friend 密友，亲密的朋友"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "friend",
+          "phonetic": "frend",
+          "definition": "名 朋友",
+          "collocations": [
+            "make friends with sb. 和某人交朋友"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "mine",
+          "phonetic": "maɪn",
+          "definition": "代 我的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "join",
+          "phonetic": "dʒɔɪn",
+          "definition": "动 参加；加入",
+          "collocations": [
+            "join in加入（某个活动）"
+          ],
+          "memory": "音律：是否join（加入），抛枚coin（硬币）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "game",
+          "phonetic": "ɡeɪm",
+          "definition": "名 游戏；运动；比赛",
+          "collocations": [],
+          "memory": "联想：从小到大都做the same（一样的）game（游戏）",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "smart",
+          "phonetic": "smɑːt",
+          "definition": "形 聪明的；漂亮的；时髦的",
+          "collocations": [],
+          "memory": "联想：想变smart（聪明的），必须start（开始）学习art（艺术）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "clever",
+          "phonetic": "ˈklevə(r)",
+          "definition": "形 聪明的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "perfect",
+          "phonetic": "ˈpɜːfɪkt",
+          "definition": "形 完美的",
+          "collocations": [
+            "perfect life完美的生活"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "wise",
+          "phonetic": "waɪz",
+          "definition": "形 聪明的；明智的",
+          "collocations": [],
+          "memory": "音律：策略wise（明智的），业绩rise（提升）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "share",
+          "phonetic": "ʃeə(r)",
+          "definition": "动 分享",
+          "collocations": [],
+          "memory": "发音：“晒儿”→晒儿子照片和大家分享→分享",
+          "usage": "现在分词：sharing",
+          "comparison": ""
+        },
+        {
+          "word": "idea",
+          "phonetic": "aɪˈdɪə",
+          "definition": "名 主意；想法；意见",
+          "collocations": [],
+          "memory": "联想：噢，dear（亲爱的），这是个好idea（主意）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "secret",
+          "phonetic": "ˈsiːkrət",
+          "definition": "名 秘密 形 秘密的",
+          "collocations": [
+            "keep a secret保密"
+          ],
+          "memory": "分音节：se-cret",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "surprise",
+          "phonetic": "səˈpraɪz",
+          "definition": "名 意外的惊喜；意想不到的事；惊奇 动 使…惊奇",
+          "collocations": [
+            "to my surprise让我惊讶的是"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "english": "The one my dad carried is my older sister, Tina.",
+      "chinese": "我爸爸抱着的人是我的姐姐蒂娜。",
+      "grammar_title": "定语从句 | 形容词比较级",
+      "grammar_notes": [
+        "1. 这个句子包含一个省略了that的定语从句，that在从句中作宾语，可以省略。my dad carried修饰先行词The one。",
+        "2. the one意为“那个”，常用来指某一个特定的人或物。",
+        "3. my dad carried（我爸爸抱着）是过去发生的动作，要用一般过去时，carried是carry（抱）的过去式。",
+        "4. older是形容词old（年纪大的）的比较级，older sister意为“姐姐”。"
+      ],
+      "core_words": [
+        {
+          "word": "carry",
+          "phonetic": "ˈkæri",
+          "definition": "动 背，抱；携带",
+          "collocations": [
+            "carry ... with sb. 某人随身携带…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "picture",
+          "phonetic": "ˈpɪktʃə(r)",
+          "definition": "名 图画；照片",
+          "collocations": [
+            "paint pictures画画 picture book图画书 take a picture拍照"
+          ],
+          "memory": "",
+          "usage": "比较级：prettier 最高级：prettiest",
+          "comparison": ""
+        },
+        {
+          "word": "handsome",
+          "phonetic": "ˈhænsəm",
+          "definition": "形 英俊的",
+          "collocations": [],
+          "memory": "联想：hand（手）+some（一些）→一些英俊的人的手也很漂亮→英俊的",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cute",
+          "phonetic": "kjuːt",
+          "definition": "形 可爱的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "lovely",
+          "phonetic": "ˈlʌvli",
+          "definition": "形 可爱的；美丽的；令人愉快的",
+          "collocations": [],
+          "memory": "词根：love（喜爱）+ly（…的）→可爱的",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "ugly",
+          "phonetic": "ˈʌɡli",
+          "definition": "形 丑陋的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "pretty",
+          "phonetic": "ˈprɪti",
+          "definition": "形 漂亮的",
+          "collocations": [],
+          "memory": "",
+          "usage": "比较级：prettier 最高级：prettiest",
+          "comparison": ""
+        },
+        {
+          "word": "beautiful",
+          "phonetic": "ˈbjuːtɪfl",
+          "definition": "形 美丽的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "photo",
+          "phonetic": "ˈfəʊtəʊ",
+          "definition": "名 照片",
+          "collocations": [
+            "take a photo拍照"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "english": "I want to be a doctor like my mom and help more people.",
+      "chinese": "我想成为像我妈妈一样的医生，帮助更多的人。",
+      "grammar_title": "介词 | 形容词比较级",
+      "grammar_notes": [
+        "1. 表达自己的理想职业时，可以表达为“I want to be a/an +职业+like + 榜样”，意为“我想成为像…一样的…”。",
+        "2. like一般作动词，意为“喜欢”，但在本句中，like作介词，意为“像”，如：I want to be a writer like her. 我想成为像她一样的作家。",
+        "3. more是many（许多）的比较级，many用来修饰可数名词复数形式，people意为“人”时通常视为person的复数形式。此外，more也是much（许多）的比较级，much用来修饰不可数名词。"
+      ],
+      "core_words": [
+        {
+          "word": "doctor",
+          "phonetic": "ˈdɒktə(r)",
+          "definition": "名 医生",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "work",
+          "phonetic": "wɜːk",
+          "definition": "动 / 名 工作",
+          "collocations": [
+            "work out锻炼，做运动 at work在工作"
+          ],
+          "memory": "联想：把word（单词）当作一种work（工作）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "job",
+          "phonetic": "dʒɒb",
+          "definition": "名 工作；职业",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": "job和work都可以表示工作，job是可数名词，work是不可数名词。"
+        },
+        {
+          "word": "worker",
+          "phonetic": "ˈwɜːkə(r)",
+          "definition": "名 工人",
+          "collocations": [],
+          "memory": "联想：nurse（护士）带着purse（钱包）去上班",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "dentist",
+          "phonetic": "ˈdentɪst",
+          "definition": "名 牙医",
+          "collocations": [
+            "dentist's office牙医诊所"
+          ],
+          "memory": "词根：dent（牙齿）+ist（表示人）→治疗牙齿的人→牙医",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "police",
+          "phonetic": "pəˈliːs",
+          "definition": "名 警察",
+          "collocations": [
+            "police officer警察 police station警察局"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "officer",
+          "phonetic": "ˈɒfɪsə(r)",
+          "definition": "名 警察；军官",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pilot",
+          "phonetic": "ˈpaɪlət",
+          "definition": "名 飞行员",
+          "collocations": [],
+          "memory": "联想：pi（拼音“皮”）+lot（很多）→很多飞行员都穿皮衣→飞行员",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "coach",
+          "phonetic": "kəʊtʃ",
+          "definition": "名 教练；长途汽车",
+          "collocations": [],
+          "memory": "联想：有个coach（教练）喜欢couch（沙发）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "president",
+          "phonetic": "ˈprezɪdənt",
+          "definition": "名 总统；主席；院长",
+          "collocations": [],
+          "memory": "联想：president（主席）需要present（出席）很多典礼",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "secretary",
+          "phonetic": "ˈsekrətri",
+          "definition": "名 秘书",
+          "collocations": [],
+          "memory": "联想：secretary（秘书）的工作是保管secret（秘密的）文件",
+          "usage": "复数：secretaries",
+          "comparison": ""
+        },
+        {
+          "word": "actor",
+          "phonetic": "ˈæktə(r)",
+          "definition": "名 演员；男演员",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": "actor通常指男演员，有时也指女演员；actress指在话剧、电影或电视中演出的女演员。"
+        },
+        {
+          "word": "driver",
+          "phonetic": "ˈdraɪvə(r)",
+          "definition": "名 驾驶员",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "nurse",
+          "phonetic": "nɜːs",
+          "definition": "名 护士",
+          "collocations": [],
+          "memory": "联想：nurse（护士）带着purse（钱包）去上班",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "english": "It's very nice of you to write to me.",
+      "chinese": "你给我写信真是太好了。",
+      "grammar_title": "固定句型 | 形容词",
+      "grammar_notes": [
+        "1. “It is +形容词+ of sb. to do sth.”为固定句型，表示“某人做某事是…的”。该句型的形容词一般用来描述人的品德、特征。常用于这个句型的形容词有kind（友好的）、nice（好心的）等。",
+        "2. 在该句型中，It是形式主语，真正的主语是句尾的不定式to write tome。",
+        "3. write to sb. 表示“给某人写信”。"
+      ],
+      "core_words": [
+        {
+          "word": "nice",
+          "phonetic": "naɪs",
+          "definition": "形 令人愉快的；好心的",
+          "collocations": [],
+          "memory": "",
+          "usage": "比较级：nicer 最高级：nicest",
+          "comparison": ""
+        },
+        {
+          "word": "write",
+          "phonetic": "raɪt",
+          "definition": "动 写",
+          "collocations": [
+            "write a letter写信 write down写下…"
+          ],
+          "memory": "",
+          "usage": "过去式：wrote",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "pen pal",
+          "phonetic": "ˈpen pæl",
+          "definition": "名 笔友",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "letter",
+          "phonetic": "ˈletə(r)",
+          "definition": "名 信；字母",
+          "collocations": [],
+          "memory": "音律：写成letter（信），结果会better（更好的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "mail",
+          "phonetic": "meɪl",
+          "definition": "动 邮寄 名 邮件",
+          "collocations": [
+            "mail a postcard寄明信片 mail a present邮寄礼物"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "email",
+          "phonetic": "ˈiːmeɪl",
+          "definition": "名 电子邮件 动 发电子邮件",
+          "collocations": [],
+          "memory": "",
+          "usage": "其他写法：e-mail",
+          "comparison": ""
+        },
+        {
+          "word": "address",
+          "phonetic": "əˈdres",
+          "definition": "名 地址",
+          "collocations": [
+            "an address book通讯录"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "stamp",
+          "phonetic": "stæmp",
+          "definition": "名 邮票 动 跺脚；用力踩",
+          "collocations": [
+            "collect stamps 收集邮票"
+          ],
+          "memory": "音律：拿着stamp（邮票），一起camp（露营）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "post",
+          "phonetic": "pəʊst",
+          "definition": "动 邮递；邮寄 名 邮件；邮政；柱子",
+          "collocations": [
+            "post card明信片 post office邮局"
+          ],
+          "memory": "联想：host（主人）站在post（柱子）旁边摆一个pose（造型）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "postman",
+          "phonetic": "ˈpəʊstmən",
+          "definition": "名 邮递员",
+          "collocations": [],
+          "memory": "合成词：post（邮寄）+man（人）→从事邮寄工作的人→邮递员",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "postcard",
+          "phonetic": "ˈpəʊstkɑːd",
+          "definition": "名 明信片",
+          "collocations": [],
+          "memory": "合成词：post（邮寄）+card（卡片）→邮寄的卡片→明信片",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tip",
+          "phonetic": "tɪp",
+          "definition": "名 有用的小建议；小费",
+          "collocations": [],
+          "memory": "音律：trip（旅行）之中，给点tip（有用的小建议），要坐",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "receive",
+          "phonetic": "rɪˈsiːv",
+          "definition": "动 收到；接受",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：received",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "english": "The new teacher is short, with big eyes.",
+      "chinese": "新老师个子不高，眼睛很大。",
+      "grammar_title": "介词 | 形容词",
+      "grammar_notes": [
+        "1. with意为“有，具有，带有”，如a girl with (= who has) red hair（一个红发女孩）、a man with a suitcase（一个提手提箱的男子）。",
+        "2. 一个人的外貌可以从身高、体型、发型等多个方面进行描述。 ①描述高矮胖瘦，用“be +形容词”，如：My father is tall and thin. 我的爸爸又高又瘦。 ②描述面部特征、发型，用“have/has +形容词+名词”，如：He hasdark hair and blue eyes. 他有一头黑发和一双蓝眼睛。 ③描述身高、体型的形容词有tall（高的）、short（矮的）、thin（瘦的）、fat（胖的）等。 ④描述发型的形容词有short（短的）、long（长的）、straight（直的）、curly（卷曲的）等。"
+      ],
+      "core_words": [
+        {
+          "word": "new",
+          "phonetic": "njuː",
+          "definition": "形 新的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "teacher",
+          "phonetic": "ˈtiːtʃə(r)",
+          "definition": "名 老师；教师；教员",
+          "collocations": [
+            "Teachers' Day教师节"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "short",
+          "phonetic": "ʃɔːt",
+          "definition": "形 短的；矮的",
+          "collocations": [],
+          "memory": "音律：长得short（矮的），酷爱sport（体育）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "with",
+          "phonetic": "wɪð",
+          "definition": "介 和…一起；同；跟；用；借助；有，具有，带有",
+          "collocations": [
+            "play with拿…玩；和…一起玩 talk with friends与朋友聊天"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "big",
+          "phonetic": "bɪɡ",
+          "definition": "形 大的",
+          "collocations": [],
+          "memory": "音律：那只pig（猪），非常big（大的）",
+          "usage": "比较级：fatter 最高级：fattest",
+          "comparison": ""
+        },
+        {
+          "word": "slim",
+          "phonetic": "slɪm",
+          "definition": "形 苗条的",
+          "collocations": [],
+          "memory": "音律：经常swim（游泳），才能slim（苗条的）",
+          "usage": "比较级：slimmer 最高级：slimmest",
+          "comparison": ""
+        },
+        {
+          "word": "thin",
+          "phonetic": "θɪn",
+          "definition": "形 瘦的；薄的",
+          "collocations": [],
+          "memory": "",
+          "usage": "比较级：thinner 最高级：thinnest",
+          "comparison": ""
+        },
+        {
+          "word": "nose",
+          "phonetic": "nəʊz",
+          "definition": "名 鼻子",
+          "collocations": [],
+          "memory": "联想：天好冷，冻得要lose（失去）nose（鼻子）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "ear",
+          "phonetic": "ɪə(r)",
+          "definition": "名 耳朵",
+          "collocations": [],
+          "memory": "联想：用ear（耳朵）来hear（听）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "mouth",
+          "phonetic": "maʊθ",
+          "definition": "名 嘴",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "fat",
+          "phonetic": "fæt",
+          "definition": "形 胖的；肥胖的 名 脂肪",
+          "collocations": [
+            "get fat变胖"
+          ],
+          "memory": "",
+          "usage": "比较级：fatter 最高级：fattest",
+          "comparison": ""
+        },
+        {
+          "word": "eye",
+          "phonetic": "aɪ",
+          "definition": "名 眼睛",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "face",
+          "phonetic": "feɪs",
+          "definition": "名 脸",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "english": "We all like him because he says little but does much.",
+      "chinese": "我们都喜欢他，因为他说得少，但做得多。",
+      "grammar_title": "原因状语从句 | 副词",
+      "grammar_notes": [
+        "1. 这个句子包含一个because引导的原因状语从句。要注意，because不能和so一起使用。",
+        "2. say little but do much是固定短语，意为“少说多做”。在这个短语中，little和much是副词，分别修饰动词say和do。",
+        "3. 此外，little和much还可以作形容词，修饰不可数名词。little意为“几乎没有”，much意为“许多”，如little water（几乎没有水）、muchmoney（许多钱）。"
+      ],
+      "core_words": [
+        {
+          "word": "all",
+          "phonetic": "ɔːl",
+          "definition": "限定词 全部的 代 全部",
+          "collocations": [
+            "all day整天 all the time 一直"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "him",
+          "phonetic": "hɪm",
+          "definition": "代 他",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "shy",
+          "phonetic": "ʃaɪ",
+          "definition": "形 害羞的；腼腆的；内向的",
+          "collocations": [],
+          "memory": "联想：彩霞shy（害羞的），遮住sky（天空）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "quiet",
+          "phonetic": "ˈkwaɪət",
+          "definition": "形 安静的",
+          "collocations": [],
+          "memory": "联想：教室需要保持quite（非常）quiet（安静的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "lazy",
+          "phonetic": "ˈleɪzi",
+          "definition": "形 懒惰的；懒散的",
+          "collocations": [],
+          "memory": "音律：学生们一会儿lazy（懒惰的），一会儿crazy（疯狂的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "silly",
+          "phonetic": "ˈsɪli",
+          "definition": "形 愚蠢的；没头脑的",
+          "collocations": [],
+          "memory": "联想：Billy（比利）做事很silly（愚蠢的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "naughty",
+          "phonetic": "ˈnɔːti",
+          "definition": "形 顽皮的",
+          "collocations": [],
+          "memory": "发音：“挠踢”→小学生打闹，又挠又踢，很顽皮→顽皮的",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "active",
+          "phonetic": "ˈæktɪv",
+          "definition": "形 积极的；活跃的",
+          "collocations": [],
+          "memory": "联想：an active（活跃的）actor（男演员）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "strange",
+          "phonetic": "streɪndʒ",
+          "definition": "形 奇怪的；陌生的；古怪的",
+          "collocations": [],
+          "memory": "联想：这个orange（橙子）长得很strange（奇怪的）",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "english": "Joey's hair is a little shorter than Daisy's.",
+      "chinese": "乔伊的头发比黛西的短一点。",
+      "grammar_title": "形容词比较级 | 副词 | 名词所有格",
+      "grammar_notes": [
+        "1. 这个句子包含形容词的比较级。形容词比较级表示两者之间的比较，结构为“形容词比较级+ than”，意为“比…更…”。如：Tom istaller than Jim. 汤姆的个子比吉姆高。",
+        "2. 形容词的比较级一般是“词尾+ er”，shorter是short（短的）的比较级。",
+        "3. 副词修饰形容词时，通常放在形容词的前面。该句中，副词短语alittle（稍许，略微）修饰形容词shorter（较短的）。",
+        "4. Daisy's = Daisy's hair，这句话相当于在Daisy's后面省略了hair（头发）。该句中，比较的是Joey's hair和Daisy's hair，为避免啰嗦，所以进行了省略。"
+      ],
+      "core_words": [
+        {
+          "word": "hair",
+          "phonetic": "heə(r)",
+          "definition": "名 头发",
+          "collocations": [
+            "dark hair 黑发"
+          ],
+          "memory": "联想：hair（头发）在air（空）中飘扬",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "little",
+          "phonetic": "ˈlɪtl",
+          "definition": "副 稍许，略微 形 小的；幼小的",
+          "collocations": [
+            "Little Red Riding Hood《小红帽》"
+          ],
+          "memory": "",
+          "usage": "比较级：less 最高级：least",
+          "comparison": ""
+        },
+        {
+          "word": "than",
+          "phonetic": "ðæn",
+          "definition": "介 / 连 比",
+          "collocations": [
+            "more than超过"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "curly",
+          "phonetic": "ˈkɜːli",
+          "definition": "形 卷曲的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "straight",
+          "phonetic": "streɪt",
+          "definition": "副 笔直地；成直线地 形 直的，笔直的",
+          "collocations": [
+            "go straight直行 straight ahead 一直向前"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "body",
+          "phonetic": "ˈbɒdi",
+          "definition": "名 身体",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "head",
+          "phonetic": "hed",
+          "definition": "名 头；头部",
+          "collocations": [
+            "shake one's head摇头"
+          ],
+          "memory": "联想：heat（高温）导致head（头）疼",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "back",
+          "phonetic": "bæk",
+          "definition": "名 后背；后面 副 向后；回原处",
+          "collocations": [
+            "stand back to back背靠背站着"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "arm",
+          "phonetic": "ɑːm",
+          "definition": "名 手臂",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hand",
+          "phonetic": "hænd",
+          "definition": "名 手 动 交；递",
+          "collocations": [
+            "hand in上交"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "leg",
+          "phonetic": "leɡ",
+          "definition": "名 腿",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "foot",
+          "phonetic": "fʊt",
+          "definition": "名 脚",
+          "collocations": [],
+          "memory": "发音：“头”→脚趾头→脚趾",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "finger",
+          "phonetic": "ˈfɪŋɡə(r)",
+          "definition": "名 手指",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "toe",
+          "phonetic": "təʊ",
+          "definition": "名 脚趾；足尖",
+          "collocations": [],
+          "memory": "发音：“头”→脚趾头→脚趾",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "english": "The man was poor but he was honest.",
+      "chinese": "这个男人很穷，但是他很诚实。",
+      "grammar_title": "连词 | 人称代词",
+      "grammar_notes": [
+        "1. 这个句子是but连接的并列句，but意为“但是”，表示转折。",
+        "2. 该句中，为了避免重复，用人称代词来代替前面提到过的the man（这个男人）。由于在句中作主语，所以用人称代词的主格形式he（他）。",
+        "3. 描述人物性格品质的形容词有honest（诚实的）、funny（有趣的）、humorous（幽默的）、kind（友好的）、nice（好心的）、strict（严格的）等。"
+      ],
+      "core_words": [
+        {
+          "word": "poor",
+          "phonetic": "pʊə(r); pɔː(r)",
+          "definition": "形 贫穷的；可怜的",
+          "collocations": [],
+          "memory": "",
+          "usage": "反义词：rich富有的",
+          "comparison": ""
+        },
+        {
+          "word": "honest",
+          "phonetic": "ˈɒnɪst",
+          "definition": "形 正直的；诚实的",
+          "collocations": [
+            "be honest with sb. 对某人诚实"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "funny",
+          "phonetic": "ˈfʌni",
+          "definition": "形 有趣的；滑稽的，可笑的",
+          "collocations": [],
+          "memory": "",
+          "usage": "比较级：funnier 最高级：funniest",
+          "comparison": ""
+        },
+        {
+          "word": "brave",
+          "phonetic": "breɪv",
+          "definition": "形 勇敢的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "kind",
+          "phonetic": "kaɪnd",
+          "definition": "形 亲切的；友好的 名 种类",
+          "collocations": [
+            "a kind of一种/类…"
+          ],
+          "memory": "联想：king（国王）待人很kind（亲切的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "friendly",
+          "phonetic": "ˈfrendli",
+          "definition": "形 友好的",
+          "collocations": [
+            "be friendly to sb. 对某人友好"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "polite",
+          "phonetic": "pəˈlaɪt",
+          "definition": "形 有礼貌的；客气的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "helpful",
+          "phonetic": "ˈhelpfl",
+          "definition": "形 有帮助的；有用的；乐于助人的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "careful",
+          "phonetic": "ˈkeəfl",
+          "definition": "形 小心的",
+          "collocations": [
+            "be careful当心"
+          ],
+          "memory": "词根：care（照顾）+ful（…的）→照顾得当的→小心的",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "serious",
+          "phonetic": "ˈsɪəriəs",
+          "definition": "形 严重的；严肃的；认真的",
+          "collocations": [
+            "serious illness重病"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "strict",
+          "phonetic": "strɪkt",
+          "definition": "形 要求严格的；严厉的",
+          "collocations": [
+            "be strict with sb. 对某人严格"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "able",
+          "phonetic": "ˈeɪbl",
+          "definition": "形 能；聪明能干的",
+          "collocations": [],
+          "memory": "联想：足够able（聪明能干的），才能在table（桌子）上拥有一席之地",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hard-working",
+          "phonetic": "ˌhɑːd ˈwɜːkɪŋ",
+          "definition": "形 努力工作的",
+          "collocations": [],
+          "memory": "",
+          "usage": "其他写法：hardworking",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "english": "Many people don't like shopping on the Internet because they can'tsee the things or try the clothes on.",
+      "chinese": "许多人不喜欢网上购物，因为他们不能看到商品或试穿衣服。",
+      "grammar_title": "原因状语从句 | 动词",
+      "grammar_notes": [
+        "1. 本句包含一个because引导的原因状语从句，作句子的原因状语。",
+        "2. don't = do not，“do(does, did) not + 动词原形”构成实义动词的否定式，如：She doesn't like playing piano. 她不喜欢弹钢琴。",
+        "3. on the Internet意为“在网上”。",
+        "4. can't = can not，是情态动词can（能）的否定形式，意为“不能”，其后用动词原形。",
+        "5. try on意为“试穿”。try on the dress和try the dress on都可以表示“试穿那条裙子”。"
+      ],
+      "core_words": [
+        {
+          "word": "many",
+          "phonetic": "ˈmeni",
+          "definition": "形 多的，许多的",
+          "collocations": [
+            "how many有多少"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "shopping",
+          "phonetic": "ˈʃɒpɪŋ",
+          "definition": "名 购物 形 购物的",
+          "collocations": [
+            "do the shopping购物 a shopping basket购物篮"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "see",
+          "phonetic": "siː",
+          "definition": "动 看见；看到；明白；会见",
+          "collocations": [
+            "see a doctor看病 see a film/movie看电影"
+          ],
+          "memory": "音律：come and see（过来看），一只bee（蜜蜂），赶紧flee（逃跑）",
+          "usage": "过去式：saw",
+          "comparison": ""
+        },
+        {
+          "word": "thing",
+          "phonetic": "θɪŋ",
+          "definition": "名 东西；事物；物品",
+          "collocations": [],
+          "memory": "联想：好多thing（事情）需要think（想）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "try",
+          "phonetic": "traɪ",
+          "definition": "名 / 动 尝试；试图",
+          "collocations": [
+            "try on试穿 have a try试一试 let me try让我试试"
+          ],
+          "memory": "",
+          "usage": "第三人称单数：tries 过去式：tried",
+          "comparison": ""
+        },
+        {
+          "word": "clothes",
+          "phonetic": "kləʊðz",
+          "definition": "名 衣服",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "coat",
+          "phonetic": "kəʊt",
+          "definition": "名 外套",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "jacket",
+          "phonetic": "ˈdʒækɪt",
+          "definition": "名 夹克",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sweater",
+          "phonetic": "ˈswetə(r)",
+          "definition": "名 毛衣",
+          "collocations": [],
+          "memory": "联想：weather（天气）冷了要穿sweater（毛衣）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "wear",
+          "phonetic": "weə(r)",
+          "definition": "动 穿（衣服、鞋）；戴",
+          "collocations": [
+            "wear a shirt穿衬衫 wear glasses戴眼镜"
+          ],
+          "memory": "联想：给ear（耳朵）戴上w型的耳罩→穿，戴",
+          "usage": "过去式：wore",
+          "comparison": ""
+        },
+        {
+          "word": "size",
+          "phonetic": "saɪz",
+          "definition": "名 尺寸，尺码，大小",
+          "collocations": [
+            "large size大号 small size小号"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fit",
+          "phonetic": "fɪt",
+          "definition": "动 合适；合身 形 适合的；健壮的",
+          "collocations": [
+            "keep fit保持健康"
+          ],
+          "memory": "",
+          "usage": "过去式：fitted",
+          "comparison": ""
+        },
+        {
+          "word": "something",
+          "phonetic": "ˈsʌmθɪŋ",
+          "definition": "代 某物；某事",
+          "collocations": [],
+          "memory": "合成词：some（某个）+thing（事情）→某事",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "nothing",
+          "phonetic": "ˈnʌθɪŋ",
+          "definition": "代 没有东西；没有事情",
+          "collocations": [
+            "nothing serious没什么大问题，不严重"
+          ],
+          "memory": "合成词：no（没有）+thing（事情）→没有事情",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "anything",
+          "phonetic": "ˈeniθɪŋ",
+          "definition": "代 任何东西；任何事物",
+          "collocations": [],
+          "memory": "合成词：any（任何的）+thing（事情）→任何事情",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "english": "Ben has two pairs of sports shoes but they're old.",
+      "chinese": "本有两双运动鞋，但是它们都旧了。",
+      "grammar_title": "并列句 | 名词 | 形容词",
+      "grammar_notes": [
+        "1. 这个句子是but连接的并列句，but意为“但是”，表示转折。",
+        "2. 不可数名词没有复数形式，不能用不定冠词和数词修饰，但可以借助量词来表达。其结构形式是“a + 量词 + of + 名词”，复数形式是“数词+ 复数量词+ of +名词”。",
+        "3. two pairs of意为“两双”。a pair of意为“一双；一对；一副”，如apair of glasses（一副眼镜）、a pair of shoes（一双鞋）、a pair ofearrings（一对耳环）。",
+        "4. sports shoes意为“运动鞋”。",
+        "5. old的常用意思是“年纪大的”，但在本句中意为“旧的”。"
+      ],
+      "core_words": [
+        {
+          "word": "old",
+          "phonetic": "əʊld",
+          "definition": "形 年纪大的；古老的；…岁的",
+          "collocations": [
+            "... years old …岁"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "pants",
+          "phonetic": "pænts",
+          "definition": "名 裤子",
+          "collocations": [],
+          "memory": "联想：裤子上爬（拼音：pa）了一些蚂蚁（ants）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "trousers",
+          "phonetic": "ˈtraʊzəz",
+          "definition": "名 裤子",
+          "collocations": [
+            "a pair of trousers一条裤子"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "jeans",
+          "phonetic": "dʒiːnz",
+          "definition": "名 牛仔裤",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pocket",
+          "phonetic": "ˈpɒkɪt",
+          "definition": "名 口袋",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "shorts",
+          "phonetic": "ʃɔːts",
+          "definition": "名 短裤",
+          "collocations": [
+            "a pair of shorts一条短裤"
+          ],
+          "memory": "联想：shorts（短裤）是short（短的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sweatpants",
+          "phonetic": "ˈswetpænts",
+          "definition": "名 运动裤",
+          "collocations": [],
+          "memory": "合成词：sweat（汗）+pants（裤子）→吸汗的裤子→运动裤",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sock",
+          "phonetic": "sɒk",
+          "definition": "名 短袜",
+          "collocations": [
+            "a pair of socks一双短袜"
+          ],
+          "memory": "联想：不能穿sock（短袜）让我很shock（吃惊）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "stocking",
+          "phonetic": "ˈstɒkɪŋ",
+          "definition": "名 长袜，长筒女袜",
+          "collocations": [
+            "a pair of stockings一双长筒袜"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pair",
+          "phonetic": "peə(r)",
+          "definition": "名 双；对",
+          "collocations": [
+            "a pair of一双…；一对…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "shoe",
+          "phonetic": "ʃuː",
+          "definition": "名 鞋",
+          "collocations": [
+            "a pair of shoes一双鞋"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "english": "She put on her favorite orange dress.",
+      "chinese": "她穿上了她最喜欢的橙色连衣裙。",
+      "grammar_title": "一般过去时 | 动词",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般过去时。当表示过去发生的动作时，要用一般过去时，put的过去式是put。",
+        "2. put on意为“穿上；戴上”，如put on her coat（穿上外套）、put onhis glasses（戴上眼镜）。",
+        "3. orange一般作名词，意为“橙子；橙色”，但在本句中作形容词，意为“橙色的”。"
+      ],
+      "core_words": [
+        {
+          "word": "put",
+          "phonetic": "pʊt",
+          "definition": "动 放",
+          "collocations": [
+            "put on穿上…；戴上… put away将…收起；把…放回原处"
+          ],
+          "memory": "",
+          "usage": "过去式：put 现在分词：putting",
+          "comparison": ""
+        },
+        {
+          "word": "orange",
+          "phonetic": "ˈɒrɪndʒ",
+          "definition": "名 橙子；橙色 形 橙色的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "dress",
+          "phonetic": "dres",
+          "definition": "名 连衣裙 动 打扮；装束",
+          "collocations": [
+            "dress up打扮"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "shirt",
+          "phonetic": "ʃɜːt",
+          "definition": "名 衬衫",
+          "collocations": [
+            "wear a shirt穿衬衫"
+          ],
+          "memory": "联想：不爱skirt（短裙），爱穿shirt（衬衫）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "T-shirt",
+          "phonetic": "ˈtiː ʃɜːt",
+          "definition": "名 T恤衫",
+          "collocations": [],
+          "memory": "联想：T恤衫展开就像字母T的形状",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "yellow",
+          "phonetic": "ˈjeləʊ",
+          "definition": "名 / 形 黄色（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "green",
+          "phonetic": "ɡriːn",
+          "definition": "名 / 形 绿色（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "brown",
+          "phonetic": "braʊn",
+          "definition": "名 / 形 棕色（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "grey",
+          "phonetic": "ɡreɪ",
+          "definition": "名 / 形 灰色（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "white",
+          "phonetic": "waɪt",
+          "definition": "名 / 形 白色（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "purple",
+          "phonetic": "ˈpɜːpl",
+          "definition": "名 / 形 紫色（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "blue",
+          "phonetic": "bluː",
+          "definition": "名 / 形 蓝色（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "red",
+          "phonetic": "red",
+          "definition": "名 / 形 红色（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "black",
+          "phonetic": "blæk",
+          "definition": "名 / 形 黑色（的）",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "skirt",
+          "phonetic": "skɜːt",
+          "definition": "名 短裙",
+          "collocations": [
+            "wear a skirt穿裙子"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "colour",
+          "phonetic": "ˈkʌlə(r)",
+          "definition": "颜色 给…涂颜色",
+          "collocations": [],
+          "memory": "",
+          "usage": "美式写法：color",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "english": "She has a nice pair of pink gloves.",
+      "chinese": "她有一副漂亮的粉红色手套。",
+      "grammar_title": "形容词",
+      "grammar_notes": [
+        "1. have/has表示“（某人）有”，通常人作主语。",
+        "2. a pair of意为“一双；一对；一副”。a nice pair of意为“一双漂亮的”。",
+        "3. 多个形容词修饰一个名词时，形容词的排列顺序为“冠词/数量词+特征/性质+大小/形状+年龄/新旧+颜色+国籍+材料+名词”，如：Ibought a beautiful long new red Chinese woolen coat yesterday. 昨天我买了一件漂亮的新的红色的中国羊毛长款大衣。"
+      ],
+      "core_words": [
+        {
+          "word": "glove",
+          "phonetic": "ɡlʌv",
+          "definition": "名 手套",
+          "collocations": [
+            "a pair of gloves一副手套"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pink",
+          "phonetic": "pɪŋk",
+          "definition": "形 粉红的 名 粉红色",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "scarf",
+          "phonetic": "skɑːf",
+          "definition": "名 围巾；披巾",
+          "collocations": [],
+          "memory": "联想：一个脸上有scar（伤疤）的人戴着一条scarf（围巾）",
+          "usage": "复数：scarves",
+          "comparison": ""
+        },
+        {
+          "word": "tie",
+          "phonetic": "taɪ",
+          "definition": "名 领带 动 系",
+          "collocations": [],
+          "memory": "",
+          "usage": "第三人称单数：ties 过去式：tied 现在分词：tying",
+          "comparison": ""
+        },
+        {
+          "word": "belt",
+          "phonetic": "belt",
+          "definition": "名 腰带",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "boot",
+          "phonetic": "buːt",
+          "definition": "名 靴子",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cap",
+          "phonetic": "kæp",
+          "definition": "名 带舌帽",
+          "collocations": [
+            "a school cap学生帽"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hat",
+          "phonetic": "hæt",
+          "definition": "名 帽子",
+          "collocations": [
+            "put on a hat戴帽子"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "silk",
+          "phonetic": "sɪlk",
+          "definition": "名 丝；丝织品",
+          "collocations": [],
+          "memory": "联想：牛奶（milk）巧克力如丝绸（silk）般顺滑",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "style",
+          "phonetic": "staɪl",
+          "definition": "名 风格；样式",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "type",
+          "phonetic": "taɪp",
+          "definition": "名 类型 动 打字",
+          "collocations": [],
+          "memory": "联想：这个类型（type）的轮胎（tyre）很耐用",
+          "usage": "过去式：typed 现在分词：typing",
+          "comparison": ""
+        },
+        {
+          "word": "fashion",
+          "phonetic": "ˈfæʃn",
+          "definition": "名 时装；时尚",
+          "collocations": [
+            "fashion show时装表演，时装秀"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pop",
+          "phonetic": "pɒp",
+          "definition": "形 流行的 名 汽水；流行音乐",
+          "collocations": [
+            "pop song流行歌曲"
+          ],
+          "memory": "发音：pop，pop，汽水爱冒泡泡→汽水",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "english": "It's traditional to eat moon cakes on Mid-Autumn Day in China.",
+      "chinese": "中秋节吃月饼是中国的传统。",
+      "grammar_title": "介词 | 专有名词",
+      "grammar_notes": [
+        "1. It is +形容词+ to do sth.表示“做某事是…”，it作形式主语，真正的主语是后面的不定式。",
+        "2. on Mid-Autumn Day意为“在中秋节”。on表示在具体的某一天，常与表示节日、星期的词连用。",
+        "3. 有关“节日”的常用表达有：Spring Festival春节 New Year's Day新年/元旦 National Day国庆节 Children's Day儿童节 Women's Day妇女节 Teachers' Day教师节"
+      ],
+      "core_words": [
+        {
+          "word": "traditional",
+          "phonetic": "trəˈdɪʃənl",
+          "definition": "形 传统的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "eat",
+          "phonetic": "iːt",
+          "definition": "动 吃；进餐",
+          "collocations": [
+            "eat out外出吃饭"
+          ],
+          "memory": "联想：我爱eat（吃）meat（肉）",
+          "usage": "过去式：ate",
+          "comparison": ""
+        },
+        {
+          "word": "China",
+          "phonetic": "ˈtʃaɪnə",
+          "definition": "名 中国",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "festival",
+          "phonetic": "ˈfestɪvl",
+          "definition": "名 节日",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "Christmas",
+          "phonetic": "ˈkrɪsməs",
+          "definition": "名 圣诞节",
+          "collocations": [
+            "Christmas Eve平安夜"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "english": "My mother will take me to the World Park to learn about the famousplaces around the world tomorrow.",
+      "chinese": "我妈妈明天要带我去世界公园了解世界各地的著名景点。",
+      "grammar_title": "一般将来时 | 动词 | 介词",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般将来时。tomorrow（明天）是表示将来的时间词。当表示将要发生的动作时，要用一般将来时。",
+        "2. take sb. to some place表示“带某人去某地”。",
+        "3. the World Park意为“世界公园”；learn about意为“了解”；famousplaces意为“著名景点”；around the world意为“世界各地”。"
+      ],
+      "core_words": [
+        {
+          "word": "famous",
+          "phonetic": "ˈfeɪməs",
+          "definition": "形 著名的，出名的",
+          "collocations": [
+            "be famous for因…著名"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "around",
+          "phonetic": "əˈraʊnd",
+          "definition": "介 围绕；四周 副 大约",
+          "collocations": [
+            "show ... around带领…参观"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "tour",
+          "phonetic": "tʊə(r)",
+          "definition": "名 （短暂的）参观；游览",
+          "collocations": [
+            "tour guide导游"
+          ],
+          "memory": "联想：他（拼音t开头）带着我们的（our）队伍来参观→参观",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "visit",
+          "phonetic": "ˈvɪzɪt",
+          "definition": "动 / 名 参观；拜访",
+          "collocations": [
+            "visit one's grandparents看望（外）祖父母 visit the museum参观博物馆"
+          ],
+          "memory": "联想：字母v和i去朋友家里visit（拜访），朋友请它们sit（坐下）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "camera",
+          "phonetic": "ˈkæmərə; ˈkæmrə",
+          "definition": "名 照相机",
+          "collocations": [
+            "digital camera数码相机"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "passport",
+          "phonetic": "ˈpɑːspɔːt",
+          "definition": "名 护照",
+          "collocations": [],
+          "memory": "合成词：pass（经过）+port（港口）→经过港口的时候需要护照→护照",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hotel",
+          "phonetic": "həʊˈtel",
+          "definition": "名 宾馆，旅店",
+          "collocations": [
+            "hotel rooms旅馆的房间"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "password",
+          "phonetic": "ˈpɑːswɜːd",
+          "definition": "名 密码",
+          "collocations": [
+            "change password更改密码"
+          ],
+          "memory": "合成词：pass（经过）+word（话语）→通过时需要的暗语→密码",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "guide",
+          "phonetic": "ɡaɪd",
+          "definition": "名 导游；向导；指南",
+          "collocations": [
+            "tour guide导游"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "map",
+          "phonetic": "mæp",
+          "definition": "名 地图",
+          "collocations": [],
+          "memory": "音律：卖了map（地图），买了cap（帽子）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sunglasses",
+          "phonetic": "ˈsʌnɡlɑːsɪz",
+          "definition": "名 太阳镜",
+          "collocations": [
+            "a pair of sunglasses一副太阳镜"
+          ],
+          "memory": "合成词：sun（太阳）+glasses（眼镜）→太阳镜",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "english": "Last summer vacation I went to Beijing with my parents.",
+      "chinese": "去年暑假，我和父母一起去了北京。",
+      "grammar_title": "一般过去时 | 介词",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般过去时。last summer vacation（去年暑假）是表示过去的时间词。当表示过去发生的动作时，要用一般过去时，went是go（去）的过去式。",
+        "2. summer vacation意为“暑假”，“寒假”表述为winter vacation。",
+        "3. 介词with意为“和…一起”，如play with my friends（和我的朋友一起玩）。"
+      ],
+      "core_words": [
+        {
+          "word": "vacation",
+          "phonetic": "vəˈkeɪʃn; veɪˈkeɪʃn",
+          "definition": "名 假期",
+          "collocations": [
+            "summer vacation暑假 on vacation = on holiday在度假"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "holiday",
+          "phonetic": "ˈhɒlədeɪ; ˈhɒlədi",
+          "definition": "名 假日；假期；节日",
+          "collocations": [
+            "the school holidays学校假期"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "plan",
+          "phonetic": "plæn",
+          "definition": "名 / 动 计划",
+          "collocations": [
+            "make a plan制订计划"
+          ],
+          "memory": "联想：做个plan（计划），去坐plane（飞机）",
+          "usage": "过去式：planned",
+          "comparison": ""
+        },
+        {
+          "word": "trip",
+          "phonetic": "trɪp",
+          "definition": "名 旅行 动 绊倒",
+          "collocations": [
+            "take a trip去旅行"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pack",
+          "phonetic": "pæk",
+          "definition": "动 打包；装箱 名 纸包；一副（牌）",
+          "collocations": [
+            "pack up收拾；打包 a pack of cards一副纸牌"
+          ],
+          "memory": "联想：pack（打包）之后背在back（背）上",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "packet",
+          "phonetic": "ˈpækɪt",
+          "definition": "名 小包",
+          "collocations": [
+            "a packet of一包… red packet红包"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "abroad",
+          "phonetic": "əˈbrɔːd",
+          "definition": "副 在国外",
+          "collocations": [
+            "go abroad出国"
+          ],
+          "memory": "联想：身处abroad（国外），心系祖国broad（广阔的）土地",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "foreign",
+          "phonetic": "ˈfɒrən",
+          "definition": "形 外国的",
+          "collocations": [
+            "a foreign language一门外语"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "national",
+          "phonetic": "ˈnæʃnəl",
+          "definition": "形 国家的",
+          "collocations": [
+            "national anthem国歌 national flag国旗 National Day国庆节"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "decide",
+          "phonetic": "dɪˈsaɪd",
+          "definition": "动 决定",
+          "collocations": [
+            "decide to do sth. 决定做某事"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "english": "We went to the Science Museum last Saturday.",
+      "chinese": "上周六，我们去了科学博物馆。",
+      "grammar_title": "一般过去时",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般过去时。last Saturday（上周六）是表示过去的时间词。当表示过去发生的动作时，要用一般过去时，went是go（去）的过去式。",
+        "2. the Science Museum表示“科学博物馆”。常见的博物馆有：艺术博物馆（art museum）、历史博物馆（history museum）、太空博物馆（space museum）等。"
+      ],
+      "core_words": [
+        {
+          "word": "museum",
+          "phonetic": "mjuˈziːəm",
+          "definition": "名 博物馆",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "rope",
+          "phonetic": "rəʊp",
+          "definition": "名 绳子；绳索",
+          "collocations": [
+            "skipping/jump rope跳绳"
+          ],
+          "memory": "联想：我hope（希望）能赢得skipping rope（跳绳）比赛",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tent",
+          "phonetic": "tent",
+          "definition": "名 帐篷",
+          "collocations": [],
+          "memory": "联想：ten（十）顶tent（帐篷），赶紧rent（租借）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "blanket",
+          "phonetic": "ˈblæŋkɪt",
+          "definition": "名 毯子",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "campfire",
+          "phonetic": "ˈkæmpfaɪə(r)",
+          "definition": "名 篝火",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "camp",
+          "phonetic": "kæmp",
+          "definition": "动 露营 名 营地",
+          "collocations": [
+            "go camping去露营"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hike",
+          "phonetic": "haɪk",
+          "definition": "动 / 名 徒步旅行；远足",
+          "collocations": [],
+          "memory": "音律：有个Mike（迈克），喜欢hike（远足）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hiking",
+          "phonetic": "ˈhaɪkɪŋ",
+          "definition": "名 远足",
+          "collocations": [
+            "hide and seek捉迷藏"
+          ],
+          "memory": "音律：走到side（旁边），忽然hide（躲藏）",
+          "usage": "过去式：hid",
+          "comparison": ""
+        },
+        {
+          "word": "step",
+          "phonetic": "step",
+          "definition": "动 踏；踩 名 脚步；步骤",
+          "collocations": [
+            "step on踩…"
+          ],
+          "memory": "",
+          "usage": "过去式：stepped 现在分词：stepping",
+          "comparison": ""
+        },
+        {
+          "word": "luck",
+          "phonetic": "lʌk",
+          "definition": "名 好运；运气",
+          "collocations": [
+            "bad luck坏运气"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "lucky",
+          "phonetic": "ˈlʌki",
+          "definition": "形 幸运的",
+          "collocations": [
+            "lucky money压岁钱 lucky star幸运星"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "happy",
+          "phonetic": "ˈhæpi",
+          "definition": "形 高兴的；快乐的；幸福的",
+          "collocations": [],
+          "memory": "",
+          "usage": "比较级：happier 最高级：happiest",
+          "comparison": ""
+        },
+        {
+          "word": "climb",
+          "phonetic": "klaɪm",
+          "definition": "动 爬，攀登",
+          "collocations": [
+            "climb mountains爬山"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hide",
+          "phonetic": "haɪd",
+          "definition": "动 躲藏；藏起来",
+          "collocations": [
+            "hide and seek捉迷藏"
+          ],
+          "memory": "音律：走到side（旁边），忽然hide（躲藏）",
+          "usage": "过去式：hid",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "english": "When we cross the road, we must follow the traffic rules.",
+      "chinese": "我们过马路时，一定要遵守交通规则。",
+      "grammar_title": "时间状语从句 | 情态动词",
+      "grammar_notes": [
+        "1. 这个句子包含一个when引导的时间状语从句，when意为“当…时”。句子内容是习惯性的动作，所以用一般现在时。",
+        "2. must是情态动词，意为“必须”，表示必要或很重要。",
+        "3. cross the road意为“过马路”；traffic rules意为“交通规则”。",
+        "4. follow的常用意思是“跟随”，但在本句中意为“遵循，听从”，如follow the traffic rules（遵守交通规则）、follow one's advice（听从某人的建议）。"
+      ],
+      "core_words": [
+        {
+          "word": "cross",
+          "phonetic": "krɒs",
+          "definition": "动 穿过（道路等）；渡过（河等）",
+          "collocations": [
+            "cross the street过马路"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "road",
+          "phonetic": "rəʊd",
+          "definition": "名 路；道路",
+          "collocations": [
+            "on the road在路上"
+          ],
+          "memory": "发音：“肉的”→路上有肉吃→路",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "follow",
+          "phonetic": "ˈfɒləʊ",
+          "definition": "动 遵循，听从；跟随",
+          "collocations": [
+            "follow me跟我来"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "rule",
+          "phonetic": "ruːl",
+          "definition": "名 规则",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "above",
+          "phonetic": "əˈbʌv",
+          "definition": "介 在/向…上面",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": "above不一定表示正上方；over主要表示垂直方向的正上方。above和over表示“在上面”时，主体均不和下方接触；on表示“在上面”时，主体直接和下方接触。"
+        },
+        {
+          "word": "under",
+          "phonetic": "ˈʌndə(r)",
+          "definition": "介 在…下面",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": "under和below都可表示“低于”，under主要表示在垂直方向的正下方，而below则不一定表示正下方。"
+        },
+        {
+          "word": "between",
+          "phonetic": "bɪˈtwiːn",
+          "definition": "介 在…之间",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": "between表示两者之间，among表示三者及以上之间。"
+        },
+        {
+          "word": "front",
+          "phonetic": "frʌnt",
+          "definition": "名 前面",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": "in front of“在…前面”，指在一定范围外的前面；in the front of“在…前面”，指在一定范围内的前面。"
+        },
+        {
+          "word": "behind",
+          "phonetic": "bɪˈhaɪnd",
+          "definition": "介 在…后面",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "beside",
+          "phonetic": "bɪˈsaɪd",
+          "definition": "介 在…旁边",
+          "collocations": [],
+          "memory": "合成词：be（在）+side（旁边）→在…旁边",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "out",
+          "phonetic": "aʊt",
+          "definition": "副 / 介 在外面；离开",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "english": "To keep safe, you can wait on the pavement and look out for carsand bikes.",
+      "chinese": "为了保证安全，你可以在人行道上等待，并且当心汽车和自行车。",
+      "grammar_title": "动词不定式 | 情态动词",
+      "grammar_notes": [
+        "1. 动词不定式短语to keep safe作目的状语，意为“为了保证安全”。",
+        "2. can是情态动词，意为“能”，其后用动词原形。",
+        "3. on the pavement意为“在人行道上”。",
+        "4. look out for意为“当心，提防”。"
+      ],
+      "core_words": [
+        {
+          "word": "keep",
+          "phonetic": "kiːp",
+          "definition": "动 保持，维持；保存，保留",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：kept",
+          "comparison": ""
+        },
+        {
+          "word": "safe",
+          "phonetic": "seɪf",
+          "definition": "形 安全的",
+          "collocations": [
+            "make ... safe使…安全"
+          ],
+          "memory": "音律：警察来save（救助），我们才safe（安全的）",
+          "usage": "比较级：safer 最高级：safest",
+          "comparison": ""
+        },
+        {
+          "word": "wait",
+          "phonetic": "weɪt",
+          "definition": "动 等候，等待",
+          "collocations": [
+            "wait for等待… wait a minute等一会儿"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "downtown",
+          "phonetic": "ˌdaʊnˈtaʊn",
+          "definition": "名 市中心 副 在市中心",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "centre",
+          "phonetic": "ˈsentə(r)",
+          "definition": "名 中心",
+          "collocations": [
+            "information centre咨询中心 in the centre of在…的中心"
+          ],
+          "memory": "",
+          "usage": "美式写法：center",
+          "comparison": ""
+        },
+        {
+          "word": "central",
+          "phonetic": "ˈsentrəl",
+          "definition": "形 中心的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "neighbourhood",
+          "phonetic": "ˈneɪbəhʊd",
+          "definition": "名 街坊；附近",
+          "collocations": [],
+          "memory": "",
+          "usage": "美式写法：neighborhood",
+          "comparison": ""
+        },
+        {
+          "word": "sign",
+          "phonetic": "saɪn",
+          "definition": "名 标志；符号；指示牌；路标",
+          "collocations": [],
+          "memory": "联想：按照sign（符号）一起sing（唱歌）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "spot",
+          "phonetic": "spɒt",
+          "definition": "动 指出 名 （圆）点；斑点；地点",
+          "collocations": [],
+          "memory": "联想：在一个spot（地点）进行sport（运动）",
+          "usage": "过去式：spotted 现在分词：spotting",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "pavement",
+          "phonetic": "ˈpeɪvmənt",
+          "definition": "名 人行道",
+          "collocations": [],
+          "memory": "",
+          "usage": "美式英语：sidewalk",
+          "comparison": ""
+        },
+        {
+          "word": "car",
+          "phonetic": "kɑː(r)",
+          "definition": "名 汽车",
+          "collocations": [
+            "car museum汽车博物馆"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "english": "You must not play football on the road because there are many carsand bikes.",
+      "chinese": "你不能在路上踢足球，因为路上有很多汽车和自行车。",
+      "grammar_title": "情态动词 | 原因状语从句 | there be结构",
+      "grammar_notes": [
+        "1. must not是情态动词must（必须）的否定式，意为“不应该；禁止”。",
+        "2. play football意为“踢足球”。注意，球类运动前不加冠词。",
+        "3. because意为“因为”，表示原因，其后引导原因状语从句。",
+        "4. there are many cars and bikes是there be结构。there be的意思是“有”，表示“某地有某物”，强调某个地方有什么东西。注意区分：①there be表示“存在，有”；②have/has表示“某人拥有”，通常人作主语；没有there have/has这样的表达。"
+      ],
+      "core_words": [
+        {
+          "word": "not",
+          "phonetic": "nɒt",
+          "definition": "副 不",
+          "collocations": [
+            "not at all一点也不 not bad不错，还可以"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "safety",
+          "phonetic": "ˈseɪfti",
+          "definition": "名 安全；平安",
+          "collocations": [
+            "safety rule安全规则"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "danger",
+          "phonetic": "ˈdeɪndʒə(r)",
+          "definition": "名 危险",
+          "collocations": [
+            "in danger处于危险中"
+          ],
+          "memory": "音律：老虎一anger（愤怒），我们有danger（危险）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "dangerous",
+          "phonetic": "ˈdeɪndʒərəs",
+          "definition": "形 危险的，不安全的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bring",
+          "phonetic": "brɪŋ",
+          "definition": "动 带来",
+          "collocations": [
+            "bring about带来…；引起…"
+          ],
+          "memory": "",
+          "usage": "过去式：brought",
+          "comparison": ""
+        },
+        {
+          "word": "terrible",
+          "phonetic": "ˈterəbl",
+          "definition": "形 可怕的；糟糕的；极度的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "happen",
+          "phonetic": "ˈhæpən",
+          "definition": "动 发生；碰巧",
+          "collocations": [],
+          "memory": "联想：happen（碰巧）遇到happy（快乐的）事",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "english": "Let's meet at the bus stop at 8 o'clock.",
+      "chinese": "我们八点在公交车站见面吧。",
+      "grammar_title": "祈使句 | 时刻表达法",
+      "grammar_notes": [
+        "1. 这个句子是let引导的祈使句，表示建议。let祈使句的构成是“Let+宾语+动词原形+其他”。祈使句的主语通常省略，以动词原形开头，没有时态的变化，不能与情态动词连用。Let's = Let us，意为“（让）我们”。",
+        "2. Let's do sth.表示“让我们做某事”。当和朋友约定见面时，可以表达为“Let's meet ...”。",
+        "3. at 8 o'clock意为“八点钟”，at后面常跟具体的时间点、时刻。",
+        "4. 表示整点时，用基数词表示。o'clock可以省略。如6:00可以表述为six（o'clock）或6（o'clock）。"
+      ],
+      "core_words": [
+        {
+          "word": "let",
+          "phonetic": "let",
+          "definition": "动 让；允许",
+          "collocations": [
+            "let me try让我试试"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bus",
+          "phonetic": "bʌs",
+          "definition": "名 公共汽车",
+          "collocations": [
+            "school bus校车 bus driver公共汽车司机"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "stop",
+          "phonetic": "stɒp",
+          "definition": "动 （使）停下，停止 名 停下，停止；车站",
+          "collocations": [
+            "bus stop公交车站"
+          ],
+          "memory": "联想：到达top（顶部），终于stop（停下）",
+          "usage": "过去式：stopped 现在分词：stopping",
+          "comparison": ""
+        },
+        {
+          "word": "catch",
+          "phonetic": "kætʃ",
+          "definition": "动 抓住；赶上；得病",
+          "collocations": [
+            "catch a bus赶上公共汽车 catch up with赶上 catch a cold感冒"
+          ],
+          "memory": "",
+          "usage": "过去式：caught",
+          "comparison": ""
+        },
+        {
+          "word": "miss",
+          "phonetic": "mɪs",
+          "definition": "动 想念；错过",
+          "collocations": [
+            "miss the bus错过公共汽车"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "taxi",
+          "phonetic": "ˈtæksi",
+          "definition": "名 出租车",
+          "collocations": [
+            "by taxi乘出租车 taxi driver出租车司机"
+          ],
+          "memory": "联想：坐着taxi（出租车），也要交tax（税）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "underground",
+          "phonetic": "ˌʌndəˈɡraʊnd",
+          "definition": "形 地下的 [ˈʌndəɡraʊnd] 名 地铁",
+          "collocations": [],
+          "memory": "合成词：under（在…下面）+ ground（地面）→地下的交",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "motorbike",
+          "phonetic": "ˈməʊtəbaɪk",
+          "definition": "名 摩托车",
+          "collocations": [
+            "drive a motorbike骑摩托车"
+          ],
+          "memory": "合成词：motor（发动机）+bike（自行车）→有发动机的自行车→摩托车",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "gas",
+          "phonetic": "ɡæs",
+          "definition": "名 天然气；气体；汽油",
+          "collocations": [
+            "by the way顺便问一下 on the way to在去…的路上"
+          ],
+          "memory": "联想：可以（may）问下路（way）吗",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "meet",
+          "phonetic": "miːt",
+          "definition": "动 遇见；会面",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：met",
+          "comparison": ""
+        },
+        {
+          "word": "subway",
+          "phonetic": "ˈsʌbweɪ",
+          "definition": "名 地铁",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "way",
+          "phonetic": "weɪ",
+          "definition": "名 路；路线；方式",
+          "collocations": [
+            "by the way顺便问一下 on the way to在去…的路上"
+          ],
+          "memory": "联想：可以（may）问下路（way）吗",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "o'clock",
+          "phonetic": "əˈklɒk",
+          "definition": "副 …点钟",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "english": "Maybe you can ride a bike or take a bus instead of driving a car.",
+      "chinese": "或许你可以骑自行车或乘公共汽车，而不是开车。",
+      "grammar_title": "副词 | 动词 | 介词",
+      "grammar_notes": [
+        "1. maybe作副词，意为“也许”，用于提出建议。",
+        "2. ride a bike意为“骑自行车”；take a bus意为“乘公共汽车”；drive acar意为“开车”。",
+        "3. 英语中，交通方式的常用表达有两种：①“take a/the +交通工具”，如take a train（乘火车）、take a subway（乘地铁）；②“by +交通工具”，如by train（乘火车）、by subway（乘地铁）。",
+        "4. instead of意为“代替；而不是”，后接名词、动名词等。"
+      ],
+      "core_words": [
+        {
+          "word": "maybe",
+          "phonetic": "ˈmeɪbi",
+          "definition": "副 可能；也许",
+          "collocations": [],
+          "memory": "合成词：may（可能）+be（是）→可能",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "ride",
+          "phonetic": "raɪd",
+          "definition": "动 骑；乘坐",
+          "collocations": [
+            "ride a bike骑自行车 ride a horse骑马"
+          ],
+          "memory": "",
+          "usage": "过去式：rode 现在分词：riding",
+          "comparison": ""
+        },
+        {
+          "word": "take",
+          "phonetic": "teɪk",
+          "definition": "动 拿；取；乘坐；选择购买；拍摄",
+          "collocations": [
+            "take a bus乘公共汽车 take a car坐汽车 take photos/pictures拍照"
+          ],
+          "memory": "",
+          "usage": "过去式：took 现在分词：taking",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "even",
+          "phonetic": "ˈiːvn",
+          "definition": "副 甚至；更加",
+          "collocations": [],
+          "memory": "联想：even（甚至）敌人ever（曾经）也是朋友",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "still",
+          "phonetic": "stɪl",
+          "definition": "副 仍然；依旧；还是",
+          "collocations": [],
+          "memory": "联想：Bill（比尔）is still（仍然）on the hill（在山上）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "again",
+          "phonetic": "əˈɡeɪn",
+          "definition": "副 又，再一次",
+          "collocations": [
+            "again and again一再",
+            "just do it就这么干吧 just now刚才"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "almost",
+          "phonetic": "ˈɔːlməʊst",
+          "definition": "副 几乎；差不多",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "already",
+          "phonetic": "ɔːlˈredi",
+          "definition": "副 已经",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "just",
+          "phonetic": "dʒʌst",
+          "definition": "副 仅仅；恰好；只是",
+          "collocations": [
+            "just do it就这么干吧 just now刚才"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "yet",
+          "phonetic": "jet",
+          "definition": "副 还，仍",
+          "collocations": [
+            "not yet还没"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "quite",
+          "phonetic": "kwaɪt",
+          "definition": "副 相当；十分",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "english": "It takes us half an hour to walk to school every day.",
+      "chinese": "我们每天步行去学校要花半个小时。",
+      "grammar_title": "固定句型 | 冠词",
+      "grammar_notes": [
+        "1. It takes/took sb. +时间/金钱 + to do sth.表示“做某事花费某人…（时间/金钱）”，如：It took me two hours to finish my homework.我花了两个小时才完成家庭作业。",
+        "2. 有些名词虽然首字母是辅音字母，但发音却以元音音素开头，这时名词前要用an，如an hour（一小时）。",
+        "3. half an hour意为“半个小时”。“一个半小时”可以表述为one and ahalf hours或an hour and a half。"
+      ],
+      "core_words": [
+        {
+          "word": "day",
+          "phonetic": "deɪ",
+          "definition": "名 一天；一日",
+          "collocations": [
+            "every day每一天 the next day第二天 a day trip一日游"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "traffic",
+          "phonetic": "ˈtræfɪk",
+          "definition": "名 交通",
+          "collocations": [
+            "traffic light交通信号灯 traffic rule 交通规则"
+          ],
+          "memory": "分音节：traf-fic",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "transportation",
+          "phonetic": "ˌtrænspɔːˈteɪʃn",
+          "definition": "名 交通",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "slow",
+          "phonetic": "sləʊ",
+          "definition": "形 缓慢的 动 慢下来",
+          "collocations": [
+            "slow down放慢"
+          ],
+          "memory": "联想：用力blow（吹），但还是移动slow（缓慢的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fast",
+          "phonetic": "fɑːst",
+          "definition": "形 快的，迅速的 副 快地",
+          "collocations": [
+            "fast asleep熟睡的，酣睡的 fast food快餐"
+          ],
+          "memory": "联想：飞快地（fast）往东边（east）跑",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "quick",
+          "phonetic": "kwɪk",
+          "definition": "形 迅速的，快的 副 快速地",
+          "collocations": [],
+          "memory": "联想：钟表的tick（滴答声）真quick（快的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hurry",
+          "phonetic": "ˈhʌri",
+          "definition": "名 / 动 赶快，赶紧；匆忙",
+          "collocations": [
+            "hurry up赶快 in a hurry匆忙"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "reach",
+          "phonetic": "riːtʃ",
+          "definition": "动 到达；（伸手）够到",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "away",
+          "phonetic": "əˈweɪ",
+          "definition": "副 离开",
+          "collocations": [
+            "go away离开，走开"
+          ],
+          "memory": "联想：away（离开）只有a（一条）way（路线）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "wide",
+          "phonetic": "waɪd",
+          "definition": "形 宽的；宽阔的",
+          "collocations": [],
+          "memory": "联想：在wide（宽阔的）草原上ride（骑马）",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "english": "The train from Tianjinnan arrived an hour ago.",
+      "chinese": "从天津南开来的火车一小时前就到了。",
+      "grammar_title": "一般过去时 | 介词 | 副词",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般过去时。an hour ago（一小时前）是表示过去的时间词，当表示过去发生的动作时，要用一般过去时。arrived是arrive（到达）的过去式。",
+        "2. 介词from意为“从…起，始于”，表示起始点。“从…开来的火车”可以表达为the train from ...。",
+        "3. ago（以前）为副词，在句中一般不单独使用，要与表示时间的名词或副词搭配使用，且放在它所修饰词的后面，如a few days ago（几天前）、years ago（几年前）。"
+      ],
+      "core_words": [
+        {
+          "word": "train",
+          "phonetic": "treɪn",
+          "definition": "名 火车",
+          "collocations": [
+            "train station火车站 by train乘火车"
+          ],
+          "memory": "联想：train（火车）在rain（雨）中穿梭",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "plane",
+          "phonetic": "pleɪn",
+          "definition": "名 飞机",
+          "collocations": [
+            "by plane乘飞机"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "airport",
+          "phonetic": "ˈeəpɔːt",
+          "definition": "名 机场",
+          "collocations": [],
+          "memory": "合成词：air（空气）+port（港口）→空港→机场",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "station",
+          "phonetic": "ˈsteɪʃn",
+          "definition": "名 （车）站；火车站；（汽油）加油站",
+          "collocations": [
+            "railway/train station火车站 subway station地铁站"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "wheel",
+          "phonetic": "wiːl",
+          "definition": "名 轮子；车轮",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "ship",
+          "phonetic": "ʃɪp",
+          "definition": "名 船；轮船；舰",
+          "collocations": [
+            "by ship乘船"
+          ],
+          "memory": "联想：用ship（轮船）来运送sheep（绵羊）",
+          "usage": "",
+          "comparison": "ship指较大的轮船，boat指小船。"
+        },
+        {
+          "word": "boat",
+          "phonetic": "bəʊt",
+          "definition": "名 小船",
+          "collocations": [],
+          "memory": "音律：一只goat（山羊），穿着coat（大衣），坐着boat（小船）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "board",
+          "phonetic": "bɔːd",
+          "definition": "名 木板 动 上（车/船/飞机等）",
+          "collocations": [],
+          "memory": "联想：现在on board（上船），去往abroad（国外）",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "english": "You can go down the street and then turn right at the first corner.",
+      "chinese": "你可以沿着这条街走，然后在第一个拐角处右转。",
+      "grammar_title": "动词 | 介词",
+      "grammar_notes": [
+        "1. go down the street意为“沿着这条街走”。turn right意为“向右转”；“向左转”为turn left。",
+        "2. at the first corner意为“在第一个拐角处”。",
+        "3. 英语“指路”常用的句型有：Walk along this street, and ... is onyour left. 沿着这条街走，…就在你的左边。Go down this way, andyou'll find ... is right there. 沿着这条路走，你会发现…就在那儿。"
+      ],
+      "core_words": [
+        {
+          "word": "down",
+          "phonetic": "daʊn",
+          "definition": "介 沿着；顺着；朝着",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "street",
+          "phonetic": "striːt",
+          "definition": "名 大街；街道",
+          "collocations": [
+            "cross the street穿过街道，过马路"
+          ],
+          "memory": "联想：笔直的street（街道）两旁种满了tree（树）",
+          "usage": "",
+          "comparison": "street是最普通的用语，指“街道”；avenue指“（城镇的）大街”；road指“公路”；path指“小道”，通过踩踏而自然形成的小路。"
+        },
+        {
+          "word": "turn",
+          "phonetic": "tɜːn",
+          "definition": "动 变成，变为；转（弯）",
+          "collocations": [
+            "turn on打开（电器）turn up开大；调高（音量或热度）turn off关闭（电器）turn down关小；调低（音量或热度）"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "where",
+          "phonetic": "weə(r)",
+          "definition": "副 在哪里，到哪里",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "across",
+          "phonetic": "əˈkrɒs",
+          "definition": "介 横过，穿过；在…对面",
+          "collocations": [],
+          "memory": "联想：a（一个）+cross（穿过）→一个人过马路→穿过",
+          "usage": "",
+          "comparison": "across“穿过”，强调从一端到另一端；through “通过”，表示从物体内部空间穿过。"
+        },
+        {
+          "word": "through",
+          "phonetic": "θruː",
+          "definition": "介 穿过；通过",
+          "collocations": [
+            "walk through走过，经过"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "over",
+          "phonetic": "ˈəʊvə(r)",
+          "definition": "副 穿过 介 在…上面",
+          "collocations": [
+            "over here这里 over there那里"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "direction",
+          "phonetic": "daɪˈrekʃn; dəˈrekʃn",
+          "definition": "名 方向",
+          "collocations": [],
+          "memory": "词根：direct（指路）+ion（表名词）→指出的路→方向",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "far",
+          "phonetic": "fɑː(r)",
+          "definition": "形 远的；遥远的 副 遥远地",
+          "collocations": [
+            "far (away) from离…远"
+          ],
+          "memory": "",
+          "usage": "比较级：farther/further 最高级：farthest/furthest",
+          "comparison": ""
+        },
+        {
+          "word": "near",
+          "phonetic": "nɪə(r)",
+          "definition": "介 在…附近；接近；（to）快要",
+          "collocations": [],
+          "memory": "联想：急得快要（near to）流泪（tear）了",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "along",
+          "phonetic": "əˈlɒŋ",
+          "definition": "介 沿着",
+          "collocations": [],
+          "memory": "联想：a+long（长的）→沿着长长的路走下去→沿着",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "opposite",
+          "phonetic": "ˈɒpəzɪt",
+          "definition": "形 相反的 介 在…对面",
+          "collocations": [
+            "opposite to在…对面"
+          ],
+          "memory": "联想：op和po背对背sit（坐）着→相反的",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "side",
+          "phonetic": "saɪd",
+          "definition": "名 边，侧；一面；旁边",
+          "collocations": [],
+          "memory": "音律：走到side（旁边），忽然hide（躲藏）",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "corner",
+          "phonetic": "ˈkɔːnə(r)",
+          "definition": "名 角；角落",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "right",
+          "phonetic": "raɪt",
+          "definition": "副 向右",
+          "collocations": [],
+          "memory": "",
+          "usage": "对应词：left* 向左",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "english": "We mustn't talk or speak loudly in public places like hospitals,\nlibraries or cinemas.\n我们不能在医院、图书馆或电影院等公共场所大声讲话。",
+      "chinese": "",
+      "grammar_title": "情态动词 | 介词",
+      "grammar_notes": [
+        "1. mustn't = must not，是情态动词must（必须）的否定式，意为“不得；禁止”，如：You mustn't play with fire. 你不能玩火。",
+        "2. like在本句中作介词，意为“例如”，用于举例说明。",
+        "3. loudly意为“大声地”；public place意为“公共场所”。"
+      ],
+      "core_words": [
+        {
+          "word": "must",
+          "phonetic": "mʌst",
+          "definition": "情态 必须；一定",
+          "collocations": [
+            "must be一定是…"
+          ],
+          "memory": "",
+          "usage": "否定缩略式：mustn't禁止",
+          "comparison": ""
+        },
+        {
+          "word": "talk",
+          "phonetic": "tɔːk",
+          "definition": "动 交谈；谈话；讨论 名 交谈；谈话",
+          "collocations": [
+            "talk about谈论… talk to和…说话"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "speak",
+          "phonetic": "spiːk",
+          "definition": "动 说话；讲话",
+          "collocations": [
+            "speak to对…讲话 speak English说英语"
+          ],
+          "memory": "",
+          "usage": "过去式：spoke",
+          "comparison": ""
+        },
+        {
+          "word": "loudly",
+          "phonetic": "ˈlaʊdli",
+          "definition": "副 大声地",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "public",
+          "phonetic": "ˈpʌblɪk",
+          "definition": "形 公共的；公众的",
+          "collocations": [
+            "public library公共图书馆"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "place",
+          "phonetic": "pleɪs",
+          "definition": "名 地方；地点；场所",
+          "collocations": [
+            "place of interest名胜古迹"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hospital",
+          "phonetic": "ˈhɒspɪtl",
+          "definition": "名 医院",
+          "collocations": [
+            "be in (the) hospital住院"
+          ],
+          "memory": "联想：bank（银行）里面来了个band（乐队）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bar",
+          "phonetic": "bɑː(r)",
+          "definition": "名 条，块，棒；酒吧",
+          "collocations": [
+            "a bar of soap一块肥皂"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "church",
+          "phonetic": "tʃɜːtʃ",
+          "definition": "名 教堂",
+          "collocations": [],
+          "memory": "联想：前后都是ch，中间是ur",
+          "usage": "复数：churches",
+          "comparison": ""
+        },
+        {
+          "word": "hall",
+          "phonetic": "hɔːl",
+          "definition": "名 大厅；礼堂",
+          "collocations": [
+            "dining hall餐厅"
+          ],
+          "memory": "音律：我们all（大家），来到hall（大厅），play ball（打球）",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "theatre",
+          "phonetic": "ˈθɪətə(r)",
+          "definition": "名 剧场；剧院",
+          "collocations": [],
+          "memory": "",
+          "usage": "美式写法：theater",
+          "comparison": ""
+        },
+        {
+          "word": "cinema",
+          "phonetic": "ˈsɪnəmə",
+          "definition": "名 电影院",
+          "collocations": [
+            "go to the cinema去看电影"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bank",
+          "phonetic": "bæŋk",
+          "definition": "名 银行；岸",
+          "collocations": [],
+          "memory": "联想：bank（银行）里面来了个band（乐队）",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "english": "Hainan is in the south of China.",
+      "chinese": "海南位于中国的南部。",
+      "grammar_title": "一般现在时 | 介词",
+      "grammar_notes": [
+        "1. 这个句子陈述的是客观事实，要用一般现在时。",
+        "2. “海南”在中国范围内，因此要用介词in。注意区分： ①in表示某地在一个区域内的位置，如：Shanghai is in the east ofChina. 上海在中国的东部。 ②to表示某地相对于另一个地方的位置，如：Japan is to the east ofChina. 日本在中国的东面。 ③on表示与某地相邻或者接壤，如：Mongolia lies on the north ofChina. 蒙古国位于中国的北边。",
+        "3. 表示“东南西北”的方位词有：east东方 south南方 west西方 north北方"
+      ],
+      "core_words": [
+        {
+          "word": "south",
+          "phonetic": "saʊθ",
+          "definition": "名 南；南方；南部",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "north",
+          "phonetic": "nɔːθ",
+          "definition": "名 北；北方；北部",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "east",
+          "phonetic": "iːst",
+          "definition": "名 东；东方；东部",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "west",
+          "phonetic": "west",
+          "definition": "名 西；西方；西部",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "top",
+          "phonetic": "tɒp",
+          "definition": "形 最高的；最佳的；最好的 名 顶端；上边，上面",
+          "collocations": [
+            "on top of在…上面"
+          ],
+          "memory": "联想：从top（上面）往下mop（用拖把擦）干净",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bottom",
+          "phonetic": "ˈbɒtəm",
+          "definition": "名 底部 形 底部的，最下面的",
+          "collocations": [
+            "bottoms up干杯"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "upwards",
+          "phonetic": "ˈʌpwədz",
+          "definition": "副 向上",
+          "collocations": [],
+          "memory": "词根：up（在上面）+wards（向…）→向上",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "low",
+          "phonetic": "ləʊ",
+          "definition": "形 低的；矮的 副 低地",
+          "collocations": [],
+          "memory": "联想：slow（慢的）去掉s变low（低的）了",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "huge",
+          "phonetic": "hjuːdʒ",
+          "definition": "形 极多的；巨大的",
+          "collocations": [],
+          "memory": "联想：给你一个huge（巨大的）hug（拥抱）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "high",
+          "phonetic": "haɪ",
+          "definition": "形 高的 副 高地",
+          "collocations": [
+            "high jump跳高"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "build",
+          "phonetic": "bɪld",
+          "definition": "动 建造",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "english": "The bookstore is next to the library.",
+      "chinese": "书店紧邻图书馆。",
+      "grammar_title": "一般现在时 | 介词",
+      "grammar_notes": [
+        "1. 这个句子描述的是建筑物的位置。介绍一般性事实，用一般现在时。",
+        "2. next to意为“紧邻”，如：The teachers' office is next to the library.教师办公室紧邻图书馆。",
+        "3. 有关“位置”的常用表达有：next to紧邻 near在…附近 in front of在…前 behind在…后 on在…上 under在…下 in在…内 between在…中间"
+      ],
+      "core_words": [
+        {
+          "word": "bookstore",
+          "phonetic": "ˈbʊkstɔː(r)",
+          "definition": "名 书店",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "next",
+          "phonetic": "nekst",
+          "definition": "形 紧接着的；下一个的；下次的 副 紧接着，随后",
+          "collocations": [
+            "next to紧邻 next time下一次 next week下周"
+          ],
+          "memory": "联想：请next（下一位）同学读text（课文）",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "shop",
+          "phonetic": "ʃɒp",
+          "definition": "名 商店 动 购物",
+          "collocations": [
+            "fruit shop水果店"
+          ],
+          "memory": "",
+          "usage": "过去式：shopped 现在分词：shopping 售货员常用语：Whatcan I do for you? 您想买点儿什么？",
+          "comparison": ""
+        },
+        {
+          "word": "store",
+          "phonetic": "stɔː(r)",
+          "definition": "名 商店 动 贮存，贮藏",
+          "collocations": [
+            "shoe store鞋店 toy store玩具店"
+          ],
+          "memory": "",
+          "usage": "过去式：stored 现在分词：storing",
+          "comparison": ""
+        },
+        {
+          "word": "supermarket",
+          "phonetic": "ˈsuːpəmɑːkɪt",
+          "definition": "名 超市",
+          "collocations": [
+            "go to the supermarket去超市"
+          ],
+          "memory": "合成词：super（超级的）+market（市场）→超级市场→超市",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "market",
+          "phonetic": "ˈmɑːkɪt",
+          "definition": "名 市场",
+          "collocations": [
+            "on the market上市；出售"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "mall",
+          "phonetic": "mɔːl",
+          "definition": "名 购物中心，商场",
+          "collocations": [
+            "shopping mall购物中心"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "open",
+          "phonetic": "ˈəʊpən",
+          "definition": "形 开着的 动 打开",
+          "collocations": [
+            "open the door开门 open the window打开窗户"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "entry",
+          "phonetic": "ˈentri",
+          "definition": "名 进入；入口",
+          "collocations": [],
+          "memory": "联想：en（音似：嗯）+try（尝试）→嗯，要尝试从入口进入→入口",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "enter",
+          "phonetic": "ˈentə(r)",
+          "definition": "动 进入",
+          "collocations": [
+            "enter the room进入房间"
+          ],
+          "memory": "联想：enter（进入）center（中心）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sell",
+          "phonetic": "sel",
+          "definition": "动 卖；售卖；出售",
+          "collocations": [],
+          "memory": "联想：sell（卖）shell（贝壳）",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "english": "My grandma lives with my uncle in a village not too far away.",
+      "chinese": "我奶奶和我叔叔住在不太远的一个村子里。",
+      "grammar_title": "动词 | 冠词",
+      "grammar_notes": [
+        "1. live with sb. 表示“和某人住在一起”，如：He still lives with hisparents. 他还和父母住在一起。",
+        "2. village（村庄）是普通名词，前面一般要加冠词。表示泛指时，用a；表示特指时，用the。",
+        "3. too far away是常用英语口语，意为“太远了”；not too far away意为“不太远”。"
+      ],
+      "core_words": [
+        {
+          "word": "live",
+          "phonetic": "lɪv",
+          "definition": "动 居住；生活；栖息 [laɪv] 形 活的；现场直播的",
+          "collocations": [
+            "live in the country住在农村"
+          ],
+          "memory": "音律：想要live（生活），就要give（给予）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "countryside",
+          "phonetic": "ˈkʌntrisaɪd",
+          "definition": "名 农村，乡村",
+          "collocations": [],
+          "memory": "合成词：country（乡下）+side（旁边）→乡下道路两旁是村庄→农村，乡村",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "farm",
+          "phonetic": "fɑːm",
+          "definition": "名 农场",
+          "collocations": [
+            "on the farm在农场"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "field",
+          "phonetic": "fiːld",
+          "definition": "名 田，地；运动场",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "town",
+          "phonetic": "taʊn",
+          "definition": "名 镇；城镇；市镇",
+          "collocations": [
+            "in town在镇里"
+          ],
+          "memory": "联想：梦想着在小镇（town）拥有自己的（own）家",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hometown",
+          "phonetic": "ˈhəʊmtaʊn",
+          "definition": "名 家乡，故乡",
+          "collocations": [],
+          "memory": "合成词：home（家）+town（乡镇）→家乡",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hill",
+          "phonetic": "hɪl",
+          "definition": "名 小山",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": "hill指高度低的“小山”，mountain指“高山，大山”。"
+        },
+        {
+          "word": "pond",
+          "phonetic": "pɒnd",
+          "definition": "名 池塘",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hole",
+          "phonetic": "həʊl",
+          "definition": "名 洞；洞穴",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cave",
+          "phonetic": "keɪv",
+          "definition": "名 山洞；洞穴",
+          "collocations": [],
+          "memory": "联想：cave（洞穴）里面有块cake（蛋糕）",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "country",
+          "phonetic": "ˈkʌntri",
+          "definition": "名 国家；乡村",
+          "collocations": [],
+          "memory": "",
+          "usage": "复数：countries",
+          "comparison": ""
+        },
+        {
+          "word": "capital",
+          "phonetic": "ˈkæpɪtl",
+          "definition": "名 首都",
+          "collocations": [
+            "capital city首都"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "village",
+          "phonetic": "ˈvɪlɪdʒ",
+          "definition": "名 村庄",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "city",
+          "phonetic": "ˈsɪti",
+          "definition": "名 城市",
+          "collocations": [
+            "city flower市花"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "english": "Sitting for a long time at the computer is bad for our health.",
+      "chinese": "在电脑前久坐对我们的健康有害。",
+      "grammar_title": "动名词 | 介词 | 形容词",
+      "grammar_notes": [
+        "1. 这个句子的主语是动名词短语，即Sitting for a long time at thecomputer（在电脑前久坐），谓语动词用单数is。sit（坐）的动名词要双写最后一个辅音字母再加-ing，即sitting。",
+        "2. for a long time意为“很长时间”。",
+        "3. be bad for表示“对…有害”；“对…有益”是be good for，如：\nExercise is good for our health. 运动对我们的健康有益。"
+      ],
+      "core_words": [
+        {
+          "word": "long",
+          "phonetic": "lɒŋ",
+          "definition": "形 长的；长时间的 副 长期地，长久地",
+          "collocations": [],
+          "memory": "发音：“龙”→传说中的龙都很长→长的",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "computer",
+          "phonetic": "kəmˈpjuːtə(r)",
+          "definition": "名 电脑，计算机",
+          "collocations": [
+            "computer class计算机课 computer game电脑游戏"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bad",
+          "phonetic": "bæd",
+          "definition": "形 坏的；糟糕的；不利的",
+          "collocations": [
+            "be bad for对…不利"
+          ],
+          "memory": "联想：一个dad（爸爸），感到bad（糟糕的），躺在bed（床）上",
+          "usage": "比较级：worse 最高级：worst",
+          "comparison": ""
+        },
+        {
+          "word": "health",
+          "phonetic": "helθ",
+          "definition": "名 健康",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "healthy",
+          "phonetic": "ˈhelθi",
+          "definition": "形 健康的；健壮的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "gym",
+          "phonetic": "dʒɪm",
+          "definition": "名 体育馆；健身房",
+          "collocations": [],
+          "memory": "发音：“吉姆”→吉姆在gym（健身房）里健身",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "jog",
+          "phonetic": "dʒɒɡ",
+          "definition": "动 / 名 慢跑",
+          "collocations": [],
+          "memory": "联想：job（工作）之余，要多jog（慢跑）",
+          "usage": "现在分词：jogging",
+          "comparison": ""
+        },
+        {
+          "word": "well",
+          "phonetic": "wel",
+          "definition": "副 好；熟练地 形 健康的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "weight",
+          "phonetic": "weɪt",
+          "definition": "名 体重；重量",
+          "collocations": [
+            "lose weight减肥"
+          ],
+          "memory": "联想：我（拼音w开头）出生的时候体重为八（eight）斤",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "strong",
+          "phonetic": "strɒŋ",
+          "definition": "形 强壮的；健壮的；有力的；强烈的；坚固的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "weak",
+          "phonetic": "wiːk",
+          "definition": "形 虚弱的；软弱的",
+          "collocations": [],
+          "memory": "联想：工作一周（week）下来，感觉无比虚弱（weak）",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "english": "People often need to take some medicine when they catch a cold ora cough.",
+      "chinese": "当人们感冒或咳嗽时，通常需要吃一些药。",
+      "grammar_title": "时间状语从句 | 频率副词",
+      "grammar_notes": [
+        "1. 这个句子包含一个when引导的时间状语从句，when意为“当…时”。",
+        "2. often意为“时常，常常”，为频率副词。",
+        "3. need to do sth.表示“需要做某事”；take medicine意为“吃药”；catch a cold意为“患感冒”。",
+        "4. cough意为“咳嗽”，有名词和动词两种词性，在本句中cough作名词。"
+      ],
+      "core_words": [
+        {
+          "word": "often",
+          "phonetic": "ˈɒfn",
+          "definition": "副 时常，常常",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "need",
+          "phonetic": "niːd",
+          "definition": "动 / 名 / 助 需要",
+          "collocations": [],
+          "memory": "音律：seed（种子）发芽，need（需要）浇水",
+          "usage": "否定缩略式：needn't",
+          "comparison": ""
+        },
+        {
+          "word": "medicine",
+          "phonetic": "ˈmedsn; ˈmedɪsn",
+          "definition": "名 药",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cold",
+          "phonetic": "kəʊld",
+          "definition": "名 感冒 形 冷的",
+          "collocations": [
+            "cold drink冷饮 catch a cold感冒"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cough",
+          "phonetic": "kɒf",
+          "definition": "动 / 名 咳嗽",
+          "collocations": [
+            "have a dry cough 干咳"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "ill",
+          "phonetic": "ɪl",
+          "definition": "形 生病的；不舒服的；不健康的",
+          "collocations": [],
+          "memory": "音律：Bill（比尔）ill（生病的），要吃pill（药片）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "stomachache",
+          "phonetic": "ˈstʌməkeɪk",
+          "definition": "名 肚子痛；胃痛",
+          "collocations": [],
+          "memory": "合成词：stomach（胃）+ache（疼痛）→胃痛",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "stomach",
+          "phonetic": "ˈstʌmək",
+          "definition": "名 胃；肚子",
+          "collocations": [],
+          "memory": "分音节：stom-ach",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "toothache",
+          "phonetic": "ˈtuːθeɪk",
+          "definition": "名 牙疼",
+          "collocations": [
+            "have a toothache牙疼"
+          ],
+          "memory": "合成词：tooth（牙齿）+ache（疼痛）→牙疼",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tooth",
+          "phonetic": "tuːθ",
+          "definition": "名 牙齿",
+          "collocations": [],
+          "memory": "联想：tooth（牙齿）表面smooth（光滑的）",
+          "usage": "复数：teeth",
+          "comparison": ""
+        },
+        {
+          "word": "fever",
+          "phonetic": "ˈfiːvə(r)",
+          "definition": "名 发烧",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "headache",
+          "phonetic": "ˈhedeɪk",
+          "definition": "名 头痛",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hurt",
+          "phonetic": "hɜːt",
+          "definition": "动 受伤；伤害 形 受伤的",
+          "collocations": [
+            "hurt one's leg伤到某人的腿"
+          ],
+          "memory": "联想：出门hunt（打猎），结果hurt（受伤）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pain",
+          "phonetic": "peɪn",
+          "definition": "名 痛苦；疼痛 动 使痛苦",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "wrong",
+          "phonetic": "rɒŋ",
+          "definition": "形 有毛病的；错误的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "always",
+          "phonetic": "ˈɔːlweɪz",
+          "definition": "副 总是",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sometimes",
+          "phonetic": "ˈsʌmtaɪmz",
+          "definition": "副 有时",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "english": "It will be cold and windy in Xi'an and it will be sunny and warm inSanya.",
+      "chinese": "西安天气寒冷、有风，三亚天气晴朗、温暖。",
+      "grammar_title": "一般将来时 | 介词 | 形容词",
+      "grammar_notes": [
+        "1. “will +动词原形”构成一般将来时，表示现在还没有发生，但将要发生的事情。",
+        "2. 在表示城市、省、国家等地点名词前，要用in，如in Xi'an（在西安）、in Sanya（在三亚）。",
+        "3. 当谈论天气时，常用it作主语。形容“天气”的词还有cloudy（多云的）、rainy（阴雨的）、snowy（下雪的）、hot（炎热的）、cool（凉爽的）等。"
+      ],
+      "core_words": [
+        {
+          "word": "sunny",
+          "phonetic": "ˈsʌni",
+          "definition": "形 阳光充足的；晴朗的",
+          "collocations": [],
+          "memory": "",
+          "usage": "比较级：sunnier 最高级：sunniest",
+          "comparison": ""
+        },
+        {
+          "word": "warm",
+          "phonetic": "wɔːm",
+          "definition": "形 温暖的；热情的，热忱的",
+          "collocations": [
+            "warm jacket保暖夹克"
+          ],
+          "memory": "联想：我（拼音w开头）举起手臂（arm）热情欢迎来宾→热情的",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "fine",
+          "phonetic": "faɪn",
+          "definition": "形 好的；晴朗的；健康的",
+          "collocations": [
+            "fine day晴天"
+          ],
+          "memory": "音律：太阳shine（闪耀），排成line（行），感觉fine（好的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cloudy",
+          "phonetic": "ˈklaʊdi",
+          "definition": "形 多云的",
+          "collocations": [],
+          "memory": "联想：青蛙跳进pool（池塘），感觉很cool（凉爽的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "wet",
+          "phonetic": "wet",
+          "definition": "形 湿的；潮湿的；下雨的",
+          "collocations": [],
+          "memory": "音律：太阳set（落山），露水get（得到），有点wet（潮湿的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "dry",
+          "phonetic": "draɪ",
+          "definition": "形 干燥的 动 （使）变干",
+          "collocations": [
+            "dry up干涸"
+          ],
+          "memory": "音律：使劲try（尝试），让它dry（变干）",
+          "usage": "过去式：dried",
+          "comparison": ""
+        },
+        {
+          "word": "snowy",
+          "phonetic": "ˈsnəʊi",
+          "definition": "形 下雪的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cool",
+          "phonetic": "kuːl",
+          "definition": "形 凉的；凉爽的",
+          "collocations": [],
+          "memory": "联想：青蛙跳进pool（池塘），感觉很cool（凉爽的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "foggy",
+          "phonetic": "ˈfɒɡi",
+          "definition": "形 有雾的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "rainy",
+          "phonetic": "ˈreɪni",
+          "definition": "形 阴雨的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "stormy",
+          "phonetic": "ˈstɔːmi",
+          "definition": "形 有暴风雨的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "english": "The weather is very hot, so the ice turns into water.",
+      "chinese": "天气很热，所以冰变成了水。",
+      "grammar_title": "连词 | 形容词",
+      "grammar_notes": [
+        "1. so意为“因此，所以”，表示因果关系。在中文里，我们常说“因为…所以…”，而在英文里，because和so不能用在同一个句子中，要单独使用。",
+        "2. 描述天气情况除了用hot（热的），还可以用cold（寒冷的）、wet（潮湿的）、windy（多风的）等。",
+        "3. turn into意为“变成”，如：A prince turns into a frog in this\ncartoon. 在这部卡通片里，一位王子变成了一只青蛙。"
+      ],
+      "core_words": [
+        {
+          "word": "weather",
+          "phonetic": "ˈweðə(r)",
+          "definition": "名 天气",
+          "collocations": [
+            "weather report天气预报"
+          ],
+          "memory": "分音节：wea-ther",
+          "usage": "",
+          "comparison": "weather“天气”指短期天气情况；climate“气候”指长期有规律的天气情况。"
+        },
+        {
+          "word": "ice",
+          "phonetic": "aɪs",
+          "definition": "名 冰；冰块",
+          "collocations": [
+            "ice hockey冰球 ice skate溜冰鞋"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "into",
+          "phonetic": "ˈɪntuː",
+          "definition": "介 到…里面；进入（某种状态）",
+          "collocations": [
+            "walk into走入…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "blow",
+          "phonetic": "bləʊ",
+          "definition": "动 吹；吹动",
+          "collocations": [
+            "blow away吹走 blow out吹灭 blow up爆炸；爆发"
+          ],
+          "memory": "",
+          "usage": "过去式：blew",
+          "comparison": ""
+        },
+        {
+          "word": "wind",
+          "phonetic": "wɪnd",
+          "definition": "名 风",
+          "collocations": [],
+          "memory": "联想：无论刮wind（风）下雨，都不必mind（介意）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "snow",
+          "phonetic": "snəʊ",
+          "definition": "名 雪 动 下雪",
+          "collocations": [],
+          "memory": "联想：Snow White白雪公主",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "thick",
+          "phonetic": "θɪk",
+          "definition": "形 厚的；密集的；粗的",
+          "collocations": [],
+          "memory": "联想：小猪think（认为）自己衣服穿得太thick（厚的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "rain",
+          "phonetic": "reɪn",
+          "definition": "名 雨 动 下雨",
+          "collocations": [
+            "rain boots雨靴"
+          ],
+          "memory": "联想：rain（雨）一直下，真让人头pain（疼）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "rainbow",
+          "phonetic": "ˈreɪnbəʊ",
+          "definition": "名 彩虹",
+          "collocations": [],
+          "memory": "联想：rain（雨）+bow（弓）→雨后出现像弯弓一样的彩虹→彩虹",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "umbrella",
+          "phonetic": "ʌmˈbrelə",
+          "definition": "名 伞",
+          "collocations": [],
+          "memory": "分音节：um-bre-lla",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "temperature",
+          "phonetic": "ˈtemprətʃə(r)",
+          "definition": "名 温度；气温；体温",
+          "collocations": [
+            "run a temperature发烧"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "heat",
+          "phonetic": "hiːt",
+          "definition": "名 热；高温 动 加热",
+          "collocations": [],
+          "memory": "音律：这块meat（肉），需要heat（加热），才能eat",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "english": "The weather forecast says it will be rainy in the late afternoon.",
+      "chinese": "天气预报说下午晚些时候会下雨。",
+      "grammar_title": "宾语从句 | 一般将来时",
+      "grammar_notes": [
+        "1. 这个句子包含一个省略了that的宾语从句。从句中in the late\nafternoon（下午晚些时候）是表示将来的时间词，所以从句用一般将来时。",
+        "2. weather forecast意为“天气预报”。"
+      ],
+      "core_words": [
+        {
+          "word": "forecast",
+          "phonetic": "ˈfɔːkɑːst",
+          "definition": "名 / 动 预报，预测",
+          "collocations": [
+            "weather forecast天气预报"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "say",
+          "phonetic": "seɪ",
+          "definition": "动 说",
+          "collocations": [
+            "say goodbye to向…道别"
+          ],
+          "memory": "",
+          "usage": "过去式：said",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "tell",
+          "phonetic": "tel",
+          "definition": "动 告诉；告知；讲述；吩咐",
+          "collocations": [
+            "tell a joke讲笑话"
+          ],
+          "memory": "",
+          "usage": "过去式：told",
+          "comparison": "voice指嗓音，sound指声音，noise指噪音。"
+        },
+        {
+          "word": "loud",
+          "phonetic": "laʊd",
+          "definition": "形 声音大的；吵闹的 副 大声地",
+          "collocations": [],
+          "memory": "联想：跟aloud（大声地）一起记",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "shout",
+          "phonetic": "ʃaʊt",
+          "definition": "动 / 名 呼喊；呼叫；大喊",
+          "collocations": [
+            "shout at sb. 对某人大喊"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "truth",
+          "phonetic": "truːθ",
+          "definition": "名 事实；真相；真理",
+          "collocations": [
+            "tell the truth说实话"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "voice",
+          "phonetic": "vɔɪs",
+          "definition": "名 嗓音；说话声",
+          "collocations": [
+            "raise your voice提高嗓门"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": "voice指嗓音，sound指声音，noise指噪音。"
+        },
+        {
+          "word": "noisy",
+          "phonetic": "ˈnɔɪzi",
+          "definition": "形 嘈杂的；喧闹的",
+          "collocations": [],
+          "memory": "分音节：noi-sy",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "noise",
+          "phonetic": "nɔɪz",
+          "definition": "名 噪音",
+          "collocations": [
+            "make a noise制造噪音"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "english": "People plant trees in spring and farmers are busy harvesting inautumn.",
+      "chinese": "人们在春天种树，农民们在秋天忙着收获。",
+      "grammar_title": "介词",
+      "grammar_notes": [
+        "1. 季节前面用介词in，如in spring（在春天）、in summer（在夏天）、in autumn（在秋天）、in winter（在冬天）。",
+        "2. plant trees意为“植树，种树”。",
+        "3. be busy doing sth. 表示“忙于做某事”，也可以说be busy withsth.，如：Kate is busy with her homework. 凯特正忙着做家庭作业。"
+      ],
+      "core_words": [
+        {
+          "word": "plant",
+          "phonetic": "plɑːnt",
+          "definition": "名 植物 动 种植",
+          "collocations": [
+            "plant seeds播种 plant trees植树"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tree",
+          "phonetic": "triː",
+          "definition": "名 树",
+          "collocations": [
+            "Tree Planting Day植树节"
+          ],
+          "memory": "联想：门前有three（三棵）trees（树）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "spring",
+          "phonetic": "sprɪŋ",
+          "definition": "名 春天，春季",
+          "collocations": [
+            "Spring Festival春节"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "farmer",
+          "phonetic": "ˈfɑːmə(r)",
+          "definition": "名 农民",
+          "collocations": [],
+          "memory": "词根：farm（农场）+er（表示人）→农民",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "busy",
+          "phonetic": "ˈbɪzi",
+          "definition": "形 忙碌的",
+          "collocations": [
+            "be busy doing sth. 忙于做某事"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "autumn",
+          "phonetic": "ˈɔːtəm",
+          "definition": "名 秋天，秋季",
+          "collocations": [],
+          "memory": "",
+          "usage": "美式英语：fall",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "season",
+          "phonetic": "ˈsiːzn",
+          "definition": "名 季，季节",
+          "collocations": [],
+          "memory": "联想：season（季节）变换，不需要reason（理由）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "winter",
+          "phonetic": "ˈwɪntə(r)",
+          "definition": "名 冬天，冬季",
+          "collocations": [
+            "winter holiday寒假 Winter Camp冬令营"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "dig",
+          "phonetic": "dɪɡ",
+          "definition": "动 挖",
+          "collocations": [],
+          "memory": "联想：使劲dig（挖）big（大的）土坑",
+          "usage": "过去式：dug",
+          "comparison": ""
+        },
+        {
+          "word": "grow",
+          "phonetic": "ɡrəʊ",
+          "definition": "动 种植；生长",
+          "collocations": [
+            "grow up长大"
+          ],
+          "memory": "音律：下着snow（雪），风在blow（吹），树在grow（生长）",
+          "usage": "过去式：grew",
+          "comparison": ""
+        },
+        {
+          "word": "rice",
+          "phonetic": "raɪs",
+          "definition": "名 大米",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "english": "When spring comes, the animals that sleep in winter start wakingup.",
+      "chinese": "春天来临时，冬眠的动物开始苏醒。",
+      "grammar_title": "时间状语从句 | 定语从句",
+      "grammar_notes": [
+        "1. 句子的主干是the animals start waking up。",
+        "2. 这个句子包含两个从句。第一个是when引导的时间状语从句，when表示“当…时”。",
+        "3. 第二个从句是that引导的定语从句，that sleep in winter修饰的是the animals。",
+        "4. start doing sth.表示“开始做某事”；wake up意为“醒来”。"
+      ],
+      "core_words": [
+        {
+          "word": "animal",
+          "phonetic": "ˈænɪml",
+          "definition": "名 动物",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sleep",
+          "phonetic": "sliːp",
+          "definition": "动 / 名 睡觉",
+          "collocations": [
+            "go to sleep去睡觉"
+          ],
+          "memory": "联想：sleep（睡觉）困难的时候数sheep（绵羊）",
+          "usage": "过去式：slept",
+          "comparison": ""
+        },
+        {
+          "word": "wake",
+          "phonetic": "weɪk",
+          "definition": "动 醒；叫醒",
+          "collocations": [
+            "wake up叫醒…；醒来"
+          ],
+          "memory": "",
+          "usage": "过去式：woke",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "wolf",
+          "phonetic": "wʊlf",
+          "definition": "名 狼",
+          "collocations": [],
+          "memory": "",
+          "usage": "复数：wolves",
+          "comparison": ""
+        },
+        {
+          "word": "pig",
+          "phonetic": "pɪɡ",
+          "definition": "名 猪",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "cow",
+          "phonetic": "kaʊ",
+          "definition": "名 奶牛",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "horse",
+          "phonetic": "hɔːs",
+          "definition": "名 马",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sheep",
+          "phonetic": "ʃiːp",
+          "definition": "名 羊；绵羊",
+          "collocations": [],
+          "memory": "音律：一只sheep（绵羊），坐着jeep（吉普车），正在sleep（睡觉）",
+          "usage": "复数：sheep",
+          "comparison": "sheep指绵羊，goat指山羊，lamb指小羊羔。"
+        },
+        {
+          "word": "mouse",
+          "phonetic": "maʊs",
+          "definition": "名 老鼠",
+          "collocations": [
+            "Mickey Mouse米老鼠"
+          ],
+          "memory": "联想：一只mouse（老鼠）张大mouth（嘴）咬苹果",
+          "usage": "复数：mice",
+          "comparison": ""
+        },
+        {
+          "word": "rat",
+          "phonetic": "ræt",
+          "definition": "名 鼠",
+          "collocations": [],
+          "memory": "音律：一只cat（猫），拿着bat（球拍），追打rat（老鼠）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "duck",
+          "phonetic": "dʌk",
+          "definition": "名 鸭子",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "rooster",
+          "phonetic": "ˈruːstə(r)",
+          "definition": "名 公鸡",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "english": "What a big elephant it is!",
+      "chinese": "好大的一头象啊！",
+      "grammar_title": "感叹句",
+      "grammar_notes": [
+        "1. 这是由what引导的感叹句。感叹句用来表示喜、怒、哀、乐等强烈感情。",
+        "2. 感叹句可以由what引导，也可以由how引导。",
+        "3. what引导的感叹句 what在感叹句中修饰名词。基本结构为：What + (a/an) +形容词+名词+主语+谓语。如：What a sweet apple (it is）! 多么甜的苹果啊！",
+        "4. how引导的感叹句 how在感叹句中修饰形容词或副词。基本结构为：How +形容词/副词+主语+谓语。如：How fast time flies! 时间过得真快啊！",
+        "5. 该句可以改写成由how引导的感叹句，即How big the elephant is!"
+      ],
+      "core_words": [
+        {
+          "word": "what",
+          "phonetic": "wɒt",
+          "definition": "限定词 / 代 什么",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "elephant",
+          "phonetic": "ˈelɪfənt",
+          "definition": "名 象",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "bear",
+          "phonetic": "beə(r)",
+          "definition": "名 熊",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "lion",
+          "phonetic": "ˈlaɪən",
+          "definition": "名 狮子",
+          "collocations": [
+            "lion dance舞狮"
+          ],
+          "memory": "联想：lion（狮子）经过，小动物line（排队）恭迎",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tiger",
+          "phonetic": "ˈtaɪɡə(r)",
+          "definition": "名 老虎",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fox",
+          "phonetic": "fɒks",
+          "definition": "名 狐狸",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "panda",
+          "phonetic": "ˈpændə",
+          "definition": "名 熊猫",
+          "collocations": [],
+          "memory": "联想：电影《功夫熊猫》的英文名字即Kung Fu Panda",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "giraffe",
+          "phonetic": "dʒəˈrɑːf",
+          "definition": "名 长颈鹿",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "kangaroo",
+          "phonetic": "ˌkæŋɡəˈruː",
+          "definition": "名 袋鼠",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "zebra",
+          "phonetic": "ˈzebrə",
+          "definition": "名 斑马",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "monkey",
+          "phonetic": "ˈmʌŋki",
+          "definition": "名 猴子",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "english": "You can see as many as 15,000 butterflies sitting on one branch!",
+      "chinese": "你可以看到多达15,000只蝴蝶栖息在一根树枝上！",
+      "grammar_title": "可数名词 | 动词",
+      "grammar_notes": [
+        "1. as many as意为“多达”，修饰可数名词，用于数字之前，表示数量多。如：There were as many as 200 people at the lecture. 听讲座的有200人之多。",
+        "2. 名词butterfly的复数形式是butterflies，变化规律为：“辅音字母+y”结尾的词，变y为i，再加-es。",
+        "3. see ... doing sth.表示“看见…正在做某事”，而see ... do sth.表示“看见…做了某事”。",
+        "4. branch意为“树枝”，on one branch意为“在一根树枝上”。"
+      ],
+      "core_words": [
+        {
+          "word": "as",
+          "phonetic": "æz",
+          "definition": "介 像，如同；作为，当作 连 因为 副 一样地",
+          "collocations": [
+            "as well也"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "butterfly",
+          "phonetic": "ˈbʌtəflaɪ",
+          "definition": "名 蝴蝶",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "branch",
+          "phonetic": "brɑːntʃ",
+          "definition": "名 树枝",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "insect",
+          "phonetic": "ˈɪnsekt",
+          "definition": "名 昆虫",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "snail",
+          "phonetic": "sneɪl",
+          "definition": "名 蜗牛",
+          "collocations": [],
+          "memory": "联想：snail（蜗牛）没有nail（指甲）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "frog",
+          "phonetic": "frɒɡ",
+          "definition": "名 青蛙",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "snake",
+          "phonetic": "sneɪk",
+          "definition": "名 蛇",
+          "collocations": [],
+          "memory": "音律：一条snake（蛇），吃着cake（蛋糕），跳进lake（湖）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "dragon",
+          "phonetic": "ˈdræɡən",
+          "definition": "名 龙",
+          "collocations": [
+            "dragon boat龙舟 dragon dance舞龙"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "ant",
+          "phonetic": "ænt",
+          "definition": "名 蚂蚁",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bee",
+          "phonetic": "biː",
+          "definition": "名 蜜蜂",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "dragonfly",
+          "phonetic": "ˈdræɡənflaɪ",
+          "definition": "名 蜻蜓",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bug",
+          "phonetic": "bʌɡ",
+          "definition": "名 小虫子",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "spider",
+          "phonetic": "ˈspaɪdə(r)",
+          "definition": "名 蜘蛛",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "english": "Joy keeps two pets at home and she feeds them after dinner everyday.",
+      "chinese": "乔伊在家里养了两只宠物，她每天晚饭后给它们喂食。",
+      "grammar_title": "连词 | 并列句",
+      "grammar_notes": [
+        "1. and在本句中连接两个并列的句子Joy keeps two pets at home和she feeds them after dinner every day，其中she指代的是前面提到的Joy（女子名）；如果是男子名，代词则用he。",
+        "2. keep意为“养，饲养”，如keep chickens（养鸡）。",
+        "3. after dinner意为“晚饭后”，类似的表达还有after breakfast（早饭后）、after lunch（午饭后）。"
+      ],
+      "core_words": [
+        {
+          "word": "keep",
+          "phonetic": "kiːp",
+          "definition": "动 养，饲养；保持",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pet",
+          "phonetic": "pet",
+          "definition": "名 宠物",
+          "collocations": [
+            "pet shop宠物店"
+          ],
+          "memory": "联想：pet（宠物）喜欢被pat（轻拍）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "feed",
+          "phonetic": "fiːd",
+          "definition": "动 喂食，喂养",
+          "collocations": [
+            "feed a bird喂鸟"
+          ],
+          "memory": "",
+          "usage": "过去式：fed",
+          "comparison": ""
+        },
+        {
+          "word": "them",
+          "phonetic": "ðəm",
+          "definition": "代 他们；她们；它们",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "life",
+          "phonetic": "laɪf",
+          "definition": "名 生命；生活",
+          "collocations": [
+            "live a ... life过…的生活"
+          ],
+          "memory": "联想：live（过着）幸福的life（生活）",
+          "usage": "复数：lives",
+          "comparison": ""
+        },
+        {
+          "word": "cat",
+          "phonetic": "kæt",
+          "definition": "名 猫",
+          "collocations": [],
+          "memory": "音律：一只cat（猫），非常fat（胖的），抓不住rat（老鼠）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "dog",
+          "phonetic": "dɒɡ",
+          "definition": "名 狗",
+          "collocations": [],
+          "memory": "音律：这只bird（鸟），排名third（第三）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "parrot",
+          "phonetic": "ˈpærət",
+          "definition": "名 鹦鹉",
+          "collocations": [],
+          "memory": "音律：一只parrot（鹦鹉），吃着carrot（胡萝卜）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "wing",
+          "phonetic": "wɪŋ",
+          "definition": "名 翅膀",
+          "collocations": [],
+          "memory": "音律：插上wing（翅膀），尽情sing（歌唱）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "nest",
+          "phonetic": "nest",
+          "definition": "名 鸟巢",
+          "collocations": [],
+          "memory": "音律：一只pest（害虫），躺在nest（鸟巢），正在rest（休息）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bird",
+          "phonetic": "bɜːd",
+          "definition": "名 鸟",
+          "collocations": [],
+          "memory": "音律：这只bird（鸟），排名third（第三）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tail",
+          "phonetic": "teɪl",
+          "definition": "名 尾巴",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "rabbit",
+          "phonetic": "ˈræbɪt",
+          "definition": "名 兔子",
+          "collocations": [],
+          "memory": "分音节：rab-bit",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "english": "It's your turn to walk the dog.",
+      "chinese": "轮到你去遛狗了。",
+      "grammar_title": "固定句型 | 动词",
+      "grammar_notes": [
+        "1. It's one's turn to do sth. 为固定句型，表示“轮到某人做某事了”。其中turn是名词，意为“（依次轮到的）机会”，如：It's your turn todo the washing up! 轮到你洗碗了！",
+        "2. walk the dog意为“遛狗”，其中walk是动词，意为“牵着（动物）走；遛”。"
+      ],
+      "core_words": [
+        {
+          "word": "turn",
+          "phonetic": "tɜːn",
+          "definition": "名 （依次轮到的）机会；转向；转弯",
+          "collocations": [
+            "take turns轮流"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "pick",
+          "phonetic": "pɪk",
+          "definition": "动 摘；捡起，拿起；挑选 名 选择",
+          "collocations": [
+            "pick flowers摘花 pick fruits采摘水果 pick up捡起…，拾起…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "lift",
+          "phonetic": "lɪft",
+          "definition": "动 拿起，搬起，举起 名 电梯",
+          "collocations": [
+            "lift up举起…，抬起…"
+          ],
+          "memory": "联想：使劲lift（抬）箱子到left（左边）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hold",
+          "phonetic": "həʊld",
+          "definition": "动 拿住；握住；抓紧；举行；承受",
+          "collocations": [
+            "hold on别挂断 hold onto抓紧…"
+          ],
+          "memory": "联想：天气很cold（冷的），快hold（承受）不了→承受",
+          "usage": "过去式：held",
+          "comparison": ""
+        },
+        {
+          "word": "press",
+          "phonetic": "pres",
+          "definition": "动 按；压",
+          "collocations": [
+            "press a switch按下开关 press a button按下按钮"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "push",
+          "phonetic": "pʊʃ",
+          "definition": "动 推",
+          "collocations": [],
+          "memory": "音律：使劲push（推），误入bush（灌木丛）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pull",
+          "phonetic": "pʊl",
+          "definition": "动 拔；拉",
+          "collocations": [
+            "pull up拉出…，把…向上拔"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hope",
+          "phonetic": "həʊp",
+          "definition": "名 / 动 希望",
+          "collocations": [
+            "hope to do希望做…"
+          ],
+          "memory": "联想：心里hope（希望），这根rope（绳子），不会drop（掉下来）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "diary",
+          "phonetic": "ˈdaɪəri",
+          "definition": "名 日记",
+          "collocations": [
+            "keep a diary记日记"
+          ],
+          "memory": "联想：day（一天）中间挤入i和r，日记就是用一天挤出来的零碎时间写出来的→日记",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "exercise",
+          "phonetic": "ˈeksəsaɪz",
+          "definition": "动 / 名 运动；锻炼；练习",
+          "collocations": [
+            "exercise book练习册 do morning exercise做早操"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "english": "The girl wants to buy a flower for her mum.",
+      "chinese": "这个女孩想给她的妈妈买一朵花。",
+      "grammar_title": "动词",
+      "grammar_notes": [
+        "1. “给某人买某物”可以表述为buy sb. sth.或buy sth. for sb.，如：Shebought me a new coat. 她给我买了一件新外套。 She bought a newcoat for me. 她给我买了一件新外套。",
+        "2. a flower意为“一朵花”，“一束花”可以表述为a bunch of flowers。"
+      ],
+      "core_words": [
+        {
+          "word": "want",
+          "phonetic": "wɒnt",
+          "definition": "动 要；想要",
+          "collocations": [
+            "want to know想知道"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "buy",
+          "phonetic": "baɪ",
+          "definition": "动 买",
+          "collocations": [
+            "buy a book买一本书"
+          ],
+          "memory": "",
+          "usage": "过去式：bought",
+          "comparison": ""
+        },
+        {
+          "word": "flower",
+          "phonetic": "ˈflaʊə(r)",
+          "definition": "名 花；花朵",
+          "collocations": [
+            "a bunch of flowers一束花"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "choose",
+          "phonetic": "tʃuːz",
+          "definition": "动 选择",
+          "collocations": [],
+          "memory": "音律：一只goose（鹅），choose（挑选）shoes（鞋子）",
+          "usage": "过去式：chose",
+          "comparison": ""
+        },
+        {
+          "word": "doll",
+          "phonetic": "dɒl",
+          "definition": "名 玩偶；玩具娃娃",
+          "collocations": [],
+          "memory": "联想：打开door（门），发现doll（玩偶）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "toy",
+          "phonetic": "tɔɪ",
+          "definition": "名 玩具",
+          "collocations": [
+            "stuffed toy毛绒玩具 toy car玩具小汽车 play with toys玩玩具"
+          ],
+          "memory": "音律：一个boy（男孩），拿着toy（玩具），享受joy（快乐）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "pearl",
+          "phonetic": "pɜːl",
+          "definition": "名 珍珠",
+          "collocations": [],
+          "memory": "联想：卖掉pear（梨）换来pearl（珍珠）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "vase",
+          "phonetic": "vɑːz",
+          "definition": "名 花瓶",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "important",
+          "phonetic": "ɪmˈpɔːtnt",
+          "definition": "形 重要的",
+          "collocations": [
+            "an important decision重要决定"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "special",
+          "phonetic": "ˈspeʃl",
+          "definition": "形 特殊的；特别的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "english": "Now there are only about ten thousand blue whales in the wild.",
+      "chinese": "现在野生蓝鲸只有大约一万只。",
+      "grammar_title": "there be句型 | 数词",
+      "grammar_notes": [
+        "1. 根据now可知，本句应是there be句型中的一般现在时，be的形式根据与其最近的名词来确定。其后名词是ten thousand blue whales，所以be动词用are。",
+        "2. hundred（百）、thousand（千）、million（百万）、billion（十亿）前面有具体的数字时，后面不能加-s，如three hundred（三百）；当表示大概数字时，词尾要加-s，如hundreds of（数以百计）、thousands of（数以千计）。",
+        "3. 在英语里没有直接表示“万”的单词。“万”用... thousand表示，如句中出现的ten thousand（一万）。",
+        "4. blue whales意为“蓝鲸”；in the wild意为“在野外”。"
+      ],
+      "core_words": [
+        {
+          "word": "only",
+          "phonetic": "ˈəʊnli",
+          "definition": "副 只；仅仅 形 唯一的；仅有的",
+          "collocations": [
+            "not only ... but also ...不仅…而且…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "whale",
+          "phonetic": "weɪl",
+          "definition": "名 鲸",
+          "collocations": [
+            "blue whale蓝鲸"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "wild",
+          "phonetic": "waɪld",
+          "definition": "形 野生的；缺乏管教的；无法无天的 名 野生环境，野外",
+          "collocations": [],
+          "memory": "音律：那个child（小孩）简直wild（无法无天的）",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "beaver",
+          "phonetic": "ˈbiːvə(r)",
+          "definition": "名 海狸，河狸",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "turtle",
+          "phonetic": "ˈtɜːtl",
+          "definition": "名 乌龟，海龟",
+          "collocations": [],
+          "memory": "分音节：tur-tle",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "dolphin",
+          "phonetic": "ˈdɒlfɪn",
+          "definition": "名 海豚",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "starfish",
+          "phonetic": "ˈstɑːfɪʃ",
+          "definition": "名 海星",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "jellyfish",
+          "phonetic": "ˈdʒelifɪʃ",
+          "definition": "名 水母",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "shark",
+          "phonetic": "ʃɑːk",
+          "definition": "名 鲨鱼",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "goldfish",
+          "phonetic": "ˈɡəʊldfɪʃ",
+          "definition": "名 金鱼",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "crab",
+          "phonetic": "kræb",
+          "definition": "名 螃蟹",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "english": "Most of the kids have never seen the sea.",
+      "chinese": "这些孩子中的大多数从没见过大海。",
+      "grammar_title": "现在完成时",
+      "grammar_notes": [
+        "1. 这个句子的时态是现在完成时，表示过去发生的动作或状态对现在的影响。",
+        "2. most of the kids意为“这些孩子中的大多数”，还可以说成mostkids。",
+        "3. “most + 名词”“most of + 代词”“most of the +名词”，意为“（…当中）大多数/大部分”。注意区分：①most of the +名词复数，谓语动词为复数；②most of the +不可数名词，谓语动词为单数。"
+      ],
+      "core_words": [
+        {
+          "word": "most",
+          "phonetic": "məʊst",
+          "definition": "限定词 / 代 大多数的 副 最",
+          "collocations": [
+            "at (the) most至多"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "never",
+          "phonetic": "ˈnevə(r)",
+          "definition": "副 决不；从不",
+          "collocations": [
+            "never mind没关系"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sea",
+          "phonetic": "siː",
+          "definition": "名 海；海洋",
+          "collocations": [
+            "sea horse海马 sea lion海狮"
+          ],
+          "memory": "联想：我们一起去see（看）sea（海）",
+          "usage": "",
+          "comparison": "当表示覆盖地球表面大部分地区的大片海水时，英式英语常用sea，美式英语常用ocean。"
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "beach",
+          "phonetic": "biːtʃ",
+          "definition": "名 海滩",
+          "collocations": [
+            "on the beach在沙滩上"
+          ],
+          "memory": "音律：躺在beach（海滩），吃着peach（桃子），不用teach（教学）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "coast",
+          "phonetic": "kəʊst",
+          "definition": "名 海岸，海滨",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sand",
+          "phonetic": "sænd",
+          "definition": "名 沙子；沙滩",
+          "collocations": [],
+          "memory": "发音：“散的”→沙子是一粒粒散开的→沙子",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sandy",
+          "phonetic": "ˈsændi",
+          "definition": "形 覆盖着沙的；沙地的",
+          "collocations": [],
+          "memory": "",
+          "usage": "比较级：sandier 最高级：sandiest",
+          "comparison": ""
+        },
+        {
+          "word": "shell",
+          "phonetic": "ʃel",
+          "definition": "名 贝壳",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "island",
+          "phonetic": "ˈaɪlənd",
+          "definition": "名 岛屿",
+          "collocations": [
+            "on the island在岛上"
+          ],
+          "memory": "联想：is（是）+land（陆地）→岛屿当然也是陆地啦→岛屿",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "rock",
+          "phonetic": "rɒk",
+          "definition": "名 岩石",
+          "collocations": [],
+          "memory": "联想：敲打stone（石头），发出tone（声音）",
+          "usage": "",
+          "comparison": "rock指岩石，stone指小块的石头。"
+        },
+        {
+          "word": "stone",
+          "phonetic": "stəʊn",
+          "definition": "名 石子；石头",
+          "collocations": [],
+          "memory": "联想：敲打stone（石头），发出tone（声音）",
+          "usage": "",
+          "comparison": "rock指岩石，stone指小块的石头。"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "english": "The moon is round and bright on that day.",
+      "chinese": "那天的月亮又圆又亮。",
+      "grammar_title": "定冠词",
+      "grammar_notes": [
+        "1. 这个句子描述通常性、规律性的状态，所以用一般现在时。",
+        "2. 定冠词the用在世上独一无二的事物前，如the moon（月球）、thesun（太阳）。",
+        "3. round and bright意为“又圆又亮”，on that day意为“在那天”。"
+      ],
+      "core_words": [
+        {
+          "word": "moon",
+          "phonetic": "muːn",
+          "definition": "名 月亮；月球",
+          "collocations": [
+            "moon cake月饼"
+          ],
+          "memory": "联想：noon（中午）没有moon（月亮）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "round",
+          "phonetic": "raʊnd",
+          "definition": "形 圆的 介 围绕，包围 副 在周围",
+          "collocations": [],
+          "memory": "联想：跟around（在四周；到处）一起记",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bright",
+          "phonetic": "braɪt",
+          "definition": "形 明亮的；光明的",
+          "collocations": [],
+          "memory": "音律：道路right（正确的），前途bright（光明的）",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "dark",
+          "phonetic": "dɑːk",
+          "definition": "形 黑暗的；深色的 名 黑暗",
+          "collocations": [
+            "dark blue深蓝色 before dark天黑之前"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "deep",
+          "phonetic": "diːp",
+          "definition": "形 深的 副 深深地",
+          "collocations": [
+            "deep colours深色"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "date",
+          "phonetic": "deɪt",
+          "definition": "名 日期；日子；约会",
+          "collocations": [
+            "have a date有约"
+          ],
+          "memory": "音律：想去date（约会），不能late（迟到的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "hour",
+          "phonetic": "ˈaʊə(r)",
+          "definition": "名 小时",
+          "collocations": [
+            "half an hour半个小时 in an hour's time一小时内"
+          ],
+          "memory": "联想：出门tour（观光）需要好几个hour（小时）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "minute",
+          "phonetic": "ˈmɪnɪt",
+          "definition": "名 分钟",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "quarter",
+          "phonetic": "ˈkwɔːtə(r)",
+          "definition": "名 四分之一；一刻钟",
+          "collocations": [
+            "a quarter past seven七点一刻 a quarter to eight七点四十五分"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "clock",
+          "phonetic": "klɒk",
+          "definition": "名 钟，时钟",
+          "collocations": [
+            "alarm clock闹钟"
+          ],
+          "memory": "音律：一块rock（石头），穿着sock（袜子），看着clock（钟）",
+          "usage": "",
+          "comparison": "clock指“时钟”，watch指“手表”。"
+        },
+        {
+          "word": "afternoon",
+          "phonetic": "ˌɑːftəˈnuːn",
+          "definition": "名 下午",
+          "collocations": [],
+          "memory": "合成词：after（在…之后）+noon（中午）→中午之后就是下午→下午",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "night",
+          "phonetic": "naɪt",
+          "definition": "名 晚上",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "english": "The moon goes around the earth all the time.",
+      "chinese": "月球一直绕着地球转。",
+      "grammar_title": "一般现在时 | 定冠词",
+      "grammar_notes": [
+        "1. “月球一直绕着地球转”属于客观事实、普遍真理，要用一般现在时。",
+        "2. moon（月球）、earth（地球）是独一无二的事物，所以前面要用定冠词the。",
+        "3. go around意为“旋转，转动”，around可以替换为round，如goaround/round in a circle（转圈）。",
+        "4. all the time意为“一直，始终”。"
+      ],
+      "core_words": [
+        {
+          "word": "around",
+          "phonetic": "əˈraʊnd",
+          "definition": "副 / 介 围绕，环绕",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "earth",
+          "phonetic": "ɜːθ",
+          "definition": "名 地球",
+          "collocations": [
+            "on earth世界上；究竟"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "nature",
+          "phonetic": "ˈneɪtʃə(r)",
+          "definition": "名 大自然；自然界",
+          "collocations": [
+            "nature park自然公园"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "forest",
+          "phonetic": "ˈfɒrɪst",
+          "definition": "名 森林",
+          "collocations": [],
+          "memory": "联想：for+rest（休息）→森林是给动物休息的地方→森林",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "grass",
+          "phonetic": "ɡrɑːs",
+          "definition": "名 草；草地",
+          "collocations": [
+            "keep off the grass请勿践踏草坪"
+          ],
+          "memory": "音律：青青的grass（草地），竟有glass（玻璃）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "river",
+          "phonetic": "ˈrɪvə(r)",
+          "definition": "名 河；江",
+          "collocations": [
+            "the Yangtze River长江"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bridge",
+          "phonetic": "brɪdʒ",
+          "definition": "名 桥",
+          "collocations": [],
+          "memory": "音律：要过bridge（桥），推着fridge（冰箱）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "lake",
+          "phonetic": "leɪk",
+          "definition": "名 湖；湖泊",
+          "collocations": [
+            "by the lake在湖边"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "waterfall",
+          "phonetic": "ˈwɔːtəfɔːl",
+          "definition": "名 瀑布",
+          "collocations": [],
+          "memory": "合成词：water（水）+fall（落下）→飞流直下三千尺→瀑布",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "land",
+          "phonetic": "lænd",
+          "definition": "名 陆地 动 着陆；登陆",
+          "collocations": [],
+          "memory": "音律：这块land（陆地）全是sand（沙）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "desert",
+          "phonetic": "ˈdezət",
+          "definition": "名 沙漠",
+          "collocations": [],
+          "memory": "联想：跟dessert（甜点）一起记",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "english": "We shouldn't leave the rubbish anywhere.",
+      "chinese": "我们不应该到处扔垃圾。",
+      "grammar_title": "情态动词 | 地点副词",
+      "grammar_notes": [
+        "1. shouldn't = should not，是情态动词should的否定式，意为“不应该”。",
+        "2. rubbish意为“垃圾”。leave意为“使保留，让…处于（某种状态、某地等）”，如：Leave the door open, please. 请把门开着吧。You'veleft your lights on. 你忘了关灯。",
+        "3. anywhere意为“在任何地方”，用于否定句和疑问句。somewhere意为“在某处；到某处”，一般用于肯定句。如：I've seen him\nsomewhere before. 我以前在哪儿见过他。"
+      ],
+      "core_words": [
+        {
+          "word": "rubbish",
+          "phonetic": "ˈrʌbɪʃ",
+          "definition": "名 垃圾",
+          "collocations": [
+            "rubbish bin垃圾箱"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "anywhere",
+          "phonetic": "ˈeniweə(r)",
+          "definition": "副 在任何地方",
+          "collocations": [],
+          "memory": "合成词：any（任何）+where（地方）→在任何地方",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "spit",
+          "phonetic": "spɪt",
+          "definition": "动 吐痰 名 唾沫",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：spat 现在分词：spitting",
+          "comparison": ""
+        },
+        {
+          "word": "smoke",
+          "phonetic": "sməʊk",
+          "definition": "动 吸烟 名 烟；吸烟",
+          "collocations": [],
+          "memory": "联想：smoke（吸烟）会产生smog（烟雾）",
+          "usage": "过去式：smoked 现在分词：smoking",
+          "comparison": ""
+        },
+        {
+          "word": "mess",
+          "phonetic": "mes",
+          "definition": "名 混乱；肮脏",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "dirty",
+          "phonetic": "ˈdɜːti",
+          "definition": "形 肮脏的",
+          "collocations": [],
+          "memory": "",
+          "usage": "比较级：dirtier 最高级：dirtiest",
+          "comparison": ""
+        },
+        {
+          "word": "waste",
+          "phonetic": "weɪst",
+          "definition": "名 / 动 浪费",
+          "collocations": [],
+          "memory": "联想：taste（尝）了一口就不吃了，实属waste（浪费）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "litter",
+          "phonetic": "ˈlɪtə(r)",
+          "definition": "名 垃圾 动 乱扔",
+          "collocations": [
+            "litter basket垃圾篓 litter box垃圾箱"
+          ],
+          "memory": "联想：不要litter（乱扔）重要letter（信件）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "trash",
+          "phonetic": "træʃ",
+          "definition": "名 垃圾",
+          "collocations": [
+            "trash can垃圾桶"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "everywhere",
+          "phonetic": "ˈevriweə(r)",
+          "definition": "副 / 代 处处，到处",
+          "collocations": [],
+          "memory": "合成词：every（每个）+where（地点）→处处，到处",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "somewhere",
+          "phonetic": "ˈsʌmweə(r)",
+          "definition": "代 某处 副 在某处；到某处",
+          "collocations": [
+            "go somewhere去某处"
+          ],
+          "memory": "合成词：some（某个）+where（地方）→某处",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "someone",
+          "phonetic": "ˈsʌmwʌn",
+          "definition": "代 某人",
+          "collocations": [],
+          "memory": "合成词：some（某个）+one（一个人）→某人",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sometime",
+          "phonetic": "ˈsʌmtaɪm",
+          "definition": "副 在某时",
+          "collocations": [],
+          "memory": "合成词：some（某个）+time（时间）→在某时",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "someday",
+          "phonetic": "ˈsʌmdeɪ",
+          "definition": "副 将来某一天",
+          "collocations": [],
+          "memory": "合成词：some（某个）+day（一天）→将来某一天",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "nobody",
+          "phonetic": "ˈnəʊbədi",
+          "definition": "代 没有人",
+          "collocations": [],
+          "memory": "合成词：no（没有）+body（身体）→没有人",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "english": "We should not cut down too many trees because trees help keepthe air clean.",
+      "chinese": "我们不应该砍伐太多的树木，因为树木有助于保持空气清洁。",
+      "grammar_title": "情态动词 | 动词",
+      "grammar_notes": [
+        "1. 本句包含一个because引导的原因状语从句，作整句的原因状语。",
+        "2. 情态动词should表示义务，should not意为“不应该”，后接动词原形。",
+        "3. cut down意为“砍倒”，cut down a tree和cut a tree down都表示“砍倒一棵树”。",
+        "4. too many意为“太多的”，修饰可数名词复数。",
+        "5. help后面可以跟带to或不带to的不定式，即help to do sth.或helpdo sth.，意为“有助于做某事”。",
+        "6. keep the air clean意为“保持空气清洁”。"
+      ],
+      "core_words": [
+        {
+          "word": "cut",
+          "phonetic": "kʌt",
+          "definition": "动 切；割 名 切口，伤口；削减",
+          "collocations": [
+            "cut down砍倒…"
+          ],
+          "memory": "音律：用刀cut（切）坚硬的nut（坚果）",
+          "usage": "过去式：cut 现在分词：cutting",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "clear",
+          "phonetic": "klɪə(r)",
+          "definition": "形 清楚的；清澈的；晴朗的 动 清除",
+          "collocations": [
+            "clear the table收拾桌子"
+          ],
+          "memory": "联想：clean（干净的）并clear（清澈的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sweep",
+          "phonetic": "swiːp",
+          "definition": "动 / 名 打扫；清除",
+          "collocations": [
+            "sweep the floor扫地"
+          ],
+          "memory": "音律：一只sheep（绵羊），不爱sweep（打扫），伤心weep（哭泣）",
+          "usage": "过去式：swept",
+          "comparison": ""
+        },
+        {
+          "word": "dust",
+          "phonetic": "dʌst",
+          "definition": "名 灰尘 动 掸去",
+          "collocations": [],
+          "memory": "联想：衣服上肯定（must）有灰尘（dust）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "tidy",
+          "phonetic": "ˈtaɪdi",
+          "definition": "形 整洁的；整齐的 动 整理，收拾",
+          "collocations": [
+            "tidy up收拾；整理 tidy the desk清理书桌"
+          ],
+          "memory": "",
+          "usage": "比较级：tidier 最高级：tidiest 第三人称单数：tidies 过去式：tidied",
+          "comparison": ""
+        },
+        {
+          "word": "volunteer",
+          "phonetic": "ˌvɒlənˈtɪə(r)",
+          "definition": "名 志愿者 动 自愿做",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "peace",
+          "phonetic": "piːs",
+          "definition": "名 和平；平静",
+          "collocations": [
+            "make peace和解"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "war",
+          "phonetic": "wɔː(r)",
+          "definition": "名 战争",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fire",
+          "phonetic": "ˈfaɪə(r)",
+          "definition": "名 火；火灾 动 射击",
+          "collocations": [
+            "fire engine消防车 fire station消防站"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "kill",
+          "phonetic": "kɪl",
+          "definition": "动 杀；消磨",
+          "collocations": [
+            "kill time消磨时间"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "dead",
+          "phonetic": "ded",
+          "definition": "形 死的，去世的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "die",
+          "phonetic": "daɪ",
+          "definition": "动 死，死亡",
+          "collocations": [],
+          "memory": "",
+          "usage": "现在分词：dying",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "english": "We use plastic to make bags and bottles, but too much plastic isbad for the Earth.",
+      "chinese": "我们用塑料制作袋子和瓶子，但是过多的塑料对地球有害。",
+      "grammar_title": "连词 | 名词",
+      "grammar_notes": [
+        "1. but意为“但是”，可以用来连接两个句子，表示转折关系。",
+        "2. be bad for表示“对…有害”。",
+        "3. plastic意为“塑料”，是不可数名词。",
+        "4. too much后接不可数名词，意为“太多的”，如too much water（太多水）。"
+      ],
+      "core_words": [
+        {
+          "word": "use",
+          "phonetic": "juːz",
+          "definition": "动 用；使用；应用 [juːs] 名 用途；利用",
+          "collocations": [
+            "use a computer使用电脑"
+          ],
+          "memory": "",
+          "usage": "过去式：used 现在分词：using",
+          "comparison": ""
+        },
+        {
+          "word": "plastic",
+          "phonetic": "ˈplæstɪk",
+          "definition": "名 塑料 形 塑料的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "bottle",
+          "phonetic": "ˈbɒtl",
+          "definition": "名 瓶子；一瓶（的量）",
+          "collocations": [
+            "a bottle of juice一瓶果汁 a bottle of lemonade一瓶柠檬味汽水"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "reuse",
+          "phonetic": "ˌriːˈjuːz",
+          "definition": "动 再使用，再利用 [ˌriːˈjuːs] 名 重复利用",
+          "collocations": [],
+          "memory": "词根：re（再次，重新）+use（使用）→再使用",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "protect",
+          "phonetic": "prəˈtekt",
+          "definition": "动 保护",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "ground",
+          "phonetic": "ɡraʊnd",
+          "definition": "名 地面；地上；土壤",
+          "collocations": [
+            "on the ground在地上"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": "ground和soil都有“土”的意思，ground指“土地”，而soil指“土壤”。"
+        },
+        {
+          "word": "save",
+          "phonetic": "seɪv",
+          "definition": "动 救；拯救；节约",
+          "collocations": [
+            "save sb.'s life救某人的命"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "harm",
+          "phonetic": "hɑːm",
+          "definition": "动 / 名 伤害",
+          "collocations": [
+            "do harm to伤害…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "english": "We should not drive so much because cars use a lot of energy.",
+      "chinese": "我们不应该开车太频繁，因为汽车会消耗大量的能源。",
+      "grammar_title": "连词",
+      "grammar_notes": [
+        "1. because意为“因为”，说明原因。在中文里，我们常说“因为…所以…”，而在英文里，because和so不能用在同一个句子中，要单独使用。",
+        "2. so much意为“非常”，如：I love this book so much. 我非常喜欢这本书。",
+        "3. 此外，so much还意为“很多，大量”，用于修饰不可数名词。",
+        "4. a lot of = lots of，意为“很多，大量”。"
+      ],
+      "core_words": [
+        {
+          "word": "drive",
+          "phonetic": "draɪv",
+          "definition": "动 开车；驾驶",
+          "collocations": [
+            "drive a car开车"
+          ],
+          "memory": "",
+          "usage": "过去式：drove",
+          "comparison": ""
+        },
+        {
+          "word": "much",
+          "phonetic": "mʌtʃ",
+          "definition": "限定词 / 代 许多，大量 副 非常",
+          "collocations": [
+            "how much多少钱 very much非常"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "lot",
+          "phonetic": "lɒt",
+          "definition": "限定词 / 代 大量，许多 副 很，非常",
+          "collocations": [
+            "a lot of = lots of许多"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "energy",
+          "phonetic": "ˈenədʒi",
+          "definition": "名 能源",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "coal",
+          "phonetic": "kəʊl",
+          "definition": "名 煤炭",
+          "collocations": [],
+          "memory": "联想：一只goat（山羊），穿着coat（外套），去挖coal（煤炭）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "rare",
+          "phonetic": "reə(r)",
+          "definition": "形 稀有的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "plenty",
+          "phonetic": "ˈplenti",
+          "definition": "副 很多，大量 限定词 / 代 大量",
+          "collocations": [
+            "plenty of许多…"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "few",
+          "phonetic": "fjuː",
+          "definition": "形 不多的；很少的 代 很少",
+          "collocations": [
+            "a few几个，少许"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "enough",
+          "phonetic": "ɪˈnʌf",
+          "definition": "限定词 足够的；充足的 副 足够地",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "else",
+          "phonetic": "els",
+          "definition": "形 另外的；其他的 副 其他",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "english": "Robots can cheer up sick kids, too.",
+      "chinese": "机器人还能让生病的孩子开心起来。",
+      "grammar_title": "情态动词 | 动词",
+      "grammar_notes": [
+        "1. can是情态动词，意为“能，会”，不能单独作谓语，需要与动词原形一起使用。",
+        "2. cheer up意为“（使）变得更高兴，振奋起来”。",
+        "3. too意为“也，又”，通常置于句末，如：She likes dancing too. 她也喜欢跳舞。"
+      ],
+      "core_words": [
+        {
+          "word": "robot",
+          "phonetic": "ˈrəʊbɒt",
+          "definition": "名 机器人",
+          "collocations": [],
+          "memory": "分音节：ro-bot",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sick",
+          "phonetic": "sɪk",
+          "definition": "形 有病的，患病的；不适的",
+          "collocations": [],
+          "memory": "联想：不穿sock（袜子），容易sick（患病的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "kid",
+          "phonetic": "kɪd",
+          "definition": "名 （口语）小孩；孩子 动 开玩笑；欺骗",
+          "collocations": [],
+          "memory": "联想：这个kid（小孩）很kind（友善的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "too",
+          "phonetic": "tuː",
+          "definition": "副 太；过于；也；还",
+          "collocations": [],
+          "memory": "发音：too的发音和to一样",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "also",
+          "phonetic": "ˈɔːlsəʊ",
+          "definition": "副 也；同样",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": "also和too都表示“也”，also放在句中，too放在句尾。"
+        },
+        {
+          "word": "invent",
+          "phonetic": "ɪnˈvent",
+          "definition": "动 发明；创造",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "invention",
+          "phonetic": "ɪnˈvenʃn",
+          "definition": "名 发明；发明物",
+          "collocations": [],
+          "memory": "词根：invent（发明）+ion（表示物）→发明物",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "machine",
+          "phonetic": "məˈʃiːn",
+          "definition": "名 机器",
+          "collocations": [
+            "time machine时光机"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "english": "We're going to see a film about space travel!",
+      "chinese": "我们要去看一场关于太空旅行的电影！",
+      "grammar_title": "一般将来时",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般将来时，“be going to +动词原形”表示打算、计划和安排好了的事情，也可以表示将要发生的动作或情况。",
+        "2. see a film意为“看电影”，其中film可以替换为movie。表示“看电影”还可以用watch a film。",
+        "3. space travel意为“太空旅行”，其中space（太空）是不可数名词。"
+      ],
+      "core_words": [
+        {
+          "word": "film",
+          "phonetic": "fɪlm",
+          "definition": "名 电影；胶卷",
+          "collocations": [
+            "horror film恐怖片"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "space",
+          "phonetic": "speɪs",
+          "definition": "名 太空；空间；空格",
+          "collocations": [
+            "outer space外太空"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "astronaut",
+          "phonetic": "ˈæstrənɔːt",
+          "definition": "名 航天员",
+          "collocations": [],
+          "memory": "词根：astro（星星）+naut（驾驶某种飞行工具的人）→驾驶飞行工具摘星星的人→航天员",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "great",
+          "phonetic": "ɡreɪt",
+          "definition": "形 了不起的；非常好的；令人愉快的",
+          "collocations": [
+            "be great at (doing）sth. 擅长（做）某事"
+          ],
+          "memory": "联想：好多美食可以eat（吃），真是great（令人愉快的）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "proud",
+          "phonetic": "praʊd",
+          "definition": "形 自豪的",
+          "collocations": [
+            "be proud of为…感到自豪"
+          ],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "may",
+          "phonetic": "meɪ",
+          "definition": "情态 可能，可以",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "fact",
+          "phonetic": "fækt",
+          "definition": "名 事实；真相",
+          "collocations": [
+            "in fact事实上"
+          ],
+          "memory": "联想：勇于face（面对）残酷的fact（真相）",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "would",
+          "phonetic": "wʊd",
+          "definition": "情态 将；愿意",
+          "collocations": [
+            "would like愿意"
+          ],
+          "memory": "",
+          "usage": "否定缩略式：wouldn't",
+          "comparison": ""
+        },
+        {
+          "word": "real",
+          "phonetic": "rɪəl; ˈriːəl",
+          "definition": "形 真的；真实的",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "become",
+          "phonetic": "bɪˈkʌm",
+          "definition": "动 变成",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：became",
+          "comparison": ""
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "english": "They will travel to Mars in a Time Chair.",
+      "chinese": "他们将乘坐时光椅去火星旅行。",
+      "grammar_title": "一般将来时 | 介词",
+      "grammar_notes": [
+        "1. 这个句子的时态是一般将来时，其构成是：“will +动词原形”。还可以用“be going to +动词原形”构成将来时。",
+        "2. travel to Mars意为“去火星旅行”。表达“去…旅行”可以说travel to...，如travel to the moon（去月球旅行）。",
+        "3. Time Chair意为“时光椅”。",
+        "4. 表示“坐在椅子上”可以用in/on a chair。in和on的区别在于椅子的类型： ①如果椅子有扶手，人坐上去是被包围的，整个人都陷在椅子里，用介词in； ②如果椅子没有扶手，人左右两边没被包裹起来，那就是在椅子的表面，用介词on。"
+      ],
+      "core_words": [
+        {
+          "word": "travel",
+          "phonetic": "ˈtrævl",
+          "definition": "名 旅游 动 旅行；行进",
+          "collocations": [
+            "travel around the world环游世界"
+          ],
+          "memory": "联想：plane（飞机）+t→坐飞机去看t行星→行星",
+          "usage": "过去式：travelled/traveled 现在分词：travelling/traveling",
+          "comparison": ""
+        },
+        {
+          "word": "sun",
+          "phonetic": "sʌn",
+          "definition": "名 太阳",
+          "collocations": [],
+          "memory": "联想：sun（太阳）发出sunshine（阳光），照耀着大地",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "sunrise",
+          "phonetic": "ˈsʌnraɪz",
+          "definition": "名 日出",
+          "collocations": [
+            "see the sunrise看日出"
+          ],
+          "memory": "合成词：sun（太阳）+rise（上升）→太阳上升→日出",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "shine",
+          "phonetic": "ʃaɪn",
+          "definition": "动 （太阳）发光；照耀",
+          "collocations": [],
+          "memory": "",
+          "usage": "过去式：shone 现在分词：shining",
+          "comparison": ""
+        },
+        {
+          "word": "set",
+          "phonetic": "set",
+          "definition": "名 一套；一系列 动 摆放（餐桌）；（太阳）落下去",
+          "collocations": [
+            "set off燃放…；使…爆炸 set the table摆饭桌，摆放餐具"
+          ],
+          "memory": "",
+          "usage": "过去式：set 现在分词：setting",
+          "comparison": ""
+        },
+        {
+          "word": "star",
+          "phonetic": "stɑː(r)",
+          "definition": "名 星星；星状物；明星 动 主演",
+          "collocations": [
+            "sports star体育明星"
+          ],
+          "memory": "联想：坐在stair（楼梯）上看star（星星）",
+          "usage": "过去式：starred 现在分词：starring",
+          "comparison": ""
+        },
+        {
+          "word": "sky",
+          "phonetic": "skaɪ",
+          "definition": "名 天空",
+          "collocations": [],
+          "memory": "",
+          "usage": "复数：skies",
+          "comparison": ""
+        },
+        {
+          "word": "cloud",
+          "phonetic": "klaʊd",
+          "definition": "名 云",
+          "collocations": [],
+          "memory": "音律：看见cloud（云），shout（喊）aloud（大声地）",
+          "usage": "",
+          "comparison": ""
+        }
+      ],
+      "topic_words": [
+        {
+          "word": "planet",
+          "phonetic": "ˈplænɪt",
+          "definition": "名 行星",
+          "collocations": [],
+          "memory": "联想：plane（飞机）+t→坐飞机去看t行星→行星",
+          "usage": "",
+          "comparison": ""
+        },
+        {
+          "word": "Mars",
+          "phonetic": "mɑːz",
+          "definition": "名 火星",
+          "collocations": [],
+          "memory": "",
+          "usage": "",
+          "comparison": ""
+        }
+      ]
+    }
+  ]
+}
